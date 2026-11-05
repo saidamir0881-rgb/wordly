@@ -1,0 +1,15 @@
+.unit-tile.completed-unit{background:#142d29;border-color:#326950}
+.unit-tile.completed-unit:hover{background:#1a3730;border-color:#4a9a72}
+.completed-unit .unit-number{background:#1f493a;border-color:#366b52;color:#8cddb3}
+.completed-unit .unit-category{color:#779f91}
+.completed-unit .mini-track i{background:#48b68c}
+.completed-unit .tile-bottom>span{color:#87b9a0}
+.complete-mark{display:inline-flex;align-items:center;gap:5px;font-size:9px;font-weight:600}
+.tile-knowledge{font-size:10px;color:#809e90;margin:0 0 14px}
+.unit-tile:not(.completed-unit) .tile-knowledge{color:#7d88a4}
+.tile-resume{display:inline-flex;align-items:center;gap:5px;font-size:9px;color:#b9adeb}
+.resume-panel{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 21px;background:#242239;border:1px solid #595077;border-radius:11px;margin:0 0 17px}
+.resume-panel strong{font-size:13px;color:#ded5f7;font-weight:650}
+.resume-panel p{font-size:11px;line-height:1.8;color:#a99cbe;margin:6px 0 0}
+.resume-panel .button{font-size:11px;padding:12px 16px;white-space:nowrap}
+@media(max-width:480px){.resume-panel{display:block;padding:17px}.resume-panel .button{margin-top:13px;width:100%}.complete-mark,.tile-resume{font-size:8px}.complete-mark svg{width:13px;height:13px}}

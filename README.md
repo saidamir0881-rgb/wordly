@@ -10,6 +10,10 @@ Old tomonda faqat inglizcha so‘z chiqadi. Bosish yoki Space tarjimani ochadi. 
 
 Natijalar `wordly-memory-v1` localStorage kalitida saqlanadi. Oldingi `wordly-v1` ma’lumotlari o‘chirilmaydi. Ovoz qurilmadagi brauzer speech synthesis orqali ishlaydi. Internetdagi va localhostdagi natijalar alohida saqlanadi.
 
+Yarim qolgan mashqlar `wordly-sessions-v1` ichida har bir unit uchun alohida saqlanadi: kartochka tartibi, turgan joyi, javoblar, yozma javob qoralamasi va yo‘nalishi. Qayta ochilganda «Davom etish» tugmasi orqali tiklanadi. Hammasi ko‘rib chiqilgan unitlar yashil «Tugallangan» bo‘ladi; bu hamma so‘zni bilish degani emas — bilaman va takrorlash sonlari alohida ko‘rsatiladi. Muddat tugashi yoki har kuni yangilash yo‘q. Shu telefon, brauzer va sayt manziliga qaytilganda holat saqlanadi; qurilmalar orasida avtomatik sinxronlash yo‘q.
+
+Vercel uchun `vercel.json` tayyor statik `dist` papkasini ko‘rsatadi. Vercel loyihasi shu GitHub repoga ulangan bo‘lsa, Production Branch `main` va avtomatik deploy yoqilgan bo‘lsa, push yangi deploy yaratadi. Ushbu konfiguratsiya GitHub integratsiyasini o‘zi ulamaydi.
+
 Tekshirish: `npm.cmd test` (PowerShell) yoki `node memory-checks.cjs`.
 
 Quyidagi eski versiya qaydlari faqat texnik tarix uchun saqlangan.

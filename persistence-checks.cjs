@@ -1,0 +1,47 @@
+const fs=require('node:fs');
+const vm=require('node:vm');
+const assert=require('node:assert/strict');
+const storage=new Map();
+function boot(hash='#units',tomorrow=false){
+  const elements=new Map(),listeners={};
+  const el=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',attributes:{},setAttribute(k,v){this.attributes[k]=v},classList:{add(){},remove(){},toggle(){}},focus(){}});return elements.get(s)};
+  class Tomorrow extends Date{static now(){return Date.now()+86400000}}
+  const context=vm.createContext({console,Date:tomorrow?Tomorrow:Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash},window:{addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document:{querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
+  const run=s=>vm.runInContext(s,context);
+  for(const file of ['vocabulary.js','persistence.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
+  return {run,el,listeners};
+}
+let app=boot('#unit-1');
+app.run("startSession();rate('known');flip();action('exit')");
+assert.equal(JSON.parse(storage.get('wordly-sessions-v1'))[1].index,1);
+app=boot('#unit-1',true);
+assert.equal(app.run('counts(unit.words).known'),1);
+assert.match(app.el('#app').innerHTML,/Mashq yarim qolgan/);
+app.run('resumeSession()');
+assert.equal(app.run('session.index'),1);assert.equal(app.run('session.flipped'),true);
+assert.equal(app.run('Object.keys(session.ratings).length'),1);
+app.run("rate('unknown');location.hash='#unit-2';route();startSession('write');session.direction='en';saveActiveSession();render()");
+app.el('#answer').value='saved draft';app.el('#answer').oninput();
+assert.equal(JSON.parse(storage.get('wordly-sessions-v1'))[2].answer,'saved draft');
+app=boot('#unit-2',true);app.run('resumeSession()');
+assert.equal(app.run('session.answer'),'saved draft');assert.equal(app.run('session.direction'),'en');
+app.run('checkAnswer(session.words[session.index].en)');
+const attempts=app.run('progress[session.words[session.index].id].attempts');
+app=boot('#unit-2',true);app.run('resumeSession()');
+assert.equal(app.run('session.checked'),true);assert.equal(app.run('session.correct'),true);
+app.run("checkAnswer('another answer')");assert.equal(app.run('progress[session.words[session.index].id].attempts'),attempts);
+app.run("location.hash='#unit-1';route();resumeSession();while(session.index<session.words.length)rate('known')");
+assert.equal(app.run('completedUnit(unit)'),true);
+assert.equal(JSON.parse(storage.get('wordly-sessions-v1'))[1],undefined,'Completed attempt is removed');
+assert.ok(JSON.parse(storage.get('wordly-sessions-v1'))[2],'Other unit checkpoint is preserved');
+app=boot('#units',true);
+assert.match(app.el('#app').innerHTML,/class="unit-tile completed-unit" href="#unit-1"/);
+assert.match(app.el('#app').innerHTML,/Tugallangan/);
+assert.equal(app.run('counts(vocabulary[0].words).unknown'),1,'Completion does not claim every word is known');
+const before=storage.get('wordly-memory-v1');
+const bad=JSON.parse(storage.get('wordly-sessions-v1'));bad[3]={...bad[2],wordIds:['deleted-word']};
+storage.set('wordly-sessions-v1',JSON.stringify(bad));
+app=boot('#unit-3');assert.equal(app.run('checkpointFor(unit)'),null);assert.equal(storage.get('wordly-memory-v1'),before);
+storage.set('wordly-sessions-v1','invalid JSON');app=boot();
+assert.equal(app.run('completedUnit(vocabulary[0])'),true);assert.equal(app.run('storageError'),true);
+console.log('Passed: next-day reload, completed green units, separate knowledge counts, flashcard resume, flipped face, typed drafts, checked-feedback resume without duplicate grading, independent unit checkpoints and corrupt-checkpoint recovery.');
