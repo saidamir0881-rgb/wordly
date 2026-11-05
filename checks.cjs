@@ -4,6 +4,8 @@ const assert=require('node:assert/strict');
 const elements=new Map();
 const el=id=>{if(!elements.has(id))elements.set(id,{innerHTML:'',classList:{add(){},remove(){}},value:''});return elements.get(id)};
 const context=vm.createContext({console,Date,Math,JSON,Blob,setTimeout:()=>0,clearTimeout(){},localStorage:{getItem:()=>null,setItem(){}},location:{hash:''},window:{addEventListener(){},scrollTo(){}},document:{getElementById:el,querySelectorAll:()=>[],addEventListener(){}}});
+vm.runInContext(readFileSync('dist/book.js','utf8'),context);
+vm.runInContext(readFileSync('dist/book-ui.js','utf8'),context);
 vm.runInContext(readFileSync('dist/app.js','utf8'),context);
 const run=s=>vm.runInContext(s,context);
 assert.match(el('app').innerHTML,/Today|TODAY/);
@@ -26,4 +28,19 @@ run('session=null');
 for(const p of ['dashboard','units','review','flashcards','tests','statistics','leaderboard','settings']){run(`page='${p}';render()`);assert.ok(el('app').innerHTML.length>1000,p)}
 assert.equal(run('validBackup(JSON.parse(JSON.stringify(state)))'),true);
 assert.equal(run('validBackup({goal:10})'),false);
+assert.equal(run('textbook.length'),100);
+assert.equal(run('textbook[0].title'),'Learning vocabulary');
+assert.equal(run('textbook[99].title'),'Abbreviations');
+assert.equal(run('new Set(textbook.map(u=>u.group)).size'),18);
+assert.equal(run('textbook.every((u,i)=>u.number===i+1&&u.page===2*i+9&&u.lesson.length>100&&u.exercises.length>100)'),true);
+run("page='units';render()");assert.match(el('app').innerHTML,/#unit-100/);
+run("search='abbreviations';render()");assert.match(el('app').innerHTML,/#unit-100/);assert.doesNotMatch(el('app').innerHTML,/#unit-99/);
+run("search='';bookGroup='Tourism';render()");assert.match(el('app').innerHTML,/#unit-46/);assert.doesNotMatch(el('app').innerHTML,/#unit-100/);
+for(let n=1;n<=100;n++){
+  run(`page='unit-${n}';bookTab='lesson';render()`);assert.match(el('app').innerHTML,/DARS MATNI/);
+  run("bookTab='exercises';render()");assert.match(el('app').innerHTML,/KITOBDAGI MASHQLAR/);
+  run("bookTab='pdf';render()");assert.match(el('app').innerHTML,new RegExp('textbook.pdf#page='+(n*2+7)));
+}
+run("page='unit-100';render()");el('mark-read').onclick();assert.ok(run('state.bookCompleted[100]'));el('mark-read').onclick();assert.equal(run('state.bookCompleted[100]'),undefined);
+console.log('Passed: 100 textbook units, source page mapping, title search, topic filters, 300 lesson views, and read/unread progress.');
 console.log('Passed: review intervals, forgotten words, due queue, unique daily goals and XP, reverse recall, test scoring, all views, and backup validation.');
