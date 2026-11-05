@@ -14,6 +14,10 @@ Yarim qolgan mashqlar `wordly-sessions-v1` ichida har bir unit uchun alohida saq
 
 Vercel uchun `vercel.json` tayyor statik `dist` papkasini ko‘rsatadi. Vercel loyihasi shu GitHub repoga ulangan bo‘lsa, Production Branch `main` va avtomatik deploy yoqilgan bo‘lsa, push yangi deploy yaratadi. Ushbu konfiguratsiya GitHub integratsiyasini o‘zi ulamaydi.
 
+Telegram: `@wordly_intermedit_bot` menyusi va `/start` yoki `/help` javobidagi tugma `https://wordly-one-nu.vercel.app/#units` sahifasini Mini App sifatida ochadi. `api/telegram.js` Vercel funksiyasi Telegram webhook javob protokoli orqali faqat shaxsiy chat buyruqlariga javob beradi. Funksiyada bot tokeni yo‘q, tashqi API chaqirilmaydi va kiruvchi xabarlar saqlanmaydi. Token faqat `telegram-setup.cjs` sozlash yordamchisiga yashirin stdin orqali beriladi; faylga yoki Git’ga yozilmaydi. `WORDLY_SITE_URL` ixtiyoriy HTTPS konfiguratsiyasi bilan sayt manzilini almashtirish mumkin.
+
+Telegram SDK sayt ochilganda tayyor holatni bildiradi, oynani kengaytiradi va orqaga qaytish tugmasini ulaydi. O‘quv natijalari avvalgidek shu brauzer yoki Telegram WebView xotirasida saqlanadi; ular Telegram akkaunti orqali tashqi brauzerga sinxronlanmaydi.
+
 Tekshirish: `npm.cmd test` (PowerShell) yoki `node memory-checks.cjs`.
 
 Quyidagi eski versiya qaydlari faqat texnik tarix uchun saqlangan.

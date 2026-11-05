@@ -1,3 +1,7 @@
 book-text.txt
 book-source.pdf
 __pycache__/
+.env
+.env.*
+!.env.example
+.vercel/
