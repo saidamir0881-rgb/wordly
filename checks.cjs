@@ -39,7 +39,7 @@ run("search='';bookGroup='Tourism';render()");assert.match(el('app').innerHTML,/
 for(let n=1;n<=100;n++){
   run(`page='unit-${n}';bookTab='lesson';render()`);assert.match(el('app').innerHTML,/DARS MATNI/);
   run("bookTab='exercises';render()");assert.match(el('app').innerHTML,/KITOBDAGI MASHQLAR/);
-  run("bookTab='pdf';render()");assert.match(el('app').innerHTML,new RegExp('textbook.pdf#page='+(n*2+7)));
+  run("bookTab='pdf';render()");assert.ok(el('app').innerHTML.includes(`textbook/part-${Math.floor((n-1)/10)+1}.pdf#page=${((n-1)%10)*2+1}`));
 }
 run("page='unit-100';render()");el('mark-read').onclick();assert.ok(run('state.bookCompleted[100]'));el('mark-read').onclick();assert.equal(run('state.bookCompleted[100]'),undefined);
 console.log('Passed: 100 textbook units, source page mapping, title search, topic filters, 300 lesson views, and read/unread progress.');

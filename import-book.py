@@ -23,5 +23,5 @@ for m in matches:
     assert pages[page] and pages[page+1]
     book.append(dict(number=number,title=title,group=next(g for start,g in reversed(groups) if start<=number),page=page,printedPage=page-1,lesson=pages[page],exercises=pages[page+1]))
 (root/'dist/book.js').write_text('const textbook = '+json.dumps(book,ensure_ascii=False)+';\n',encoding='utf-8')
-shutil.copyfile(r'C:/Users/User/Downloads/Telegram Desktop/English Vocabulary in Use Pre-Intermediate and Intermediate.pdf',root/'dist/textbook.pdf')
+shutil.copyfile(r'C:/Users/User/Downloads/Telegram Desktop/English Vocabulary in Use Pre-Intermediate and Intermediate.pdf',root/'book-source.pdf')
 print(f'Imported {len(book)} units, {len(book)*2} lesson/exercise pages.')
