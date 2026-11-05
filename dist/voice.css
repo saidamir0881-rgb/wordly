@@ -1,0 +1,22 @@
+.voice-method{border-color:#536c8b!important;background:#1c3045!important;color:#c2d9ec!important}
+.voice-method svg{width:20px;height:20px}
+.voice-card{max-width:560px;margin:auto;padding:28px;border:1px solid #344359;background:linear-gradient(145deg,#17283b,#1a2034);border-radius:24px;text-align:center}
+.voice-card .eyebrow{color:#98b6d5}
+.voice-countdown{--time-left:100%;width:108px;height:108px;margin:23px auto 18px;display:grid;place-items:center;border-radius:50%;background:conic-gradient(#7eaad2 var(--time-left),#29394e 0);padding:5px}
+.voice-countdown>div{width:100%;height:100%;border-radius:50%;background:#19293b;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.voice-countdown strong{font:750 35px/1.2 Manrope,sans-serif;color:#d2e4f4}
+.voice-countdown span{font-size:10px;color:#7d9bb7;margin-top:4px}
+.voice-countdown.urgent{background:conic-gradient(#ef98a1 var(--time-left),#433242 0)}
+.voice-countdown.urgent strong{color:#f3aab3}
+.voice-prompt{font:700 28px/1.55 Manrope,sans-serif;color:#e2e8f2;overflow-wrap:anywhere;margin:20px 0}
+.voice-instruction{font-size:12px;line-height:1.9;color:#99adc5;min-height:45px;max-width:410px;margin:14px auto 19px}
+.voice-card>.button{width:100%;margin-top:10px}
+.voice-card>.button svg{width:19px;height:19px}
+.voice-note{color:#8191a9;font-size:10px;line-height:1.9;margin:16px 0 0}
+.voice-listening{display:inline-flex;align-items:center;gap:7px;color:#7bd2ba;font-size:11px;background:#173e36;border:1px solid #265247;border-radius:22px;padding:9px 13px}
+.voice-listening svg{width:15px;height:15px}
+.voice-transcript{min-height:24px;color:#d0dbea;font-size:14px;line-height:1.7;margin:17px 0 8px;overflow-wrap:anywhere}
+.voice-correct-answer{font:750 25px/1.5 Manrope,sans-serif}
+.voice-text-fallback{padding:13px;font-size:11px;color:#a1b9d3;text-decoration:underline;margin-top:6px}
+.voice-feedback .answer-feedback small{color:inherit;opacity:.8;overflow-wrap:anywhere}
+@media(max-width:480px){.voice-card{padding:23px 20px;border-radius:20px}.voice-prompt{font-size:24px}.voice-countdown{width:96px;height:96px}.voice-countdown strong{font-size:31px}.voice-instruction{font-size:11px}.voice-correct-answer{font-size:23px}}

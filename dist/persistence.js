@@ -2,7 +2,7 @@
 let savedSessions={},checkpointReadError=false;
 function validCheckpoint(value,number){
   const u=vocabulary.find(u=>u.number===+number);
-  if(!u||!value||!['flash','write'].includes(value.mode)||!['uz','en'].includes(value.direction))return false;
+  if(!u||!value||!['flash','write','voice'].includes(value.mode)||!['uz','en'].includes(value.direction))return false;
   const ids=value.wordIds;
   if(!Array.isArray(ids)||!ids.length||new Set(ids).size!==ids.length||!ids.every(id=>u.words.some(w=>w.id===id)))return false;
   if(!Number.isInteger(value.index)||value.index<0||value.index>=ids.length)return false;
@@ -10,7 +10,7 @@ function validCheckpoint(value,number){
   if(!Object.entries(value.ratings).every(([id,r])=>ids.includes(id)&&['known','unknown'].includes(r)))return false;
   if(!ids.slice(0,value.index).every(id=>value.ratings[id]))return false;
   if(typeof value.checked!=='boolean'||typeof value.answer!=='string'||value.answer.length>2000)return false;
-  if(value.checked&&(value.mode!=='write'||!value.ratings[ids[value.index]]))return false;
+  if(value.checked&&(!['write','voice'].includes(value.mode)||!value.ratings[ids[value.index]]))return false;
   return true;
 }
 try{
@@ -25,16 +25,19 @@ function saveActiveSession(){
   else savedSessions[unit.number]={
     wordIds:session.words.map(w=>w.id),index:session.index,ratings:{...session.ratings},
     mode:session.mode,direction:session.direction,checked:session.checked,
-    answer:session.answer,correct:session.correct,flipped:session.flipped,updated:Date.now()
+    answer:session.answer,correct:session.correct,flipped:session.flipped,updated:Date.now(),
+    voiceTimedOut:!!session.voiceTimedOut,voiceAudioUnavailable:!!session.voiceAudioUnavailable
   };
   try{localStorage.setItem('wordly-sessions-v1',JSON.stringify(savedSessions))}
   catch{storageError=true;notify('Mashqni saqlab bo‘lmadi. Brauzer xotirasini tekshiring.')}
 }
 function resumeSession(){
   const saved=checkpointFor(unit);if(!saved)return;
+  stopVoiceRound();
   session={words:saved.wordIds.map(id=>byId.get(id)),index:saved.index,ratings:{...saved.ratings},
     mode:saved.mode,direction:saved.direction,checked:saved.checked,answer:saved.answer,
-    correct:saved.checked&&saved.ratings[saved.wordIds[saved.index]]==='known',flipped:!!saved.flipped};
+    correct:saved.checked&&saved.ratings[saved.wordIds[saved.index]]==='known',flipped:!!saved.flipped,
+    voiceState:saved.checked?'feedback':'ready',voiceRemaining:10,voiceTimedOut:!!saved.voiceTimedOut,voiceAudioUnavailable:!!saved.voiceAudioUnavailable};
   render();window.scrollTo(0,0);focusAnswer();
 }
 function resumePrompt(u){const saved=checkpointFor(u);return saved?`<section class="resume-panel"><div><strong>Mashq yarim qolgan</strong><p>${saved.index+1} / ${saved.wordIds.length}-kartochkadan davom eting. Natijalar saqlangan.</p></div><button class="button primary" data-action="resume">Davom etish ${svg('arrow')}</button></section>`:''}

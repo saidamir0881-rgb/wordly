@@ -1,8 +1,8 @@
 const fs=require('node:fs');const vm=require('node:vm');const assert=require('node:assert/strict');
 const elements=new Map(),listeners={};const element=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',attributes:{},setAttribute(k,v){this.attributes[k]=v},classList:{add(){},remove(){},toggle(k,v){this[k]=v}},focus(){}});return elements.get(s)};
-const saved=new Map();const c=vm.createContext({console,Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v)},location:{hash:'#units'},window:{addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document:{querySelector:element,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
+const saved=new Map();const c=vm.createContext({console,Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v)},location:{hash:'#units'},window:{addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document:{querySelector:element,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
 const run=s=>vm.runInContext(s,c);
-run(fs.readFileSync('dist/vocabulary.js','utf8'));run(fs.readFileSync('dist/persistence.js','utf8'));run(fs.readFileSync('dist/memory.js','utf8'));
+run(fs.readFileSync('dist/vocabulary.js','utf8'));run(fs.readFileSync('dist/persistence.js','utf8'));run(fs.readFileSync('dist/voice.js','utf8'));run(fs.readFileSync('dist/memory.js','utf8'));
 assert.equal(run('vocabulary.length'),100);assert.ok(run('allWords.length')>2700);
 assert.equal(run('new Set(allWords.map(w=>w.id)).size'),run('allWords.length'),'Stable IDs are unique');
 assert.equal(run('vocabulary.every(u=>u.words.length&&u.words.every(w=>w.en.trim()&&w.uz.trim()))'),true);
