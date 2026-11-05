@@ -1,5 +1,5 @@
 const fs=require('node:fs');const vm=require('node:vm');const assert=require('node:assert/strict');
-const elements=new Map(),listeners={};const element=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',classList:{add(){},remove(){}},focus(){}});return elements.get(s)};
+const elements=new Map(),listeners={};const element=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',attributes:{},setAttribute(k,v){this.attributes[k]=v},classList:{add(){},remove(){},toggle(k,v){this[k]=v}},focus(){}});return elements.get(s)};
 const saved=new Map();const c=vm.createContext({console,Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v)},location:{hash:'#units'},window:{addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document:{querySelector:element,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
 const run=s=>vm.runInContext(s,c);
 run(fs.readFileSync('dist/vocabulary.js','utf8'));run(fs.readFileSync('dist/memory.js','utf8'));
@@ -12,9 +12,12 @@ run("query='widow';render()");assert.match(element('#app').innerHTML,/#unit-13/)
 run("query='beva';render()");assert.match(element('#app').innerHTML,/#unit-13/);
 run("query='';topic='Tourism';render()");assert.match(element('#app').innerHTML,/#unit-46/);assert.doesNotMatch(element('#app').innerHTML,/#unit-100/);
 run("topic='';location.hash='#unit-13';route()");assert.match(element('#app').innerHTML,/widow/);
-run('startSession()');assert.equal(run('session.flipped'),false);assert.doesNotMatch(element('#app').innerHTML,/beva ayol/);
-run('flip()');assert.match(element('#app').innerHTML,/beva ayol/);
+run('startSession()');assert.equal(run('session.flipped'),false);assert.match(element('#app').innerHTML,/id="card-back"[^>]+aria-hidden="true"/);
+const beforeFlip=element('#app').innerHTML;
+run('flip()');assert.equal(element('#app').innerHTML,beforeFlip,'Flip preserves DOM for the CSS transition');assert.equal(element('#flashcard').classList.flipped,true);assert.equal(element('#card-front').attributes['aria-hidden'],'true');assert.equal(element('#card-back').attributes['aria-hidden'],'false');assert.match(element('#flashcard').attributes['aria-label'],/beva ayol/);
+run('flip()');assert.equal(element('#flashcard').classList.flipped,false);assert.equal(element('#card-back').attributes['aria-hidden'],'true');run('flip()');
 run("rate('unknown')");assert.equal(run('session.index'),1);assert.equal(run('status(unit.words[0])'),'unknown');
+assert.equal(run('session.flipped'),false);assert.match(element('#app').innerHTML,/id="card-back"[^>]+aria-hidden="true"/);
 run("rate('known')");assert.equal(run('session.index'),2);assert.equal(run('status(unit.words[1])'),'known');
 assert.ok(saved.get('wordly-memory-v1'));
 run("session=null;listFilter='unknown';render();startSession()");assert.equal(run('session.words.length'),1);

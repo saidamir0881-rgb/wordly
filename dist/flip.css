@@ -1,0 +1,40 @@
+.flashcard{
+  display:block;
+  padding:0;
+  border:0;
+  background:transparent;
+  perspective:1200px;
+  transition:none;
+}
+.flashcard.flipped{background:transparent}
+.flashcard-inner{
+  display:grid;
+  min-height:inherit;
+  border-radius:inherit;
+  transform-style:preserve-3d;
+  transition:transform 480ms cubic-bezier(.4,.05,.2,1);
+}
+.flashcard.flipped .flashcard-inner{transform:rotateY(180deg)}
+.card-face{
+  position:relative;
+  grid-area:1/1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-width:0;
+  min-height:inherit;
+  padding:67px 29px 65px;
+  border:1px solid #3b3b54;
+  border-radius:inherit;
+  background:linear-gradient(145deg,#24283d,#28263e);
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
+}
+.card-back{
+  transform:rotateY(180deg);
+  background:linear-gradient(145deg,#222b3c,#242d3e);
+  border-color:#3c5260;
+}
+@media(max-width:480px){.card-face{padding:65px 22px}}
+@media(prefers-reduced-motion:reduce){.flashcard-inner{transition:none}}
