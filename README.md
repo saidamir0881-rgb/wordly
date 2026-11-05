@@ -1,5 +1,19 @@
 # WORDLY
 
+## Hozirgi versiya: oddiy so‘z yodlash
+
+Asosiy sahifa — kitobdagi 100 ta unit. Unit ichida inglizcha–o‘zbekcha so‘zlar, Bilaman / Bilmayman / Yangi filtrlari, kartochkalar va yozib mashq qilish mavjud. Dashboard, XP, reyting, PDF o‘qish va boshqa bo‘limlar yangi interfeysda chiqarilmaydi.
+
+`vocabulary-1.txt`, `vocabulary-2.txt`, `vocabulary-extra.txt` fayllaridan `python build-vocabulary.py` orqali 2 796 ta tarjimali kartochka yaratiladi. So‘z va iboralar PDFdagi qalin yozuvlardan mahalliy ajratilgan; sarlavha, ism va grammatik bo‘laklar tozalangan, ayrim so‘zlar lug‘atdagi asosiy shakliga keltirilgan. Grafikdagi yozuvlar va boshqa shriftdagi iboralar qo‘lda to‘ldirilgan. Tarjimalar tashqi tarjima API’siga yuborilmagan. Lug‘atni keyingi tahrirlashda shu matn fayllarini yangilang.
+
+Old tomonda faqat inglizcha so‘z chiqadi. Bosish yoki Space tarjimani ochadi. Chapga surish / ← / 1 — Bilmayman; o‘ngga surish / → / 2 — Bilaman; S — ovoz. Yozma mashqda ikkala tarjima yo‘nalishi va xatoga darhol javob mavjud. Seans oxirida bilmagan so‘zlarni qayta yodlash mumkin.
+
+Natijalar `wordly-memory-v1` localStorage kalitida saqlanadi. Oldingi `wordly-v1` ma’lumotlari o‘chirilmaydi. Ovoz qurilmadagi brauzer speech synthesis orqali ishlaydi. Internetdagi va localhostdagi natijalar alohida saqlanadi.
+
+Tekshirish: `npm.cmd test` (PowerShell) yoki `node memory-checks.cjs`.
+
+Quyidagi eski versiya qaydlari faqat texnik tarix uchun saqlangan.
+
 ## Localhost
 
 Terminalda `wordly` papkasiga o'ting va `npm start` buyrug'ini bajaring.
