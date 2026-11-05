@@ -30,4 +30,18 @@ assert.equal(run("normalise(' O‘ZBEKCHA ')==normalise(\"o'zbekcha\")"),true);
 run("session=null;listFilter='all';location.hash='#unit/EVU-01';route()");assert.equal(run('unit.number'),1);
 for(let n=1;n<=100;n++){run(`location.hash='#unit-${n}';route()`);assert.match(element('#app').innerHTML,/Boshlash/);run('startSession()');assert.ok(run('session.words.length')>0);}
 run("session=null;location.hash='#unit-999';route()");assert.equal(run('unit'),null);
+for(const [known,total,tier] of [[10,10,'excellent'],[9,10,'excellent'],[8,10,'satisfactory'],[7,10,'satisfactory'],[6,10,'needs-practice'],[0,10,'needs-practice'],[899,1000,'satisfactory'],[699,1000,'needs-practice'],[0,0,'empty']]){
+  assert.equal(run(`resultFor(${known},${total}).tier`),tier,`${known}/${total} threshold`);
+}
+run("location.hash='#unit-13';route();startSession()");
+for(const [known,total,tier,title] of [[9,10,'excellent','Barakalla!'],[7,10,'satisfactory','Yaxshi, qoniqarli'],[6,10,'needs-practice','Yomon'],[899,1000,'satisfactory','Yaxshi, qoniqarli']]){
+  run(`session.words=Array(${total}).fill(unit.words[0])`);
+  const output=run(`finishView({known:${known},unknown:${total-known}})`);
+  assert.ok(output.includes(`result-${tier}`));assert.ok(output.includes(title));
+  assert.equal(output.includes('result-confetti'),tier==='excellent');
+  if(tier==='needs-practice')assert.match(output,/Yodlash kerak, bo‘lmasa darsda tik turasan!/);
+  if(known===899)assert.match(output,/89[.,]9/);
+  assert.match(output,/data-action="retry"/);
+}
+console.log('Passed: result boundaries at 90% and 70%, red warning, excellent-only celebration, current-attempt feedback and percentages without rounding into the next tier.');
 console.log('Passed: 100 units, 2,700+ translated cards, unique IDs, EN/UZ search, filters, hidden translations, flip, both ratings, saved results, retry unknowns, typed recall, reverse recall, duplicate-submit protection and all unit routes.');
