@@ -6,9 +6,9 @@ function boot(hash='#units',tomorrow=false){
   const elements=new Map(),listeners={};
   const el=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',attributes:{},setAttribute(k,v){this.attributes[k]=v},classList:{add(){},remove(){},toggle(){}},focus(){}});return elements.get(s)};
   class Tomorrow extends Date{static now(){return Date.now()+86400000}}
-  const context=vm.createContext({console,Date:tomorrow?Tomorrow:Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash},window:{addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document:{querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
+  const context=vm.createContext({console,Date:tomorrow?Tomorrow:Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash},window:{matchMedia:()=>({matches:true}),addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document:{querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
   const run=s=>vm.runInContext(s,context);
-  for(const file of ['vocabulary.js','persistence.js','voice.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
+  for(const file of ['vocabulary.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
   return {run,el,listeners};
 }
 let app=boot('#unit-1');

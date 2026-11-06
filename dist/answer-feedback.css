@@ -1,0 +1,22 @@
+.flashcard.feedback-correct{animation:answer-lift 420ms cubic-bezier(.2,.75,.3,1) both}
+.flashcard.feedback-wrong{animation:answer-shake 390ms ease-out both}
+.flashcard.feedback-correct .card-face{border-color:#59c89c;background:linear-gradient(145deg,#1b4538,#1c3535)}
+.flashcard.feedback-wrong .card-face{border-color:#df7890;background:linear-gradient(145deg,#4b2533,#332638)}
+.card-verdict{position:absolute;left:50%;bottom:57px;display:none;align-items:center;gap:7px;white-space:nowrap;font-size:12px;font-weight:650;border-radius:22px;padding:10px 16px;border:1px solid currentColor;transform:translateX(-50%);box-shadow:0 4px 16px #0002;z-index:2;pointer-events:none}
+.card-verdict svg{width:17px;height:17px}
+.feedback-correct .card-verdict{display:flex;color:#90e2bb;background:#173e32;animation:answer-badge 280ms ease-out both}
+.feedback-wrong .card-verdict{display:flex;color:#ffb0be;background:#512636;animation:answer-badge 220ms ease-out both}
+.write-card.answer-correct,.voice-card.answer-correct{border-color:#418e70;animation:answer-lift 430ms cubic-bezier(.2,.75,.3,1) both}
+.write-card.answer-wrong,.voice-card.answer-wrong{border-color:#ad596c;animation:answer-shake 390ms ease-out both}
+.answer-icon{width:38px;height:38px;margin:0 auto 3px;display:grid;place-items:center;border-radius:50%;background:#1a4b3b;color:#86dfb5;border:1px solid #3b8865}
+.answer-icon svg{width:21px;height:21px;stroke-width:2.2}
+.answer-feedback.known .answer-icon{animation:answer-icon-pop 440ms cubic-bezier(.2,.8,.3,1) both}
+.answer-feedback.unknown .answer-icon{background:#5a2b3d;border-color:#995169;color:#ffafc2;animation:answer-icon-pop 340ms ease-out both}
+.answer-feedback.known{border:1px solid #336b52}
+.answer-feedback.unknown{border:1px solid #774154}
+@keyframes answer-lift{0%{transform:scale(.985)}45%{transform:translateY(-6px) scale(1.012)}100%{transform:none}}
+@keyframes answer-shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(2px)}}
+@keyframes answer-badge{from{opacity:0;transform:translate(-50%,8px) scale(.92)}to{opacity:1;transform:translate(-50%,0) scale(1)}}
+@keyframes answer-icon-pop{0%{opacity:0;transform:scale(.6)}65%{opacity:1;transform:scale(1.1)}100%{opacity:1;transform:scale(1)}}
+@media(max-width:480px){.card-verdict{bottom:53px;font-size:11px;padding:9px 13px}.answer-icon{width:34px;height:34px}}
+@media(prefers-reduced-motion:reduce){.flashcard.feedback-correct,.flashcard.feedback-wrong,.card-verdict,.write-card.answer-correct,.write-card.answer-wrong,.voice-card.answer-correct,.voice-card.answer-wrong,.answer-icon{animation:none!important}}
