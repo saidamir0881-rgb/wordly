@@ -25,7 +25,7 @@ function boot(options={}){
   function tick(ms){const target=clock+ms;for(let n=0;n<10000;n++){const next=[...timers].filter(([,t])=>t.due<=target).sort((a,b)=>a[1].due-b[1].due||a[0]-b[0])[0];if(!next){clock=target;return}const[id,t]=next;clock=t.due;if(t.interval)t.due+=t.interval;else timers.delete(id);t.callback()}throw Error('Timer loop did not settle')}
   const context=vm.createContext({console,Date,Math,JSON,Map,Set,performance:{now:()=>clock},setTimeout:(fn,ms)=>schedule(fn,ms,0),clearTimeout:id=>timers.delete(id),setInterval:(fn,ms)=>schedule(fn,ms,ms),clearInterval:id=>timers.delete(id),localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash:options.hash||'#unit-1',href:'https://wordly.example/#unit-1'},window:{matchMedia:()=>({matches:!!options.reducedMotion}),scrollTo(){},addEventListener:(name,fn)=>listeners[name]=fn},document:{hidden:false,querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(name,fn)=>listeners[name]=fn}});
   const run=source=>vm.runInContext(source,context);
-  for(const file of ['vocabulary.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
+  for(const file of ['vocabulary.js','cloze-data.js','cloze.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
   return{run,el,tick,timers,storage,listeners,renderCount:()=>renders,feedbackCallback:()=>timers.get(run('answerFeedback.timer')).callback};
 }
 

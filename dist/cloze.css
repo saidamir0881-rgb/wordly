@@ -1,0 +1,14 @@
+.cloze-method{background:#20283b!important;border-color:#465571!important;color:#cad7ec!important}
+.cloze-method svg{width:19px;height:19px}
+.cloze-card{max-width:650px;padding:31px}
+.cloze-instruction{color:#8c9cb7;font-size:11px;line-height:1.9;margin:15px 0 23px}
+.cloze-sentence{font:650 24px/1.9 Manrope,sans-serif;text-align:left;color:#e3e7f1;padding:23px;background:#121b2d;border:1px solid #2d3a52;border-radius:12px;margin:0 0 20px;overflow-wrap:anywhere}
+.cloze-gap{display:inline-block;min-width:80px;border-bottom:2px solid #a299d8;color:#bfb4f4;text-align:center;letter-spacing:2px;line-height:1.6;margin:0 3px;padding:0 4px;vertical-align:baseline}
+.cloze-gap.filled{letter-spacing:0;color:#8ed7b9;border-color:#468f73}
+.answer-wrong .cloze-gap.filled{color:#e4c29b;border-color:#a48668}
+.cloze-hint{display:flex;flex-direction:column;align-items:start;gap:8px;margin:0 0 22px;padding:0 3px;text-align:left}
+.cloze-hint>span{font-size:8px;letter-spacing:1.2px;color:#7a86a3;font-weight:600}
+.cloze-hint>strong{font-size:14px;line-height:1.7;color:#b7c2da;font-weight:500}
+.cloze-card>.button.secondary{width:100%;margin:0 0 12px}
+.cloze-card>.button.primary{margin-top:0}
+@media(max-width:480px){.cloze-card{padding:24px 18px}.cloze-sentence{font-size:20px;line-height:1.9;padding:18px}.cloze-instruction{font-size:10px}.cloze-hint>strong{font-size:13px}.cloze-gap{min-width:65px}}

@@ -2,15 +2,17 @@
 let savedSessions={},checkpointReadError=false;
 function validCheckpoint(value,number){
   const u=vocabulary.find(u=>u.number===+number);
-  if(!u||!value||!['flash','write','voice'].includes(value.mode)||!['uz','en'].includes(value.direction))return false;
+  if(!u||!value||!['flash','write','voice','cloze'].includes(value.mode)||!['uz','en'].includes(value.direction))return false;
+  if(value.mode==='cloze'&&value.direction!=='en')return false;
   const ids=value.wordIds;
   if(!Array.isArray(ids)||!ids.length||new Set(ids).size!==ids.length||!ids.every(id=>u.words.some(w=>w.id===id)))return false;
+  if(value.mode==='cloze'&&!ids.every(id=>clozeByWord.has(id)))return false;
   if(!Number.isInteger(value.index)||value.index<0||value.index>=ids.length)return false;
   if(!value.ratings||typeof value.ratings!=='object'||Array.isArray(value.ratings))return false;
   if(!Object.entries(value.ratings).every(([id,r])=>ids.includes(id)&&['known','unknown'].includes(r)))return false;
   if(!ids.slice(0,value.index).every(id=>value.ratings[id]))return false;
   if(typeof value.checked!=='boolean'||typeof value.answer!=='string'||value.answer.length>2000)return false;
-  if(value.checked&&(!['write','voice'].includes(value.mode)||!value.ratings[ids[value.index]]))return false;
+  if(value.checked&&(!['write','voice','cloze'].includes(value.mode)||!value.ratings[ids[value.index]]))return false;
   return true;
 }
 try{

@@ -5,6 +5,6 @@
   "scripts": {
     "start": "node server.cjs",
     "dev": "node server.cjs",
-    "test": "node memory-checks.cjs && node persistence-checks.cjs && node telegram-checks.cjs && node voice-checks.cjs && node answer-feedback-checks.cjs"
+    "test": "node memory-checks.cjs && node persistence-checks.cjs && node telegram-checks.cjs && node voice-checks.cjs && node answer-feedback-checks.cjs && node cloze-checks.cjs"
   }
 }

@@ -8,7 +8,7 @@ function boot(hash='#units',tomorrow=false){
   class Tomorrow extends Date{static now(){return Date.now()+86400000}}
   const context=vm.createContext({console,Date:tomorrow?Tomorrow:Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash},window:{matchMedia:()=>({matches:true}),addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document:{querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
   const run=s=>vm.runInContext(s,context);
-  for(const file of ['vocabulary.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
+  for(const file of ['vocabulary.js','cloze-data.js','cloze.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
   return {run,el,listeners};
 }
 let app=boot('#unit-1');
