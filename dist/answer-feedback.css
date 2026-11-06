@@ -20,3 +20,5 @@
 @keyframes answer-icon-pop{0%{opacity:0;transform:scale(.6)}65%{opacity:1;transform:scale(1.1)}100%{opacity:1;transform:scale(1)}}
 @media(max-width:480px){.card-verdict{bottom:53px;font-size:11px;padding:9px 13px}.answer-icon{width:34px;height:34px}}
 @media(prefers-reduced-motion:reduce){.flashcard.feedback-correct,.flashcard.feedback-wrong,.card-verdict,.write-card.answer-correct,.write-card.answer-wrong,.voice-card.answer-correct,.voice-card.answer-wrong,.answer-icon{animation:none!important}}
+
+.answer-sound{position:relative;flex-shrink:0}.answer-sound span{position:absolute;bottom:0;right:0;font-size:9px;line-height:12px;background:var(--bg,#0c1020);padding:0 2px;border-radius:3px}.answer-sound[aria-pressed="false"]{opacity:.5}

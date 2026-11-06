@@ -97,11 +97,11 @@ function updateVoiceClock(s,index,generation){
 function settleVoice(correct,timedOut){
   const s=session;if(!s||s.mode!=='voice'||s.checked||!s.words[s.index])return;
   stopVoiceRound();s.checked=true;s.correct=correct;s.voiceTimedOut=timedOut;s.voiceState='feedback';
-  const w=s.words[s.index],rating=correct?'known':'unknown';setRating(w,rating);s.ratings[w.id]=rating;
+  const w=s.words[s.index],rating=correct?'known':'unknown';setRating(w,rating);s.ratings[w.id]=rating;playAnswerSound(correct);
   saveActiveSession();render();$('[data-action="next"]')?.focus();
 }
 function voiceError(reason){const s=session;if(!s||s.mode!=='voice'||s.checked)return;stopVoiceRound();s.voiceState='error';s.voiceReason=reason;s.voiceRemaining=10;saveActiveSession();render()}
 function pauseVoiceRound(){const s=session;if(!s||s.mode!=='voice'||s.checked)return;stopVoiceRound();s.voiceState='paused';s.voiceRemaining=10;saveActiveSession();render()}
 function voiceTextFallback(){if(!session||session.mode!=='voice')return;const ids=session.words.slice(session.index).map(w=>w.id);startSession('write',ids);session.direction='en';saveActiveSession();render();focusAnswer()}
 function openVoiceBrowser(){const url=location.origin+location.pathname+(unit?'#unit-'+unit.number:'#units');const app=window.Telegram?.WebApp;if(app?.initData&&app.openLink)app.openLink(url);else window.open(url,'_blank','noopener,noreferrer')}
-document.addEventListener('visibilitychange',()=>{if(document.hidden&&typeof session!=='undefined'&&session?.mode==='voice'&&!session.checked)pauseVoiceRound()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)stopAnswerAudio();if(document.hidden&&typeof session!=='undefined'&&session?.mode==='voice'&&!session.checked)pauseVoiceRound()});
