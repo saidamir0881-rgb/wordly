@@ -6,6 +6,8 @@ run(fs.readFileSync('dist/vocabulary.js','utf8'));run(fs.readFileSync('dist/cloz
 assert.equal(run('vocabulary.length'),100);assert.ok(run('allWords.length')>2700);
 assert.equal(run('new Set(allWords.map(w=>w.id)).size'),run('allWords.length'),'Stable IDs are unique');
 assert.equal(run('vocabulary.every(u=>u.words.length&&u.words.every(w=>w.en.trim()&&w.uz.trim()))'),true);
+assert.equal(run('allWords.every(w=>typeof w.pronunciation==="string"&&w.pronunciation.trim().length>0)'),true,'Every card has a reading guide');
+assert.equal(run('allWords.find(w=>w.en==="weekly").pronunciation'),'uikli');
 assert.doesNotMatch(element('#app').innerHTML,/Leaderboard|Weekly XP|Dashboard|<iframe/);
 assert.match(element('#app').innerHTML,/#unit-100/);
 run("query='widow';render()");assert.match(element('#app').innerHTML,/#unit-13/);assert.doesNotMatch(element('#app').innerHTML,/#unit-100/);
@@ -14,6 +16,9 @@ run("query='';topic='Tourism';render()");assert.match(element('#app').innerHTML,
 run("topic='';location.hash='#unit-13';route()");assert.match(element('#app').innerHTML,/widow/);
 run('startSession()');assert.equal(run('session.flipped'),false);assert.match(element('#app').innerHTML,/id="card-back"[^>]+aria-hidden="true"/);
 const beforeFlip=element('#app').innerHTML;
+const front=beforeFlip.split('id="card-front"')[1].split('id="card-back"')[0];
+assert.ok(front.includes(run('session.words[0].pronunciation')),'English face shows its reading guide');
+assert.ok(!front.includes(run('session.words[0].uz')),'Reading guide keeps the translation hidden until flipping');
 run('flip()');assert.equal(element('#app').innerHTML,beforeFlip,'Flip preserves DOM for the CSS transition');assert.equal(element('#flashcard').classList.flipped,true);assert.equal(element('#card-front').attributes['aria-hidden'],'true');assert.equal(element('#card-back').attributes['aria-hidden'],'false');assert.match(element('#flashcard').attributes['aria-label'],/beva ayol/);
 run('flip()');assert.equal(element('#flashcard').classList.flipped,false);assert.equal(element('#card-back').attributes['aria-hidden'],'true');run('flip()');
 run("rate('unknown')");assert.equal(run('session.index'),1);assert.equal(run('status(unit.words[0])'),'unknown');

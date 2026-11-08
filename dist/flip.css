@@ -38,3 +38,7 @@
 }
 @media(max-width:480px){.card-face{padding:65px 22px}}
 @media(prefers-reduced-motion:reduce){.flashcard-inner{transition:none}}
+
+/* Uzbek-letter reading guides below the English word. */
+.card-pronunciation{display:block;margin-top:12px;max-width:100%;font-size:clamp(16px,3.5vw,22px);font-weight:400;line-height:1.5;color:#b9c5df;overflow-wrap:anywhere}
+.word-copy .word-pronunciation{margin:4px 0 6px;font-size:13px;line-height:1.5;color:#b9c5df}
