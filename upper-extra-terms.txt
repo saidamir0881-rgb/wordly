@@ -1,0 +1,86 @@
+1|rich vocabulary;classical music;common sense;express an opinion;take sides;in touch with;train set;sense of humour;at a loss for words;in particular;undertake;undertook;undertaken;luggage;scissors;register;memorise;topic;word root;recipe;fiction;podcast;academic literature;professional literature;tweet;audio book;poetry;blog;reference material;dictionary;encyclopedia;native speaker
+2|organise;vocabulary notebook;chart;table;instruments;types of music;strum a guitar;play the piano;perform music;string;wind instrument;percussion;firm;THE WEB
+3|pronunciation;grammatical information;word formation;collocation;register;thesaurus;firm commitment;firm grip;firm believer;catch the ball;ring someone;visual thesaurus
+4|context;visual clue;background knowledge;unfamiliar word;gladiolus;vase;superstitious;gingerly;ladder;headscarf;prefix;suffix;word formation;false friend;gift;present;poison;resemble;Latin;Germanic;combination;structure;work out the meaning;make sense of;It's probably something like;It's got to be something you use for;It's a kind of;I think it must mean;I think it could mean
+5|North African;regional group;-ish;-ese;-i;-ic
+6|heavy rain;pour down;rain heavily;gentle breeze;high wind;bad weather;tropical storm
+7|straight hair;thin face;long wavy hair;round face;curly hair;receding hair;get a tan;in his thirties;a bit
+9|as hard as nails;as good as gold;get on everyone's nerves;head and shoulders above someone
+10|leave me cold;not do anything for me;with each other;see eye to eye;see each other
+11|semi-detached house;detached house;terraced house
+12|chipped;fallen off;broken down;stopped working;lock myself out;won't start
+13|tropical storm;casualties;shake;break out;sweep
+14|primary school;skip classes
+15|undergraduate studies;postgraduate studies;university campus;undergrad;postgrad;student society
+18|showjumping;discus throw;qualified;make it to the semi-final;reach the semi-final
+19|create a statue;ebook;copies
+21|keyboard player
+22|go off;side dish
+25|filthy;open space
+26|leaves;pollen;grow;pick up
+27|six pairs of;a new pair;let out;let down;match;grow out of
+28|feel sick;lose my appetite;break my wrist
+31|have a long journey;take a trip;go on a trip;put me up;put me on standby;get a seat;get airsick;crew member;on board;suffer from
+32|pitch a tent
+33|traditional branch;3D TV;HD camcorder;bold
+34|microchip;spreadsheet program;display;crash
+35|e-card;internet service provider;Skype
+36|create an account;privacy settings;direct message;tagged
+37|dubbed;focus on;shoot;make on location
+38|general election;run;policy;marginal seat
+39|commit a crime;be tried;be acquitted;be released from;judge
+40|savings account;steady income;direct debit;in credit;credit rating;charge interest;overdraft limit;online banking;cash machine;income tax;inheritance tax;value added tax
+41|sombre;plain;decorative;great big;isn't half as;nowhere near as;unusually strong;reasonably good;pretty thick
+42|think;in my view;in my opinion;to my mind;if you ask me;point of view;from my point of view;believe in;views on;think of;in favour of;have my doubts about
+43|contented;content with;grateful to;delighted to hear;feel miserable;discontented with;fed up with;sick and tired;depression;feel depressed;furious with
+44|cannot stand;cannot bear;revolt;appalled;look forward to;long for;yearn for
+46|felt;smelt;saw;pat;tap;grab
+47|out of breath;take a deep breath;grin;shake
+48|top-notch;have a way with;have green fingers;have the gift of the gab;head and shoulders above;among the best;among the worst;among the most interesting;criticise;run down;at fault;to blame;the cat's whiskers;the world's worst;take the biscuit;have your cake and eat it
+49|on cloud nine;in high spirits;keep your chin up;as happy as Larry;as happy as can be;a long face;down in the dumps;in a bad mood;like a bear with a sore head;throw a wobbly;feel done in;a bit under the weather;on top form;my head is spinning;at death's door;as fit as a fiddle;scared stiff;frighten the life out of someone;shake in your boots;shake in your shoes;scared out of your wits;jump out of your skin;swell with pride;feel on top of the world
+50|tight corner;badly affected;mildly irritating;deprived of;take a back seat;take the bull by the horns;stir things up;pour oil on troubled waters;can't face;lay my cards on the table;get our act together;get to the bottom of things;sit up and take notice;get a grasp;the tide has turned;see the light at the end of the tunnel;come to a dead end;reach a turning point;bury the hatchet;sweep under the carpet
+51|dozens of;tons of;a drop;utter chaos;utterly confused;total ban;totally different;wholly dependent
+52|point;right angle;multiplied by
+53|the computer age;for a time;for the time being;at times;from time to time;in time;on time;time and time again;over the course of time;go on;drag on
+54|five metres long;four metres wide;tall;high;thin;short;stretch;shrink
+55|have no choice;have no alternative but;in need of;need for;through lack of;an absolute necessity;do without;an opportunity;it is doubtful whether
+56|so much noise;flash;rays
+57|housing estate;property;properties;supplies;cater for;hand over;let go of;hand out;give out;give away;hand down
+58|stir;crawl along;tear along;shoot past;creep along;plod;cruise
+59|to the touch;as light as a feather;as heavy as lead
+60|succeed in;come off;go wrong;go under;come to nothing;find it difficult;have trouble;have a lot of bother with;cope with;can't cope;have great difficulty;have considerable success
+61|prior to;earlier on;in the meantime;meanwhile;at the very time;the very moment;the minute;the time that;on that occasion;at a later stage;at some point
+62|on condition that;in case of;so long as;providing;what if;supposing;-ever;no matter;prerequisite;under any circumstances
+63|due to;be caused by;give rise to;bring about;lead to;stem from;arise from;out of;reason for;the reason why;with the aim of;with a view to;on the grounds that;as a result;as a consequence;result in
+64|that's all well and good;that's all very well;it's all very well;after all;for all that;the reverse was true;in contrast;quite the opposite;on the other hand;poles apart;a world of difference;great divide;yawning gap;huge discrepancy
+65|and so on;and so on and so forth;into the bargain;to boot;as well as;along with;together with
+66|question;your claim;the real point;this fact;that argument;our position;that view;state of affairs
+67|right;OK;well then;now then;great;so, where was I;let me see;mind you;listen;look;you see;you know;sort of;kind of;like;still;on the other hand;I mean
+68|turning to;leaving aside;in other words;that is to say;for example;for instance;say;so to speak;as it were;see;refer you to;with reference to
+69|talk at cross-purposes;the wrong end of the stick;can't get a word in edgeways;can't make head or tail of;talk down;talk behind my back;small talk;talk shop;talking point;give him a talking to;start the ball rolling
+70|-er;-or;-ee;-ion;-sion;-ist;-ism;-ness;-able;-ible;-ise;-ish
+71|dis-;im-;ir-;il-;un-
+72|induce;viaduct;depress;express
+73|-ment;-ion;-ness;-ity;-tion;-sion;-ation;-ition;-ship;-dom;-th;-hood
+75|car park;human being;science fiction;tin opener;bank account
+76|output
+77|odds and ends;part and parcel;rant and rave;rack and ruin;prim and proper;rough and ready;wine and dine;high and dry;pick and choose;leaps and bounds;peace and quiet;rest and recreation;R and R;here and there;on and off;off and on;back and forth;to and fro;out and about;up and down;back to front;sink or swim;all or nothing;take it or leave it;give or take
+79|feel under the weather;have seen better days;take the weight off your feet;get hold of the wrong end of the stick;feel down in the dumps;as daft as a brush;take the biscuit;a real pain in the neck;as good as gold;make a meal out of;make a move;on the make;make heavy weather of;bark up the wrong tree
+81|purr;gr-;cl-;sp-;wh-;-ash
+82|homophone;homograph;read;house
+83|a hat;two hats;travel;food;journey;trip;sugar;rice;butter;bread;soup;progress;work;homework
+84|graphics;traffic lights;delicious
+85|broken glass;potatoes;some chocolate;a chocolate
+86|a piece of;a little bit of;pieces of;bits of;weather;rain;sun;lightning;wind;shower;sunny spell;flashes of lightning;spots of rain;gusts of wind;groceries;loaf of;slices of;bars of;tube of;blade of;cloud of;puffs of;breath of;lump of;stroke of;fit of;means of;item of;a state of;health
+89|do up;make out;make up
+90|bring on;bring about;bring out;bring back;bring down;take after;take back;take in;take off;take on;take over;take to;take up;be brought into force;bring to light;bring to a head;bring into the open;bring out the best in;take advantage of;take for granted;take control;take my breath away;take place;take a risk;take seriously;take into account;take pride in;take the opportunity
+91|get dinner;get it;get to;get to know;get out of bed on the wrong side;get off to a good start;get off to a bad start;get rid of;get my own back
+92|set aside;set off;put up;put on;set your heart on;set your sights on;set a target;set the world to rights;put the world to rights;set fire to;set free;set foot in;set a good example;put pressure on someone;put your mind to;put an end to;put a stop to;put someone's back up
+93|come off;come up;come round;come between;come across;come by;come down;come up with;go on;go on at;go through;go for;make a go of;on the go;it goes without saying;as far as it goes;the story goes that;go to great lengths;go bankrupt
+94|look forward to;look into;look at;look down on;look on the bright side;see about;see through;see things;run into;run out;run out of;run over;in the long run;turn down;turn up;turn over a new leaf;turn out;let down;let go of;let off;let it slip;break a promise;break off;break the news;break her heart;break the record
+95|frequently occurs;in terms of;in particular;on account of;on the basis of;in relation to
+96|dosh;readies;moolah;nosh;grub;sarnie;nerd;geek;anorak;the old bill
+97|as dead as a doornail;as blind as a bat;as thin as a rake;as strong as an ox;as quiet as a mouse;as heavy as lead;as light as a feather;as drunk as a lord;as sober as a judge;as black as night;as white as snow;as cool as a cucumber;as busy as a bee;as hard as iron;as dry as a bone;as mad as a hatter;as bold as brass;as deaf as a post;as easy as pie;as quick as a flash;as white as a sheet;as sick as a dog;as sick as a parrot;as red as a beetroot;as happy as can be;work like a dream;have eyes like a hawk;eat like a horse;drink like a fish;sleep like a log;have a head like a sieve;like a bear with a sore head;like a bull in a china shop;like a red rag to a bull
+98|cat;mouse;horse;swallow;mice;Don't count your chickens before they hatch;Don't put all your eggs in one basket;Never judge a book by its cover;Never look a gift-horse in the mouth;Take care of the pennies and the pounds will take care of themselves;We'll cross that bridge when we come to it;When the cat's away, the mice will play;You can lead a horse to water but you can't make it drink;One swallow doesn't make a summer;There's no smoke without fire;Where there's smoke, there's fire;People who live in glass houses shouldn't throw stones;Too many cooks spoil the broth;Many hands make light work
+99|Alight here for Buckingham Palace;Trespassers will be prosecuted;Kindly refrain from using your mobile phone in the auditorium;Penalty for dropping litter - up to £1,000 fine;Lunches now being served;No admission to unaccompanied minors;Feeding the animals is strictly prohibited;No through road for motor vehicles;No entry to unauthorised personnel;Please place your purchases here;This packet carries a government health warning;Reduce speed now;Pay and display;Cyclists dismount here;Fishing permit holders only
+101|-re;-er;realise;realize;gasoline;crosswalk;parking lot;trunk (of car);hood (of car);one-way trip;railway car;railway carriage;wash room;the fall;on the weekend;at the weekend;vest (BrE);vest (AmE);pants (BrE);pants (AmE);bill (BrE);bill (AmE);check (AmE);note (BrE);the second floor (BrE);the second floor (AmE);the first floor (BrE);the first floor (AmE);the ground floor (BrE);wash up (BrE);wash up (AmE);wash the dishes;wash your hands

@@ -1,6 +1,7 @@
 const libraryBooks=[
   {id:'elementary',level:'Elementary',cefr:'A1–A2',edition:'Third Edition',authors:'Michael McCarthy · Felicity O’Dell',cover:'covers/elementary.png',accent:'#ff795f',units:elementaryVocabulary,description:'Ingliz tilidagi ilk qadamingiz. Kundalik hayot uchun eng kerakli so‘zlar.'},
   {id:'intermediate',level:'Pre-intermediate & Intermediate',cefr:'B1',edition:'Fourth Edition',authors:'Stuart Redman',cover:'covers/intermediate.png',accent:'#4fd7bb',units:vocabulary,description:'So‘z boyligingizni kengaytiring. Ko‘proq mavzu, ibora va yangi imkoniyatlar.'},
+  {id:'upper-intermediate',level:'Upper-intermediate',cefr:'B2',edition:'Fourth Edition',authors:'Michael McCarthy · Felicity O’Dell',cover:'covers/upper-intermediate.png',accent:'#6dbaff',units:upperVocabulary,description:'Keyingi bosqichga o‘ting. Keng lug‘at, aniq ifodalar va murakkab iboralar.'},
 ];
 for(const book of libraryBooks)for(const u of book.units)u.bookId=book.id;
 let selectedBook=null,libraryPage='books';
@@ -8,9 +9,17 @@ const bookUnits=()=>selectedBook?.units||vocabulary;
 const bookWords=book=>book.units.flatMap(u=>u.words);
 const libraryWords=libraryBooks.flatMap(bookWords);
 const bookHref=book=>'#book-'+book.id;
-const unitHref=(u)=>u.bookId==='elementary'?'#elementary-unit-'+u.number:'#unit-'+u.number;
-const checkpointKey=u=>u.bookId==='elementary'?'elementary:'+u.number:String(u.number);
+const unitHref=u=>u.bookId==='intermediate'?'#unit-'+u.number:'#'+u.bookId+'-unit-'+u.number;
+const checkpointKey=u=>u.bookId==='intermediate'?String(u.number):u.bookId+':'+u.number;
 const learningPercent=(known,total)=>total?Math.round(known/total*10000)/100:0;
+const upperLessonByNumber=new Map(upperLessons.map(u=>[u.number,u]));
+function unitSourceView(u){
+  if(u.bookId!=='upper-intermediate')return '';
+  const source=upperLessonByNumber.get(u.number);
+  if(!source)return '';
+  const page=(kind,label)=>{const path=`pages/upper-${String(u.number).padStart(3,'0')}-${kind}.webp`;return `<h2>${label}</h2><a href="${path}" target="_blank" rel="noopener"><img src="${path}" alt="Unit ${u.number}: ${label}" loading="lazy" width="1000"></a>`};
+  return `<details class="source-lesson"><summary>Kitob matni va mashqlar</summary><small>PDF ${source.sourcePage}</small>${page('lesson','Lesson')}${page('exercises','Exercises')}<details><summary>Text</summary><pre lang="en">${html(source.lesson)}\n\n${html(source.exercises)}</pre></details></details>`;
+}
 function bookProgress(book){
   const words=bookWords(book),c=counts(words),reviewed=c.known+c.unknown;
   return {...c,total:words.length,reviewed,percent:learningPercent(c.known,words.length),completed:book.units.filter(completedUnit).length,attempts:words.reduce((n,w)=>n+(progress[w.id]?.attempts||0),0)};

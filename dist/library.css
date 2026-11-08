@@ -100,3 +100,13 @@
 @media(prefers-reduced-motion:reduce){.book-card,.book-cover{transition:none}.book-card:hover{transform:none}}
 @media(max-width:600px){.library-hero h1{font-size:clamp(27px,8.5vw,35px)}}
 @media(max-width:360px){.book-card-content{gap:18px}.book-cover-wrap,.book-cover{width:90px}.book-cover{height:123px}.book-details h3{font-size:20px}.bookshelf-heading{align-items:flex-start;gap:10px}.bookshelf-note{max-width:65px;line-height:1.7}.book-facts{font-size:8px;gap:7px}}
+@media(min-width:1001px){.book-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.book-card{display:flex;flex-direction:column;padding:22px}.book-card-content{flex-direction:column;align-items:flex-start;flex:1;gap:24px;margin-bottom:25px}.book-details{width:100%}.book-details h3{font-size:22px;min-height:57px}.book-description{min-height:59px}.book-card-footer{font-size:9px}.book-card-footer>strong{font-size:10px}}
+.source-lesson{border:1px solid #30364b;background:#171c2f;border-radius:12px;margin:0 0 22px;padding:15px 18px}
+.source-lesson>summary{cursor:pointer;font-size:12px;color:#b8abeb;line-height:1.7;list-style-position:inside}
+.source-lesson[open]>summary{padding-bottom:14px;border-bottom:1px solid #30364b}
+.source-lesson small{display:block;color:#8490ad;font-size:10px;margin-top:18px}
+.source-lesson h2{font-size:15px;font-weight:600;color:#d6dced;margin:22px 0 12px}
+.source-lesson pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.9 'DM Sans',sans-serif;color:#b7c0d6;margin:0}
+.word-sense{display:block;font-size:11px;line-height:1.5;color:#929db9;margin-top:8px}
+
+.source-lesson img{display:block;width:100%;height:auto;border-radius:12px;margin:12px 0}.source-lesson>a{display:block}

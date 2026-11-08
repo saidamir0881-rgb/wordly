@@ -1,6 +1,11 @@
 book-text.txt
 book-source.pdf
 elementary-extract.json
+upper-extract.json
+upper-pages.json
+upper-extra-candidates.json
+upper-translation-queue.json
+upper-word-plan.json
 __pycache__/
 .env
 .env.*
@@ -10,3 +15,5 @@ __pycache__/
 .android-tools/
 android/build/
 android/signing/
+
+upper-local-remaining.json

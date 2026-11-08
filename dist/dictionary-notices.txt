@@ -1,0 +1,21 @@
+Upper-intermediate dictionary acknowledgements
+
+Russian dictionary drafts were adapted and edited from FreeDict English-Russian
+2025.11.23 (WikDict/Wiktionary contributors), Creative Commons Attribution-
+ShareAlike 3.0 Unported. The adapted Russian dictionary entries retain that
+license. The license text is supplied in freedict-LICENSE.txt.
+https://freedict.org/
+https://www.wikdict.com/
+https://download.freedict.org/dictionaries/eng-rus/2025.11.23/
+https://creativecommons.org/licenses/by-sa/3.0/
+
+Uzbek dictionary reference: qobulovasror/eng-uzb-dictionary.
+https://github.com/qobulovasror/eng-uzb-dictionary
+
+Dictionary senses were selected using lesson context and supplemented with
+manually written translations and corrections. Existing WORDLY translations
+were reused where appropriate. No textbook content was sent to a translation API.
+
+Pronunciation fallback uses CMUdict; see cmudict-LICENSE.txt.
+Textbook pages and covers are from the PDF supplied by the project owner;
+the dictionary license does not apply to the textbook.

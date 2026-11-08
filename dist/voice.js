@@ -103,5 +103,5 @@ function settleVoice(correct,timedOut){
 function voiceError(reason){const s=session;if(!s||s.mode!=='voice'||s.checked)return;stopVoiceRound();s.voiceState='error';s.voiceReason=reason;s.voiceRemaining=10;saveActiveSession();render()}
 function pauseVoiceRound(){const s=session;if(!s||s.mode!=='voice'||s.checked)return;stopVoiceRound();s.voiceState='paused';s.voiceRemaining=10;saveActiveSession();render()}
 function voiceTextFallback(){if(!session||session.mode!=='voice')return;const ids=session.words.slice(session.index).map(w=>w.id);startSession('write',ids);session.direction='en';saveActiveSession();render();focusAnswer()}
-function openVoiceBrowser(){const url=location.origin+location.pathname+(unit?'#unit-'+unit.number:'#units');const app=window.Telegram?.WebApp;if(app?.initData&&app.openLink)app.openLink(url);else window.open(url,'_blank','noopener,noreferrer')}
+function openVoiceBrowser(){const url=location.origin+location.pathname+(unit?unitHref(unit):selectedBook?bookHref(selectedBook):'#books');const app=window.Telegram?.WebApp;if(app?.initData&&app.openLink)app.openLink(url);else window.open(url,'_blank','noopener,noreferrer')}
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopAnswerAudio();if(document.hidden&&typeof session!=='undefined'&&session?.mode==='voice'&&!session.checked)pauseVoiceRound()});

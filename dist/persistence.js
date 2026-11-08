@@ -1,9 +1,11 @@
 // Word ratings and per-unit session checkpoints stay on this browser between visits.
 let savedSessions={},checkpointReadError=false;
 function validCheckpoint(value,number){
-  const elementary=String(number).startsWith('elementary:');
-  const book=libraryBooks.find(b=>b.id===(elementary?'elementary':'intermediate'));
-  const unitNumber=elementary?Number(String(number).slice(11)):Number(number);
+  const parts=String(number).split(':');
+  if(parts.length>2)return false;
+  const book=libraryBooks.find(b=>b.id===(parts.length===1?'intermediate':parts[0]));
+  if(!book)return false;
+  const unitNumber=Number(parts.at(-1));
   const u=book.units.find(u=>u.number===unitNumber);
   if(!u||!value||!['flash','write','voice','cloze'].includes(value.mode)||!['uz','en'].includes(value.direction))return false;
   if(value.mode==='cloze'&&value.direction!=='en')return false;

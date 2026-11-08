@@ -1,0 +1,5097 @@
+{
+  "credit": {
+    "uz": "kredit, qarz",
+    "ru": "кредит",
+    "source": "local bilingual dictionaries"
+  },
+  "crew": {
+    "uz": "ekipaj, komanda",
+    "ru": "экипаж / банда",
+    "source": "local bilingual dictionaries"
+  },
+  "crisis": {
+    "uz": "krizis, tanglik",
+    "ru": "кризис",
+    "source": "local bilingual dictionaries"
+  },
+  "critic": {
+    "uz": "tanqidchi",
+    "ru": "критик",
+    "source": "local bilingual dictionaries"
+  },
+  "critical": {
+    "uz": "tanqidiy",
+    "ru": "придирчивый",
+    "source": "local bilingual dictionaries"
+  },
+  "crop": {
+    "uz": "hosil",
+    "ru": "посев / сельскохозяйственная культура",
+    "source": "local bilingual dictionaries"
+  },
+  "crowd": {
+    "uz": "olomon, xaloyiq",
+    "ru": "сброд / толпа",
+    "source": "local bilingual dictionaries"
+  },
+  "cruel": {
+    "uz": "rahmsiz, zolim, shafqatsiz",
+    "ru": "жестокий",
+    "source": "local bilingual dictionaries"
+  },
+  "cruise": {
+    "uz": "kemada sayohat qilmoq",
+    "ru": "плавать / плыть",
+    "source": "local bilingual dictionaries"
+  },
+  "crush": {
+    "uz": "ezmoq, bosmoq",
+    "ru": "давить / раздавливать",
+    "source": "local bilingual dictionaries"
+  },
+  "cube": {
+    "uz": "kub, kubik",
+    "ru": "куб",
+    "source": "local bilingual dictionaries"
+  },
+  "cubic": {
+    "uz": "bir kub, hajimdagi kub",
+    "ru": "третьей степени / в кубе",
+    "source": "local bilingual dictionaries"
+  },
+  "cue": {
+    "uz": "ishora",
+    "ru": "кий",
+    "source": "local bilingual dictionaries"
+  },
+  "cuff": {
+    "uz": "manjet, yeng",
+    "ru": "манжета / обшлаг",
+    "source": "local bilingual dictionaries"
+  },
+  "cumbersome": {
+    "uz": "og'ir",
+    "ru": "затруднительный / обременительный",
+    "source": "local bilingual dictionaries"
+  },
+  "cunning": {
+    "uz": "makkor",
+    "ru": "дошлый / коварный",
+    "source": "local bilingual dictionaries"
+  },
+  "curb": {
+    "uz": "jilovlash, qo'lga olish",
+    "ru": "обуздать / сдержать",
+    "source": "local bilingual dictionaries"
+  },
+  "cursor": {
+    "uz": "strelka",
+    "ru": "движок / курсор",
+    "source": "local bilingual dictionaries"
+  },
+  "curt": {
+    "uz": "qisqa",
+    "ru": "немногословный / односложный",
+    "source": "local bilingual dictionaries"
+  },
+  "daft": {
+    "uz": "ahmoqona, ahmoq",
+    "ru": "глупый / слабоумный",
+    "source": "local bilingual dictionaries"
+  },
+  "damp": {
+    "uz": "namlik",
+    "ru": "сырой",
+    "source": "local bilingual dictionaries"
+  },
+  "darkness": {
+    "uz": "qorong'ilik, zimistonlik",
+    "ru": "тьма / мрак",
+    "source": "local bilingual dictionaries"
+  },
+  "dart": {
+    "uz": "qadimda : irg'itiladigan o'q",
+    "ru": "дротик",
+    "source": "local bilingual dictionaries"
+  },
+  "dash": {
+    "uz": "qisqa masofali yugurish musobaqasi",
+    "ru": "тире",
+    "source": "local bilingual dictionaries"
+  },
+  "database": {
+    "uz": "ma'lumotlar bazasi",
+    "ru": "база данных",
+    "source": "local bilingual dictionaries"
+  },
+  "dawdle": {
+    "uz": "bekor yurmoq",
+    "ru": "плестись / тащиться",
+    "source": "local bilingual dictionaries"
+  },
+  "dead end": {
+    "uz": "boshi berk ko'cha, tupik",
+    "ru": "тупик",
+    "source": "local bilingual dictionaries"
+  },
+  "debt": {
+    "uz": "qarz",
+    "ru": "долг / задолженность",
+    "source": "local bilingual dictionaries"
+  },
+  "debtor": {
+    "uz": "qarzdor",
+    "ru": "дебитор / должник",
+    "source": "local bilingual dictionaries"
+  },
+  "decent": {
+    "uz": "odobli, tarbiyali",
+    "ru": "благоприличный / благопристойный",
+    "source": "local bilingual dictionaries"
+  },
+  "decision": {
+    "uz": "qaror",
+    "ru": "решение / урегулирование",
+    "source": "local bilingual dictionaries"
+  },
+  "declare": {
+    "uz": "e'lon qilmoq, bayon qilmoq",
+    "ru": "объявлять",
+    "source": "local bilingual dictionaries"
+  },
+  "decorative": {
+    "uz": "jozibador, go'zal, bezakli",
+    "ru": "декоративный",
+    "source": "local bilingual dictionaries"
+  },
+  "deepen": {
+    "uz": "chuqurlashmoq",
+    "ru": "углубить / углублять",
+    "source": "local bilingual dictionaries"
+  },
+  "deer": {
+    "uz": "ohu, bug'u",
+    "ru": "олень",
+    "source": "local bilingual dictionaries"
+  },
+  "delicate": {
+    "uz": "nozik, yupqa",
+    "ru": "хрупкий / деликатный",
+    "source": "local bilingual dictionaries"
+  },
+  "delightful": {
+    "uz": "nafis, go'zal, mamnun",
+    "ru": "восхитительный / очаровательный",
+    "source": "local bilingual dictionaries"
+  },
+  "delta": {
+    "uz": "delta",
+    "ru": "дельта",
+    "source": "local bilingual dictionaries"
+  },
+  "democracy": {
+    "uz": "demokratiya",
+    "ru": "демократия",
+    "source": "local bilingual dictionaries"
+  },
+  "denim": {
+    "uz": "qalin, paxta tolali mato",
+    "ru": "джинсовая ткань / деним",
+    "source": "local bilingual dictionaries"
+  },
+  "dense": {
+    "uz": "zich",
+    "ru": "густой / плотный",
+    "source": "local bilingual dictionaries"
+  },
+  "density": {
+    "uz": "zichlik",
+    "ru": "густота / плотность",
+    "source": "local bilingual dictionaries"
+  },
+  "dent": {
+    "uz": "o'yiq, o'yilgan joy",
+    "ru": "вмятина",
+    "source": "local bilingual dictionaries"
+  },
+  "deny": {
+    "uz": "inkor etmoq, rad qilmoq, voz kechmoq",
+    "ru": "отрицать / опровергнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "dependent": {
+    "uz": "qaram, bog'liq",
+    "ru": "подчинённый / зависимый",
+    "source": "local bilingual dictionaries"
+  },
+  "deport": {
+    "uz": "badarg'a qilmoq, surgun qilmoq, chiqarib yubormoq, haydab yubormoq",
+    "ru": "депортировать / выдворить",
+    "source": "local bilingual dictionaries"
+  },
+  "deportation": {
+    "uz": "surgun, badarg'a, chiqarib yuborish, haydab yuborish",
+    "ru": "высылка / депортация",
+    "source": "local bilingual dictionaries"
+  },
+  "depose": {
+    "uz": "ag'darib tashlamoq, yo'q qilmoq",
+    "ru": "низлагать / низложить",
+    "source": "local bilingual dictionaries"
+  },
+  "depression": {
+    "uz": "asabiylashish, ruhiy ezilish",
+    "ru": "депрессия / уныние",
+    "source": "local bilingual dictionaries"
+  },
+  "desert": {
+    "uz": "cho'l, dasht",
+    "ru": "пустыня",
+    "source": "local bilingual dictionaries"
+  },
+  "deserted": {
+    "uz": "tashlandiq, qarovsiz",
+    "ru": "несчастный / осиротелый",
+    "source": "local bilingual dictionaries"
+  },
+  "designer": {
+    "uz": "konstruktor, dizayner",
+    "ru": "дизайнер",
+    "source": "local bilingual dictionaries"
+  },
+  "desire": {
+    "uz": "orzu, istak, xohish, havas",
+    "ru": "желание / вожделение",
+    "source": "local bilingual dictionaries"
+  },
+  "despise": {
+    "uz": "kamsitmoq, xo'rlamoq",
+    "ru": "презирать / презреть",
+    "source": "local bilingual dictionaries"
+  },
+  "destruction": {
+    "uz": "buzilib ketish, buzish, yo'q qilish",
+    "ru": "разрушение / уничтожение",
+    "source": "local bilingual dictionaries"
+  },
+  "detective": {
+    "uz": "detektiv, izquvar",
+    "ru": "детектив / ищейка",
+    "source": "local bilingual dictionaries"
+  },
+  "determined": {
+    "uz": "qarorli, qat'iy",
+    "ru": "решительный",
+    "source": "local bilingual dictionaries"
+  },
+  "detest": {
+    "uz": "nafratlanmoq, yomon ko'rmoq",
+    "ru": "ненавидеть",
+    "source": "local bilingual dictionaries"
+  },
+  "device": {
+    "uz": "moslama, asbob, apparat",
+    "ru": "аппарат / гаджет",
+    "source": "local bilingual dictionaries"
+  },
+  "devoted": {
+    "uz": "sodiq",
+    "ru": "посвящённый",
+    "source": "local bilingual dictionaries"
+  },
+  "diagnose": {
+    "uz": "tashxis qo'ymoq",
+    "ru": "диагностировать",
+    "source": "local bilingual dictionaries"
+  },
+  "dialect": {
+    "uz": "sheva, lahja",
+    "ru": "диалект / наречие",
+    "source": "local bilingual dictionaries"
+  },
+  "dialogue": {
+    "uz": "suhbat, dialog",
+    "ru": "диалог / беседа",
+    "source": "local bilingual dictionaries"
+  },
+  "diameter": {
+    "uz": "diametr",
+    "ru": "диаметр / поперечник",
+    "source": "local bilingual dictionaries"
+  },
+  "diaper": {
+    "uz": "chaqaloqlarning to'shamasi, yo'rgak",
+    "ru": "подгузник / памперс",
+    "source": "local bilingual dictionaries"
+  },
+  "dictionary": {
+    "uz": "lug'at",
+    "ru": "словарь / лексикон",
+    "source": "local bilingual dictionaries"
+  },
+  "difficult": {
+    "uz": "qiyin, murakkab",
+    "ru": "трудный / тяжёлый",
+    "source": "local bilingual dictionaries"
+  },
+  "difficulty": {
+    "uz": "qiyinchilik",
+    "ru": "сложность / трудность",
+    "source": "local bilingual dictionaries"
+  },
+  "digital": {
+    "uz": "raqamli",
+    "ru": "пальцевой / цифровой",
+    "source": "local bilingual dictionaries"
+  },
+  "dilemma": {
+    "uz": "muammoli vaziyat, ikkilanish",
+    "ru": "дилемма",
+    "source": "local bilingual dictionaries"
+  },
+  "dim": {
+    "uz": "noaniq",
+    "ru": "тусклый",
+    "source": "local bilingual dictionaries"
+  },
+  "diploma": {
+    "uz": "diplom, sertifikat",
+    "ru": "диплом / аттестат",
+    "source": "local bilingual dictionaries"
+  },
+  "diplomat": {
+    "uz": "diplomat",
+    "ru": "дипломат / дипломатка",
+    "source": "local bilingual dictionaries"
+  },
+  "direction": {
+    "uz": "yo'l, yo'nalish, tomon",
+    "ru": "режиссура / руководство",
+    "source": "local bilingual dictionaries"
+  },
+  "disapprove": {
+    "uz": "nomaqbul deb topmoq, ma'qul ko'rmaslik, ma'qullamaslik",
+    "ru": "порицать / осуждать",
+    "source": "local bilingual dictionaries"
+  },
+  "disaster": {
+    "uz": "falokat, ofat, kasofat",
+    "ru": "бедствие / беда",
+    "source": "local bilingual dictionaries"
+  },
+  "disbelieve": {
+    "uz": "shubha qilmoq, shak keltirmoq, ishonmaslik, inonmaslik",
+    "ru": "не верить",
+    "source": "local bilingual dictionaries"
+  },
+  "disconnect": {
+    "uz": "ajratmoq, bo'lmoq",
+    "ru": "отключать / отключить",
+    "source": "local bilingual dictionaries"
+  },
+  "discourage": {
+    "uz": "ishonchni yo'qotmoq, gangitib qo'ymoq",
+    "ru": "обескураживать / отбивать охоту",
+    "source": "local bilingual dictionaries"
+  },
+  "discourteous": {
+    "uz": "odobsiz, tarbiyasiz",
+    "ru": "невежливый / невоспитанный",
+    "source": "local bilingual dictionaries"
+  },
+  "discrepancy": {
+    "uz": "farq, tafovut",
+    "ru": "разногласие / расхождение",
+    "source": "local bilingual dictionaries"
+  },
+  "discus": {
+    "uz": "disk",
+    "ru": "диск",
+    "source": "local bilingual dictionaries"
+  },
+  "disguise": {
+    "uz": "niqoblamoq, ko'rinishini o'zgartirmoq",
+    "ru": "замаскироваться / маскироваться",
+    "source": "local bilingual dictionaries"
+  },
+  "disgust": {
+    "uz": "jirkanmoq, nafratlantirmoq",
+    "ru": "вызвать отвращение / вызывать отвращение",
+    "source": "local bilingual dictionaries"
+  },
+  "dish": {
+    "uz": "idish, kosa, tovoq",
+    "ru": "блюдо / миска",
+    "source": "local bilingual dictionaries"
+  },
+  "disk": {
+    "uz": "disk, gardish, aylana",
+    "ru": "диск / круг",
+    "source": "local bilingual dictionaries"
+  },
+  "dislocate": {
+    "uz": "o'rnidan qo'zg'atmoq, chaqirmoq",
+    "ru": "вывихнуть / вывихивать",
+    "source": "local bilingual dictionaries"
+  },
+  "dismount": {
+    "uz": "otdan, velosipeddan tushmoq",
+    "ru": "демонтировать",
+    "source": "local bilingual dictionaries"
+  },
+  "disorder": {
+    "uz": "tartibsizlik",
+    "ru": "расстройство / нарушение",
+    "source": "local bilingual dictionaries"
+  },
+  "dispose": {
+    "uz": "qo'ldan chiqarmoq, qutulmoq, xalos bo'lmoq",
+    "ru": "избавиться / избавляться",
+    "source": "local bilingual dictionaries"
+  },
+  "disprove": {
+    "uz": "noto'g'ri ekanligini isbot qilmoq, rad qilmoq",
+    "ru": "опровергнуть / опровергать",
+    "source": "local bilingual dictionaries"
+  },
+  "disqualify": {
+    "uz": "yaroqsiz deb topmoq, mahrum qilmoq, noloyiq deb topmoq",
+    "ru": "дисквалифицировать / лишать права",
+    "source": "local bilingual dictionaries"
+  },
+  "dissect": {
+    "uz": "yorib ko'rmoq",
+    "ru": "анатомировать / вскрывать",
+    "source": "local bilingual dictionaries"
+  },
+  "dissertation": {
+    "uz": "ilmiy ish, dissertatsiya",
+    "ru": "диссертация / трактат",
+    "source": "local bilingual dictionaries"
+  },
+  "dissimilar": {
+    "uz": "farqli",
+    "ru": "непохожий / несходный",
+    "source": "local bilingual dictionaries"
+  },
+  "distant": {
+    "uz": "uzoq, yiroq",
+    "ru": "далёкий / отдалённый",
+    "source": "local bilingual dictionaries"
+  },
+  "divert": {
+    "uz": "chetga burmoq, og'ishmoq",
+    "ru": "отвлечь / отвлекать",
+    "source": "local bilingual dictionaries"
+  },
+  "divide": {
+    "uz": "ayirmoq, bo'lmoq, ajratmoq, taqsimlamoq",
+    "ru": "делить / разделять",
+    "source": "local bilingual dictionaries"
+  },
+  "dizzy": {
+    "uz": "boshi aylangan",
+    "ru": "головокружительный",
+    "source": "local bilingual dictionaries"
+  },
+  "donate": {
+    "uz": "bermoq, bag'ishlamoq, atamoq",
+    "ru": "давать / дарить",
+    "source": "local bilingual dictionaries"
+  },
+  "donation": {
+    "uz": "m tortiq, hadya",
+    "ru": "пожертвование / дар",
+    "source": "local bilingual dictionaries"
+  },
+  "donor": {
+    "uz": "donor, qon topshiruvchi",
+    "ru": "донор / донатор",
+    "source": "local bilingual dictionaries"
+  },
+  "doubt": {
+    "uz": "shubhalanmoq",
+    "ru": "сомневаться",
+    "source": "local bilingual dictionaries"
+  },
+  "doubtful": {
+    "uz": "shubhali",
+    "ru": "сомнительный",
+    "source": "local bilingual dictionaries"
+  },
+  "downpour": {
+    "uz": "shiddatli yomg'ir",
+    "ru": "проливной дождь / ливень",
+    "source": "local bilingual dictionaries"
+  },
+  "drama": {
+    "uz": "drama",
+    "ru": "драма / пьеса",
+    "source": "local bilingual dictionaries"
+  },
+  "drawback": {
+    "uz": "muammo",
+    "ru": "изъян / недостаток",
+    "source": "local bilingual dictionaries"
+  },
+  "dread": {
+    "uz": "dahshat, qo'rqinch",
+    "ru": "страх / боязнь",
+    "source": "local bilingual dictionaries"
+  },
+  "dream": {
+    "uz": "tush",
+    "ru": "сон / грёза",
+    "source": "local bilingual dictionaries"
+  },
+  "drift": {
+    "uz": "shamol ta'sirida suvda yo'ldan adashmoq",
+    "ru": "дрейфовать",
+    "source": "local bilingual dictionaries"
+  },
+  "drop": {
+    "uz": "tomchi",
+    "ru": "капля",
+    "source": "local bilingual dictionaries"
+  },
+  "dub": {
+    "uz": "unvon bermoq",
+    "ru": "дублировать",
+    "source": "local bilingual dictionaries"
+  },
+  "dumb": {
+    "uz": "soqov, gung",
+    "ru": "глупый / дурной",
+    "source": "local bilingual dictionaries"
+  },
+  "duty": {
+    "uz": "vazifa, burch, topshiriq",
+    "ru": "сбор / налог",
+    "source": "local bilingual dictionaries"
+  },
+  "eccentric": {
+    "uz": "g'alati, ajib",
+    "ru": "эксцентричный",
+    "source": "local bilingual dictionaries"
+  },
+  "economical": {
+    "uz": "hisobli, tejamkor",
+    "ru": "бережливый / экономный",
+    "source": "local bilingual dictionaries"
+  },
+  "economy": {
+    "uz": "xo'jalik, iqtisod",
+    "ru": "бережливость / экономия",
+    "source": "local bilingual dictionaries"
+  },
+  "edible": {
+    "uz": "yesa bo'ladigan, yeyiladigan",
+    "ru": "годный в пищу / съедобный",
+    "source": "local bilingual dictionaries"
+  },
+  "educate": {
+    "uz": "bilim-ta'lim bermoq, tarbiyalamoq",
+    "ru": "воспитывать / воспитать",
+    "source": "local bilingual dictionaries"
+  },
+  "effort": {
+    "uz": "zo'r berish",
+    "ru": "усилие / потуга",
+    "source": "local bilingual dictionaries"
+  },
+  "elapse": {
+    "uz": "o'tmoq",
+    "ru": "истечь / истекать",
+    "source": "local bilingual dictionaries"
+  },
+  "elegant": {
+    "uz": "nafis, zebo, go'zal",
+    "ru": "элегантный / изящный",
+    "source": "local bilingual dictionaries"
+  },
+  "elevator": {
+    "uz": "lift",
+    "ru": "элеватор",
+    "source": "local bilingual dictionaries"
+  },
+  "employee": {
+    "uz": "ishchi, xizmatchi",
+    "ru": "работник / работница",
+    "source": "local bilingual dictionaries"
+  },
+  "employer": {
+    "uz": "ish beruvchi",
+    "ru": "наниматель / нанимательница",
+    "source": "local bilingual dictionaries"
+  },
+  "enable": {
+    "uz": "imkon bermoq, huquq bermoq, ruxsat bermoq",
+    "ru": "активировать / включать",
+    "source": "local bilingual dictionaries"
+  },
+  "encyclopedia": {
+    "uz": "ensiklopediya, qomus",
+    "ru": "энциклопедия",
+    "source": "local bilingual dictionaries"
+  },
+  "ensue": {
+    "uz": "orqasidan bormoq, iziga tushmoq, ergashmoq",
+    "ru": "следовать",
+    "source": "local bilingual dictionaries"
+  },
+  "enthusiastic": {
+    "uz": "tashabbuskor, g'ayratli, shovvoz",
+    "ru": "восторженный / полный энтузиазма",
+    "source": "local bilingual dictionaries"
+  },
+  "entire": {
+    "uz": "butun, to'la, tugallangan",
+    "ru": "весь / полный",
+    "source": "local bilingual dictionaries"
+  },
+  "entry": {
+    "uz": "kirish, yozilish",
+    "ru": "вход / въезд",
+    "source": "local bilingual dictionaries"
+  },
+  "envious": {
+    "uz": "rashkchi, hasadgo'y",
+    "ru": "завистливый",
+    "source": "local bilingual dictionaries"
+  },
+  "epidemic": {
+    "uz": "epidemiya",
+    "ru": "эпидемия",
+    "source": "local bilingual dictionaries"
+  },
+  "episode": {
+    "uz": "voqea, hodisa",
+    "ru": "эпизод / серия",
+    "source": "local bilingual dictionaries"
+  },
+  "era": {
+    "uz": "era, davr",
+    "ru": "эра / эпоха",
+    "source": "local bilingual dictionaries"
+  },
+  "eraser": {
+    "uz": "o'chirg'ich",
+    "ru": "резинка / ластик",
+    "source": "local bilingual dictionaries"
+  },
+  "erupt": {
+    "uz": "portlamoq, otilmoq",
+    "ru": "извергать / извергаться",
+    "source": "local bilingual dictionaries"
+  },
+  "establish": {
+    "uz": "qurmoq, barpo qilmoq, tiklamoq, tashkil qilmoq",
+    "ru": "устанавливать / установить",
+    "source": "local bilingual dictionaries"
+  },
+  "estate": {
+    "uz": "yer, mulk",
+    "ru": "имение",
+    "source": "local bilingual dictionaries"
+  },
+  "estuary": {
+    "uz": "daryoning quyilish joyi, etak",
+    "ru": "устье / эстуарий",
+    "source": "local bilingual dictionaries"
+  },
+  "evidence": {
+    "uz": "asos, dalil",
+    "ru": "доказательство / свидетельство",
+    "source": "local bilingual dictionaries"
+  },
+  "ex": {
+    "uz": "sobiq",
+    "ru": "бывший / экс",
+    "source": "local bilingual dictionaries"
+  },
+  "exaggeration": {
+    "uz": "oshirib gapirish, mubolag'a",
+    "ru": "преувеличение",
+    "source": "local bilingual dictionaries"
+  },
+  "exceptional": {
+    "uz": "g'ayritabiiy, g'ayrioddiy",
+    "ru": "исключительный",
+    "source": "local bilingual dictionaries"
+  },
+  "excitement": {
+    "uz": "hayajon",
+    "ru": "волнение / азарт",
+    "source": "local bilingual dictionaries"
+  },
+  "exclusive": {
+    "uz": "ayrim, alohida, maxsus",
+    "ru": "отличный / эксклюзивный",
+    "source": "local bilingual dictionaries"
+  },
+  "excommunicate": {
+    "uz": "cherkovdan chetlatmoq",
+    "ru": "выгнать / выгонять",
+    "source": "local bilingual dictionaries"
+  },
+  "excursion": {
+    "uz": "ekskursiya, turistik sayohat",
+    "ru": "экскурсия",
+    "source": "local bilingual dictionaries"
+  },
+  "executive": {
+    "uz": "ijro etuvchi, ijrochi, bajaruvchi",
+    "ru": "исполнительный директор / администратор",
+    "source": "local bilingual dictionaries"
+  },
+  "exhale": {
+    "uz": "nafas chiqarmoq",
+    "ru": "выдохнуть / выдыхать",
+    "source": "local bilingual dictionaries"
+  },
+  "existence": {
+    "uz": "mavjudlik, borlik",
+    "ru": "существование / бытие",
+    "source": "local bilingual dictionaries"
+  },
+  "exotic": {
+    "uz": "chet, yot, g'ayrioddiy",
+    "ru": "экзотический / экзотичный",
+    "source": "local bilingual dictionaries"
+  },
+  "expectation": {
+    "uz": "umid, ishonch, kutish",
+    "ru": "ожидание",
+    "source": "local bilingual dictionaries"
+  },
+  "explosion": {
+    "uz": "portlash",
+    "ru": "взрыв",
+    "source": "local bilingual dictionaries"
+  },
+  "export": {
+    "uz": "eksport qilmoq, chetga chiqarmoq",
+    "ru": "экспортировать / вывезти",
+    "source": "local bilingual dictionaries"
+  },
+  "express": {
+    "uz": "ifodalamoq, bildirmoq",
+    "ru": "выдавливать / выжимать",
+    "source": "local bilingual dictionaries"
+  },
+  "extend": {
+    "uz": "uzaytirmoq, cho'zmoq",
+    "ru": "простираться / тянуться",
+    "source": "local bilingual dictionaries"
+  },
+  "extravagant": {
+    "uz": "isrofgar, nobudgar",
+    "ru": "непомерный / неумеренный",
+    "source": "local bilingual dictionaries"
+  },
+  "extreme": {
+    "uz": "eng baland",
+    "ru": "дальний / крайний",
+    "source": "local bilingual dictionaries"
+  },
+  "face": {
+    "uz": "yuz",
+    "ru": "лицо / имидж",
+    "source": "local bilingual dictionaries"
+  },
+  "facility": {
+    "uz": "qobiliyat, mahorat",
+    "ru": "аппаратура / здание",
+    "source": "local bilingual dictionaries"
+  },
+  "fact": {
+    "uz": "dalil, voqelik",
+    "ru": "факт",
+    "source": "local bilingual dictionaries"
+  },
+  "faith": {
+    "uz": "ishonch",
+    "ru": "вера / вероисповедание",
+    "source": "local bilingual dictionaries"
+  },
+  "fake": {
+    "uz": "soxta",
+    "ru": "фейк / липа",
+    "source": "local bilingual dictionaries"
+  },
+  "falter": {
+    "uz": "qoqilmoq, turtinmoq",
+    "ru": "дрогнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "famine": {
+    "uz": "ochlik, ocharchilik",
+    "ru": "голод",
+    "source": "local bilingual dictionaries"
+  },
+  "far": {
+    "uz": "uzoq, yiroq",
+    "ru": "далёкий / дальний",
+    "source": "local bilingual dictionaries"
+  },
+  "fascinate": {
+    "uz": "o'ziga tortmoq, maftun qilmoq",
+    "ru": "завораживать / очаровывать",
+    "source": "local bilingual dictionaries"
+  },
+  "fashion": {
+    "uz": "moda",
+    "ru": "мода",
+    "source": "local bilingual dictionaries"
+  },
+  "fasten": {
+    "uz": "bog'lamoq",
+    "ru": "закрепить / закреплять",
+    "source": "local bilingual dictionaries"
+  },
+  "faulty": {
+    "uz": "xatoli, kamchiligi bor",
+    "ru": "ложный / неисправный",
+    "source": "local bilingual dictionaries"
+  },
+  "fear": {
+    "uz": "qo'rqinch, dahshat, vahima",
+    "ru": "страх / боязнь",
+    "source": "local bilingual dictionaries"
+  },
+  "feather": {
+    "uz": "pat, par",
+    "ru": "перо",
+    "source": "local bilingual dictionaries"
+  },
+  "feature": {
+    "uz": "xususiyat, fazilat",
+    "ru": "черта лица / черта",
+    "source": "local bilingual dictionaries"
+  },
+  "fed up": {
+    "uz": "charchagan, zerikkan",
+    "ru": "сытый по горло / надоесть",
+    "source": "local bilingual dictionaries"
+  },
+  "federation": {
+    "uz": "uyushma, federatsiya",
+    "ru": "федерация",
+    "source": "local bilingual dictionaries"
+  },
+  "feedback": {
+    "uz": "umumiy xulosa",
+    "ru": "отзыв / отклик",
+    "source": "local bilingual dictionaries"
+  },
+  "fencing": {
+    "uz": "qilichbozlik",
+    "ru": "фехтование",
+    "source": "local bilingual dictionaries"
+  },
+  "fiend": {
+    "uz": "shayton, iblis",
+    "ru": "демон",
+    "source": "local bilingual dictionaries"
+  },
+  "finance": {
+    "uz": "moliyaviy ishlar",
+    "ru": "финансы",
+    "source": "local bilingual dictionaries"
+  },
+  "fire": {
+    "uz": "otash, olov, o't",
+    "ru": "пожар",
+    "source": "local bilingual dictionaries"
+  },
+  "first-rate": {
+    "uz": "birinchi darajali, a'lo, yuqori darajali",
+    "ru": "первоклассный / перворазрядный",
+    "source": "local bilingual dictionaries"
+  },
+  "fizzy": {
+    "uz": "gazli, ko'pikli",
+    "ru": "газированный / шипучий",
+    "source": "local bilingual dictionaries"
+  },
+  "flash": {
+    "uz": "o't olmoq, o't chiqmoq",
+    "ru": "вспыхивать / вспыхнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "flaw": {
+    "uz": "qusur, ayb, kamchilik",
+    "ru": "порок / трещина",
+    "source": "local bilingual dictionaries"
+  },
+  "flexible": {
+    "uz": "egiluvchan",
+    "ru": "гибкий / податливый",
+    "source": "local bilingual dictionaries"
+  },
+  "flicker": {
+    "uz": "yonib o'chmoq",
+    "ru": "мерцать",
+    "source": "local bilingual dictionaries"
+  },
+  "flock": {
+    "uz": "suruv, poda, to'da",
+    "ru": "стадо / отара",
+    "source": "local bilingual dictionaries"
+  },
+  "flour": {
+    "uz": "un",
+    "ru": "мука",
+    "source": "local bilingual dictionaries"
+  },
+  "flow": {
+    "uz": "oqmoq, to'kilmoq, quyilmoq",
+    "ru": "течь / струиться",
+    "source": "local bilingual dictionaries"
+  },
+  "flower": {
+    "uz": "gul",
+    "ru": "цветок / цветы",
+    "source": "local bilingual dictionaries"
+  },
+  "flutter": {
+    "uz": "ohista uchmoq",
+    "ru": "порхать / развеваться",
+    "source": "local bilingual dictionaries"
+  },
+  "flux": {
+    "uz": "doimiy o'zgarishlar",
+    "ru": "изменчивость / постоянное движение",
+    "source": "local bilingual dictionaries"
+  },
+  "fold": {
+    "uz": "qatlamoq, buklamoq, egmoq",
+    "ru": "перегибать / перегнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "folk": {
+    "uz": "xalq, odamlar",
+    "ru": "народ",
+    "source": "local bilingual dictionaries"
+  },
+  "follow": {
+    "uz": "izdan bormoq, ergashmoq",
+    "ru": "подписываться / подписаться",
+    "source": "local bilingual dictionaries"
+  },
+  "following": {
+    "uz": "keyingi, navbatdagi, yanagi",
+    "ru": "следующий",
+    "source": "local bilingual dictionaries"
+  },
+  "food": {
+    "uz": "ovqat, oziq - ovqat, taom, yemish",
+    "ru": "пища",
+    "source": "local bilingual dictionaries"
+  },
+  "foolish": {
+    "uz": "ahmoqona, tentak",
+    "ru": "глупый / дурацкий",
+    "source": "local bilingual dictionaries"
+  },
+  "forgetful": {
+    "uz": "unutuvchan",
+    "ru": "забывчивый",
+    "source": "local bilingual dictionaries"
+  },
+  "formerly": {
+    "uz": "dastlab, avval",
+    "ru": "когда-то / некогда",
+    "source": "local bilingual dictionaries"
+  },
+  "fortune": {
+    "uz": "omad",
+    "ru": "судьба / рок",
+    "source": "local bilingual dictionaries"
+  },
+  "forward": {
+    "uz": "old",
+    "ru": "передний / передовой",
+    "source": "local bilingual dictionaries"
+  },
+  "fox": {
+    "uz": "tulki",
+    "ru": "лис / лиса",
+    "source": "local bilingual dictionaries"
+  },
+  "fragrant": {
+    "uz": "xushbo'y, muattar hidli",
+    "ru": "ароматный / благовонный",
+    "source": "local bilingual dictionaries"
+  },
+  "frank": {
+    "uz": "ochiq, oydin, samimiy, sofdil",
+    "ru": "искренний / откровенный",
+    "source": "local bilingual dictionaries"
+  },
+  "fraud": {
+    "uz": "yolg'on, aldoqchilik, tovlamachilik, g'irromlik",
+    "ru": "мошенничество / афера",
+    "source": "local bilingual dictionaries"
+  },
+  "freedom": {
+    "uz": "ozodlik, hurriyat",
+    "ru": "свобода / вольность",
+    "source": "local bilingual dictionaries"
+  },
+  "freeze": {
+    "uz": "muzlamoq",
+    "ru": "замёрзнуть / замерзать",
+    "source": "local bilingual dictionaries"
+  },
+  "friend": {
+    "uz": "do'st, o'rtoq, birodar, jo'ra",
+    "ru": "товарищ / друг",
+    "source": "local bilingual dictionaries"
+  },
+  "frost": {
+    "uz": "sovuq, ayoz",
+    "ru": "мороз / заморозки",
+    "source": "local bilingual dictionaries"
+  },
+  "frown": {
+    "uz": "qovog'ini solmoq, qosh - qovog'ini osmoq",
+    "ru": "нахмурить брови / хмурить брови",
+    "source": "local bilingual dictionaries"
+  },
+  "frustration": {
+    "uz": "buzilish, barbod qilish",
+    "ru": "неудовлетворённость / разочарование",
+    "source": "local bilingual dictionaries"
+  },
+  "fulfilment": {
+    "uz": "bajarilish, amalga oshirilish",
+    "ru": "выполнение",
+    "source": "local bilingual dictionaries"
+  },
+  "function": {
+    "uz": "vazifa, ish",
+    "ru": "функция",
+    "source": "local bilingual dictionaries"
+  },
+  "fundamental": {
+    "uz": "asosiy, muhim",
+    "ru": "основной / фундаментальный",
+    "source": "local bilingual dictionaries"
+  },
+  "furious": {
+    "uz": "yovuz, qahrli, berahm",
+    "ru": "разъярённый / бешеный",
+    "source": "local bilingual dictionaries"
+  },
+  "furry": {
+    "uz": "mo'ynali",
+    "ru": "меховой / пушистый",
+    "source": "local bilingual dictionaries"
+  },
+  "further": {
+    "uz": "uzoqroq",
+    "ru": "дальний / далёкий",
+    "source": "local bilingual dictionaries"
+  },
+  "furthermore": {
+    "uz": "uning ustiga",
+    "ru": "к тому же / кроме того",
+    "source": "local bilingual dictionaries"
+  },
+  "fuss": {
+    "uz": "shovqin, to'polon",
+    "ru": "суета / суматоха",
+    "source": "local bilingual dictionaries"
+  },
+  "gain": {
+    "uz": "foyda, daromad",
+    "ru": "прибыль / выгода",
+    "source": "local bilingual dictionaries"
+  },
+  "gale": {
+    "uz": "kuchli shamol, bo'ron",
+    "ru": "шторм / буря",
+    "source": "local bilingual dictionaries"
+  },
+  "gang": {
+    "uz": "shayka, o'g'rilar to'dasi",
+    "ru": "банда / бригада",
+    "source": "local bilingual dictionaries"
+  },
+  "garbage": {
+    "uz": "axlat, supurindi",
+    "ru": "сор / мусор",
+    "source": "local bilingual dictionaries"
+  },
+  "garden": {
+    "uz": "bog'",
+    "ru": "сад / огород",
+    "source": "local bilingual dictionaries"
+  },
+  "gas": {
+    "uz": "gaz",
+    "ru": "газ",
+    "source": "local bilingual dictionaries"
+  },
+  "gash": {
+    "uz": "chuqur yara",
+    "ru": "порез / разрез",
+    "source": "local bilingual dictionaries"
+  },
+  "gaze": {
+    "uz": "tikilib qaramoq",
+    "ru": "разглядывать",
+    "source": "local bilingual dictionaries"
+  },
+  "generate": {
+    "uz": "ishlab chiqarmoq",
+    "ru": "генерировать",
+    "source": "local bilingual dictionaries"
+  },
+  "generosity": {
+    "uz": "oliyjanoblik",
+    "ru": "великодушие / щедрость",
+    "source": "local bilingual dictionaries"
+  },
+  "gentle": {
+    "uz": "nozik, yumshoq",
+    "ru": "благородный / добродушный",
+    "source": "local bilingual dictionaries"
+  },
+  "genuine": {
+    "uz": "chin, haqiqiy, asl",
+    "ru": "аутентичный / истинный",
+    "source": "local bilingual dictionaries"
+  },
+  "gesture": {
+    "uz": "bosh, qo'l va hokazolar harakati",
+    "ru": "жест / поступок",
+    "source": "local bilingual dictionaries"
+  },
+  "geyser": {
+    "uz": "geyzer",
+    "ru": "бойлер / водонагреватель",
+    "source": "local bilingual dictionaries"
+  },
+  "gift": {
+    "uz": "hadya, sovg'a",
+    "ru": "дар / гостинец",
+    "source": "local bilingual dictionaries"
+  },
+  "gingerly": {
+    "uz": "ehtiyotkor, hushyor",
+    "ru": "бережно / нежно",
+    "source": "local bilingual dictionaries"
+  },
+  "glacier": {
+    "uz": "muzlik, muz xarsangi",
+    "ru": "ледник / глетчер",
+    "source": "local bilingual dictionaries"
+  },
+  "glance": {
+    "uz": "nazar tashlamoq, ko'z tashlamoq",
+    "ru": "взглянуть / глянуть",
+    "source": "local bilingual dictionaries"
+  },
+  "glare": {
+    "uz": "g'azab bilan qarash",
+    "ru": "слепить",
+    "source": "local bilingual dictionaries"
+  },
+  "glimpse": {
+    "uz": "ko'z tashlamoq, bir qarab qo'ymoq",
+    "ru": "бегло взглянуть / увидеть мельком",
+    "source": "local bilingual dictionaries"
+  },
+  "glitter": {
+    "uz": "yaltiramoq, tovlanmoq",
+    "ru": "блеснуть / блестеть",
+    "source": "local bilingual dictionaries"
+  },
+  "gloomy": {
+    "uz": "qorong'u, zimiston, bulutli",
+    "ru": "мрачный / тёмный",
+    "source": "local bilingual dictionaries"
+  },
+  "glow": {
+    "uz": "alanga, cho'g'",
+    "ru": "зарево / свечение",
+    "source": "local bilingual dictionaries"
+  },
+  "goal": {
+    "uz": "maqsad, g'oya",
+    "ru": "цель / гол",
+    "source": "local bilingual dictionaries"
+  },
+  "goggles": {
+    "uz": "quyosh nuridan himoyalovchi ko'zoynak",
+    "ru": "гоглы / защитные очки",
+    "source": "local bilingual dictionaries"
+  },
+  "goodness": {
+    "uz": "yaxshilik",
+    "ru": "доброта",
+    "source": "local bilingual dictionaries"
+  },
+  "goods": {
+    "uz": "tovar, mahsulot",
+    "ru": "благо / добро",
+    "source": "local bilingual dictionaries"
+  },
+  "gorge": {
+    "uz": "dara",
+    "ru": "лощина / ущелье",
+    "source": "local bilingual dictionaries"
+  },
+  "grab": {
+    "uz": "bexosdan chang solmoq, tutib olmoq, ushlab olmoq",
+    "ru": "захватывать (внимание)",
+    "source": "local bilingual dictionaries"
+  },
+  "grant": {
+    "uz": "ehson qilmoq, bag'ishlamoq",
+    "ru": "выдать / выдавать",
+    "source": "local bilingual dictionaries"
+  },
+  "grasp": {
+    "uz": "ushlab olmoq",
+    "ru": "понимать / понять",
+    "source": "local bilingual dictionaries"
+  },
+  "grate": {
+    "uz": "ishqalamoq",
+    "ru": "натереть / натирать",
+    "source": "local bilingual dictionaries"
+  },
+  "grateful": {
+    "uz": "minnatdor",
+    "ru": "благодарный / признательный",
+    "source": "local bilingual dictionaries"
+  },
+  "grater": {
+    "uz": "qirg'ich",
+    "ru": "тёрка",
+    "source": "local bilingual dictionaries"
+  },
+  "graze": {
+    "uz": "o'tlamoq",
+    "ru": "пасти",
+    "source": "local bilingual dictionaries"
+  },
+  "grin": {
+    "uz": "irjaymoq, tirjaymoq",
+    "ru": "усмехаться / усмехнуться",
+    "source": "local bilingual dictionaries"
+  },
+  "groan": {
+    "uz": "uh tortmoq",
+    "ru": "стонать",
+    "source": "local bilingual dictionaries"
+  },
+  "groceries": {
+    "uz": "baqqollik",
+    "ru": "продовольственный / продукты",
+    "source": "local bilingual dictionaries"
+  },
+  "group": {
+    "uz": "turkumlarga ajratmoq, guruhlamoq",
+    "ru": "группировать / сгруппировать",
+    "source": "local bilingual dictionaries"
+  },
+  "grow": {
+    "uz": "o'smoq, rivojlanmoq",
+    "ru": "расти / вырасти",
+    "source": "local bilingual dictionaries"
+  },
+  "growl": {
+    "uz": "irillamoq, vovullamoq, hurmoq",
+    "ru": "рычать",
+    "source": "local bilingual dictionaries"
+  },
+  "grub": {
+    "uz": "lichinka",
+    "ru": "личинка",
+    "source": "local bilingual dictionaries"
+  },
+  "grumble": {
+    "uz": "nolimoq, hasrat qilmoq, shikoyat qilmoq",
+    "ru": "бурчать / рычать",
+    "source": "local bilingual dictionaries"
+  },
+  "grumpy": {
+    "uz": "mijg'ov, janjalkash",
+    "ru": "ворчливый / раздражительный",
+    "source": "local bilingual dictionaries"
+  },
+  "gulf": {
+    "uz": "ko'rfaz",
+    "ru": "залив",
+    "source": "local bilingual dictionaries"
+  },
+  "gymnast": {
+    "uz": "gimnastika bo'yicha mutaxassis",
+    "ru": "гимнаст / гимнастка",
+    "source": "local bilingual dictionaries"
+  },
+  "gymnastics": {
+    "uz": "gimnastika, badan tarbiya",
+    "ru": "гимнастика",
+    "source": "local bilingual dictionaries"
+  },
+  "hall": {
+    "uz": "vestibyul",
+    "ru": "общежитие",
+    "source": "local bilingual dictionaries"
+  },
+  "handcuffs": {
+    "uz": "kishan",
+    "ru": "наручники",
+    "source": "local bilingual dictionaries"
+  },
+  "harden": {
+    "uz": "qotmoq",
+    "ru": "затвердеть / твердеть",
+    "source": "local bilingual dictionaries"
+  },
+  "hardness": {
+    "uz": "qattiqlik",
+    "ru": "твёрдость",
+    "source": "local bilingual dictionaries"
+  },
+  "hardware": {
+    "uz": "metal ashyolar",
+    "ru": "аппаратное обеспечение / аппаратура",
+    "source": "local bilingual dictionaries"
+  },
+  "harm": {
+    "uz": "ziyon",
+    "ru": "вред / повреждение",
+    "source": "local bilingual dictionaries"
+  },
+  "harmful": {
+    "uz": "zararli, xavfli",
+    "ru": "вредный / вредоносный",
+    "source": "local bilingual dictionaries"
+  },
+  "harmless": {
+    "uz": "zararsiz, xavfsiz, bezarar",
+    "ru": "безвредный / безобидный",
+    "source": "local bilingual dictionaries"
+  },
+  "headquarters": {
+    "uz": "markaz, shtab, qarorgoh",
+    "ru": "штаб / штаб-квартира",
+    "source": "local bilingual dictionaries"
+  },
+  "health": {
+    "uz": "sog'liq, sihat-salomatlik",
+    "ru": "здоровье / здравие",
+    "source": "local bilingual dictionaries"
+  },
+  "heap": {
+    "uz": "uymoq, to'dalamoq, to'plamoq",
+    "ru": "ворох / груда",
+    "source": "local bilingual dictionaries"
+  },
+  "heavy": {
+    "uz": "og'ir",
+    "ru": "тяжёлый / тяжкий",
+    "source": "local bilingual dictionaries"
+  },
+  "heighten": {
+    "uz": "ko'tarmoq",
+    "ru": "повысить / повыситься",
+    "source": "local bilingual dictionaries"
+  },
+  "heir": {
+    "uz": "merosxo'r, voris",
+    "ru": "наследник / наследница",
+    "source": "local bilingual dictionaries"
+  },
+  "heiress": {
+    "uz": "merosxo'r, voris",
+    "ru": "наследница / преемница",
+    "source": "local bilingual dictionaries"
+  },
+  "helmet": {
+    "uz": "himoya shlemi, kaska",
+    "ru": "шлем / каска",
+    "source": "local bilingual dictionaries"
+  },
+  "hem": {
+    "uz": "hoshiya, jiyak, etak",
+    "ru": "кайма / край",
+    "source": "local bilingual dictionaries"
+  },
+  "hemisphere": {
+    "uz": "yarimshar",
+    "ru": "гемисфера / полусфера",
+    "source": "local bilingual dictionaries"
+  },
+  "herd": {
+    "uz": "to'da",
+    "ru": "гурт / стадо",
+    "source": "local bilingual dictionaries"
+  },
+  "high jump": {
+    "uz": "balandlikka sakrash",
+    "ru": "прыжок в высоту",
+    "source": "local bilingual dictionaries"
+  },
+  "highly": {
+    "uz": "juda, nihoyatda",
+    "ru": "высоко",
+    "source": "local bilingual dictionaries"
+  },
+  "hiss": {
+    "uz": "vishshillamoq, pishillamoq",
+    "ru": "шипеть",
+    "source": "local bilingual dictionaries"
+  },
+  "historic": {
+    "uz": "tarixiy, o'tmish bilan bog'liq",
+    "ru": "исторический",
+    "source": "local bilingual dictionaries"
+  },
+  "hit": {
+    "uz": "urmoq",
+    "ru": "бить / ударять",
+    "source": "local bilingual dictionaries"
+  },
+  "hoarse": {
+    "uz": "bo'g'iq, xirillagan",
+    "ru": "охрипший / хриплый",
+    "source": "local bilingual dictionaries"
+  },
+  "hollow": {
+    "uz": "o'yiq, o'yma",
+    "ru": "полый / пустой",
+    "source": "local bilingual dictionaries"
+  },
+  "hood": {
+    "uz": "quloqchinli issiq qalpoq",
+    "ru": "откидной верх",
+    "source": "local bilingual dictionaries"
+  },
+  "hoof": {
+    "uz": "tuyoq",
+    "ru": "копыто",
+    "source": "local bilingual dictionaries"
+  },
+  "host": {
+    "uz": "uy egasi",
+    "ru": "главный компьютер / главная ЭВМ",
+    "source": "local bilingual dictionaries"
+  },
+  "hostility": {
+    "uz": "dushmanlik",
+    "ru": "враждебность / вражда",
+    "source": "local bilingual dictionaries"
+  },
+  "hotel": {
+    "uz": "mehmonxona",
+    "ru": "гостиница / отель",
+    "source": "local bilingual dictionaries"
+  },
+  "hourly": {
+    "uz": "har soatda bir",
+    "ru": "ежечасный / почасовой",
+    "source": "local bilingual dictionaries"
+  },
+  "house": {
+    "uz": "uy, maskan, makon, turar joy, imorat",
+    "ru": "палата / дом",
+    "source": "local bilingual dictionaries"
+  },
+  "housework": {
+    "uz": "uy ishlari",
+    "ru": "домашняя работа / работа по дому",
+    "source": "local bilingual dictionaries"
+  },
+  "hum": {
+    "uz": "vizillamoq, g'o'ng'illamoq, ming'illamoq",
+    "ru": "жужжать",
+    "source": "local bilingual dictionaries"
+  },
+  "human being": {
+    "uz": "inson zoti, odamzot",
+    "ru": "люди / человек",
+    "source": "local bilingual dictionaries"
+  },
+  "humour": {
+    "uz": "kulgi, mazah",
+    "ru": "настроение",
+    "source": "local bilingual dictionaries"
+  },
+  "hurry": {
+    "uz": "shoshish, hovliqish",
+    "ru": "спешка",
+    "source": "local bilingual dictionaries"
+  },
+  "idea": {
+    "uz": "1 g'oya, fikr, tushuncha, tasavvur",
+    "ru": "идея",
+    "source": "local bilingual dictionaries"
+  },
+  "identify": {
+    "uz": "shaxsini aniqlamoq",
+    "ru": "идентифицировать / опознать",
+    "source": "local bilingual dictionaries"
+  },
+  "ideology": {
+    "uz": "mafkura",
+    "ru": "идеология / мировоззрение",
+    "source": "local bilingual dictionaries"
+  },
+  "illegible": {
+    "uz": "o'qib bo'lmaydigan",
+    "ru": "неразборчивый / нечёткий",
+    "source": "local bilingual dictionaries"
+  },
+  "illiterate": {
+    "uz": "savodsiz",
+    "ru": "безграмотный / невежественный",
+    "source": "local bilingual dictionaries"
+  },
+  "image": {
+    "uz": "xayol",
+    "ru": "изображение / облик",
+    "source": "local bilingual dictionaries"
+  },
+  "immature": {
+    "uz": "pishmagan, xom, yetilmagan",
+    "ru": "незрелый / неспелый",
+    "source": "local bilingual dictionaries"
+  },
+  "immediate": {
+    "uz": "to'g'ridan -to'g'ri",
+    "ru": "немедленный",
+    "source": "local bilingual dictionaries"
+  },
+  "immoral": {
+    "uz": "beadab, yomon",
+    "ru": "аморальный / безнравственный",
+    "source": "local bilingual dictionaries"
+  },
+  "impolite": {
+    "uz": "qo'pol",
+    "ru": "невежливый",
+    "source": "local bilingual dictionaries"
+  },
+  "import": {
+    "uz": "import",
+    "ru": "импорт",
+    "source": "local bilingual dictionaries"
+  },
+  "important": {
+    "uz": "ahamiyatli, muhim",
+    "ru": "важный / значимый",
+    "source": "local bilingual dictionaries"
+  },
+  "impose": {
+    "uz": "soliq solmoq",
+    "ru": "навязаться / навязываться",
+    "source": "local bilingual dictionaries"
+  },
+  "impress": {
+    "uz": "tasavvur uyg'otmoq",
+    "ru": "впечатлять / произвести впечатление",
+    "source": "local bilingual dictionaries"
+  },
+  "impression": {
+    "uz": "taassurot",
+    "ru": "отпечаток",
+    "source": "local bilingual dictionaries"
+  },
+  "impressive": {
+    "uz": "ta'sirli, katta taassurot qoldiradigan",
+    "ru": "внушительный / впечатляющий",
+    "source": "local bilingual dictionaries"
+  },
+  "improbable": {
+    "uz": "haqiqatga to'g'ri kelmaydigan",
+    "ru": "неправдоподобный",
+    "source": "local bilingual dictionaries"
+  },
+  "improvement": {
+    "uz": "yaxshilash, tuzalish",
+    "ru": "исправление / улучшение",
+    "source": "local bilingual dictionaries"
+  },
+  "incident": {
+    "uz": "hodisa, voqea, janjal, mojaro",
+    "ru": "инцидент / происшествие",
+    "source": "local bilingual dictionaries"
+  },
+  "inconvenient": {
+    "uz": "noqulay",
+    "ru": "неудобный",
+    "source": "local bilingual dictionaries"
+  },
+  "independence": {
+    "uz": "mustaqillik",
+    "ru": "независимость / самостоятельность",
+    "source": "local bilingual dictionaries"
+  },
+  "induce": {
+    "uz": "ishontirmoq, ko'ndirmoq, isbot etmoq",
+    "ru": "заставлять / побуждать",
+    "source": "local bilingual dictionaries"
+  },
+  "inedible": {
+    "uz": "yeb bo'lmaydigan",
+    "ru": "несъедобный",
+    "source": "local bilingual dictionaries"
+  },
+  "inevitable": {
+    "uz": "muqarrar, sodir bo'ladigan, shak-shubhasiz, bo'lmasdan qolmaydigan",
+    "ru": "неизбежный / неминуемый",
+    "source": "local bilingual dictionaries"
+  },
+  "inexperienced": {
+    "uz": "tajribasiz, malakasiz",
+    "ru": "безопытный / неискушённый",
+    "source": "local bilingual dictionaries"
+  },
+  "inherit": {
+    "uz": "meros tariqasida olmoq",
+    "ru": "наследовать / унаследовать",
+    "source": "local bilingual dictionaries"
+  },
+  "injection": {
+    "uz": "emlash, ukol qilish, teri ostiga dori yuborish",
+    "ru": "инъекция / вливание",
+    "source": "local bilingual dictionaries"
+  },
+  "injustice": {
+    "uz": "adolatsizlik, nohaqlik",
+    "ru": "беззаконие / бесправие",
+    "source": "local bilingual dictionaries"
+  },
+  "input": {
+    "uz": "kiritish",
+    "ru": "ввод",
+    "source": "local bilingual dictionaries"
+  },
+  "inquisitive": {
+    "uz": "har narsani bilishga qiziqadigan, serhavas",
+    "ru": "любопытный",
+    "source": "local bilingual dictionaries"
+  },
+  "insert": {
+    "uz": "qo'ymoq, qo'shmoq, joylashtirmoq",
+    "ru": "вкладывать / вложить",
+    "source": "local bilingual dictionaries"
+  },
+  "insist": {
+    "uz": "qattiq turib olmoq, talab qilmoq, ma'qullamoq",
+    "ru": "настаивать / настоять",
+    "source": "local bilingual dictionaries"
+  },
+  "inspect": {
+    "uz": "diqqat bilan ko'rmoq",
+    "ru": "осматривать / осмотреть",
+    "source": "local bilingual dictionaries"
+  },
+  "inspection": {
+    "uz": "taftish, ko'rish, tekshirish",
+    "ru": "инспекция / проверка",
+    "source": "local bilingual dictionaries"
+  },
+  "inspector": {
+    "uz": "inspector",
+    "ru": "инспектор / ревизор",
+    "source": "local bilingual dictionaries"
+  },
+  "insult": {
+    "uz": "haqorat qilmoq, ranjitmoq, xafa qilmoq",
+    "ru": "оскорблять / обидеть",
+    "source": "local bilingual dictionaries"
+  },
+  "intellectual": {
+    "uz": "aqliy faoliyatga oid",
+    "ru": "интеллектуальный / умственный",
+    "source": "local bilingual dictionaries"
+  },
+  "intention": {
+    "uz": "maqsad, niyat, reja, fikr, intilish",
+    "ru": "намерение / замысел",
+    "source": "local bilingual dictionaries"
+  },
+  "interact": {
+    "uz": "birga harakat qilmoq, bir-biriga ta'sir etmoq",
+    "ru": "взаимодействовать",
+    "source": "local bilingual dictionaries"
+  },
+  "internal": {
+    "uz": "ichki",
+    "ru": "внутренний",
+    "source": "local bilingual dictionaries"
+  },
+  "interpret": {
+    "uz": "tushuntirmoq, izohlamoq",
+    "ru": "перевести / переводить",
+    "source": "local bilingual dictionaries"
+  },
+  "intestine": {
+    "uz": "ichak",
+    "ru": "кишечник / кишка",
+    "source": "local bilingual dictionaries"
+  },
+  "introduce": {
+    "uz": "tanishtirmoq",
+    "ru": "представлять / знакомить",
+    "source": "local bilingual dictionaries"
+  },
+  "introduction": {
+    "uz": "tanishtirish",
+    "ru": "введение / предисловие",
+    "source": "local bilingual dictionaries"
+  },
+  "investigate": {
+    "uz": "tekshirib ko'rmoq",
+    "ru": "исследовать / расследовать",
+    "source": "local bilingual dictionaries"
+  },
+  "investigation": {
+    "uz": "tekshirish",
+    "ru": "исследование / расследование",
+    "source": "local bilingual dictionaries"
+  },
+  "investment": {
+    "uz": "pulni loyihalashtirish",
+    "ru": "инвестиция / вклад",
+    "source": "local bilingual dictionaries"
+  },
+  "invite": {
+    "uz": "taklif qilmoq, chaqirmoq, jalb qilmoq",
+    "ru": "приглашать / звать",
+    "source": "local bilingual dictionaries"
+  },
+  "iron": {
+    "uz": "dazmol",
+    "ru": "железо / феррум",
+    "source": "local bilingual dictionaries"
+  },
+  "issue": {
+    "uz": "bahsli masala",
+    "ru": "вытекание",
+    "source": "local bilingual dictionaries"
+  },
+  "itch": {
+    "uz": "qashimoq",
+    "ru": "зудеть / свербеть",
+    "source": "local bilingual dictionaries"
+  },
+  "jagged": {
+    "uz": "tishli, uchli, ko'tarilib chiqib turgan",
+    "ru": "зазубренный / зубчатый",
+    "source": "local bilingual dictionaries"
+  },
+  "jar": {
+    "uz": "ko'za, kuvacha",
+    "ru": "банка / кувшин",
+    "source": "local bilingual dictionaries"
+  },
+  "javelin": {
+    "uz": "nayza otish",
+    "ru": "копьё",
+    "source": "local bilingual dictionaries"
+  },
+  "jewellery": {
+    "uz": "qimmatbaho narsalar, zargarlik buyumlari",
+    "ru": "ювелирные изделия / бижутерия",
+    "source": "local bilingual dictionaries"
+  },
+  "job": {
+    "uz": "ish, mehnat, faoliyat, xizmat",
+    "ru": "дело / задание",
+    "source": "local bilingual dictionaries"
+  },
+  "jockey": {
+    "uz": "chavandoz, poygachi",
+    "ru": "жокей",
+    "source": "local bilingual dictionaries"
+  },
+  "journalism": {
+    "uz": "jurnalistika",
+    "ru": "журналистика",
+    "source": "local bilingual dictionaries"
+  },
+  "judgment": {
+    "uz": "ishni muhokama qilish",
+    "ru": "осуждение / суждение",
+    "source": "local bilingual dictionaries"
+  },
+  "jug": {
+    "uz": "ko'za",
+    "ru": "кувшин / графин",
+    "source": "local bilingual dictionaries"
+  },
+  "justice": {
+    "uz": "adolatlilik",
+    "ru": "справедливость",
+    "source": "local bilingual dictionaries"
+  },
+  "keen on": {
+    "uz": "juda qiziqadigan, qiziqqon",
+    "ru": "интересующийся / любящий",
+    "source": "local bilingual dictionaries"
+  },
+  "kidnap": {
+    "uz": "o'g'irlamoq",
+    "ru": "похищать / воровать",
+    "source": "local bilingual dictionaries"
+  },
+  "kidney": {
+    "uz": "buyrak",
+    "ru": "почка",
+    "source": "local bilingual dictionaries"
+  },
+  "kindness": {
+    "uz": "shafqat, ezgulik",
+    "ru": "доброжелательность / доброта",
+    "source": "local bilingual dictionaries"
+  },
+  "kingdom": {
+    "uz": "qirollik",
+    "ru": "королевство / царство",
+    "source": "local bilingual dictionaries"
+  },
+  "knit": {
+    "uz": "to'qimoq",
+    "ru": "вязать / связать",
+    "source": "local bilingual dictionaries"
+  },
+  "knob": {
+    "uz": "shish, g'urra",
+    "ru": "ручка / выпуклость",
+    "source": "local bilingual dictionaries"
+  },
+  "knot": {
+    "uz": "tugun, bant",
+    "ru": "узел",
+    "source": "local bilingual dictionaries"
+  },
+  "know": {
+    "uz": "bilmoq",
+    "ru": "знать / уметь",
+    "source": "local bilingual dictionaries"
+  },
+  "knowledge": {
+    "uz": "bilim, ma'lumot",
+    "ru": "знание / осведомлённость",
+    "source": "local bilingual dictionaries"
+  },
+  "lack": {
+    "uz": "kamchilik, yetishmovchilik, etishmaslik",
+    "ru": "отсутствие / недостаток",
+    "source": "local bilingual dictionaries"
+  },
+  "landlady": {
+    "uz": "mehmonxona egasi",
+    "ru": "домовладелица / хозяйка",
+    "source": "local bilingual dictionaries"
+  },
+  "landlord": {
+    "uz": "mehmonxona egasi",
+    "ru": "арендодатель / владелец",
+    "source": "local bilingual dictionaries"
+  },
+  "landslide": {
+    "uz": "cho'kish",
+    "ru": "обвал / лавина",
+    "source": "local bilingual dictionaries"
+  },
+  "laser": {
+    "uz": "lazer",
+    "ru": "лазер",
+    "source": "local bilingual dictionaries"
+  },
+  "late": {
+    "uz": "kechikkan, kech qolgan, kechki",
+    "ru": "покойный / усопший",
+    "source": "local bilingual dictionaries"
+  },
+  "laugh": {
+    "uz": "kulgi, kulish",
+    "ru": "смех / хохот",
+    "source": "local bilingual dictionaries"
+  },
+  "launch": {
+    "uz": "suvga tushurmoq",
+    "ru": "запускать / запустить",
+    "source": "local bilingual dictionaries"
+  },
+  "lay": {
+    "uz": "lie ga qarang",
+    "ru": "откладывать / отложить",
+    "source": "local bilingual dictionaries"
+  },
+  "leaf": {
+    "uz": "yaproq, barg",
+    "ru": "лист / листы",
+    "source": "local bilingual dictionaries"
+  },
+  "leak": {
+    "uz": "sizib o'tish, sizib chiqish",
+    "ru": "течь / протечка",
+    "source": "local bilingual dictionaries"
+  },
+  "left-handed": {
+    "uz": "chapaqay",
+    "ru": "леворукий",
+    "source": "local bilingual dictionaries"
+  },
+  "lengthen": {
+    "uz": "uzaytmoq",
+    "ru": "удлинить / удлинять",
+    "source": "local bilingual dictionaries"
+  },
+  "lengthy": {
+    "uz": "uzoq, uzun, cho'zilgan",
+    "ru": "длительный",
+    "source": "local bilingual dictionaries"
+  },
+  "level": {
+    "uz": "tekis",
+    "ru": "ватерпас / уровень",
+    "source": "local bilingual dictionaries"
+  },
+  "lever": {
+    "uz": "pishang, laylak",
+    "ru": "рычаг",
+    "source": "local bilingual dictionaries"
+  },
+  "liable": {
+    "uz": "javobgar, mas'uliyat",
+    "ru": "обязанный / ответственный",
+    "source": "local bilingual dictionaries"
+  },
+  "lick": {
+    "uz": "yalamoq",
+    "ru": "лизать / лизнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "likewise": {
+    "uz": "aynan o'zi",
+    "ru": "аналогично / подобно",
+    "source": "local bilingual dictionaries"
+  },
+  "limit": {
+    "uz": "chegara, had",
+    "ru": "предел / граница",
+    "source": "local bilingual dictionaries"
+  },
+  "limitation": {
+    "uz": "chegaralash",
+    "ru": "ограничение",
+    "source": "local bilingual dictionaries"
+  },
+  "line": {
+    "uz": "chiziq",
+    "ru": "очередь / рулетка",
+    "source": "local bilingual dictionaries"
+  },
+  "list": {
+    "uz": "ro'yxat tuzmoq",
+    "ru": "вносить в список / регистрировать",
+    "source": "local bilingual dictionaries"
+  },
+  "literary": {
+    "uz": "adabiy",
+    "ru": "литературный / книжный",
+    "source": "local bilingual dictionaries"
+  },
+  "litter": {
+    "uz": "tartibsiz holda tashlamoq",
+    "ru": "мусорить / насорить",
+    "source": "local bilingual dictionaries"
+  },
+  "live": {
+    "uz": "yashamoq",
+    "ru": "жить / прожить",
+    "source": "local bilingual dictionaries"
+  },
+  "loathe": {
+    "uz": "nafratlanmoq, jirkanmoq",
+    "ru": "выносить / любить",
+    "source": "local bilingual dictionaries"
+  },
+  "lodgings": {
+    "uz": "ijaraga beriladigan joy, pansion",
+    "ru": "берлога / жилище",
+    "source": "local bilingual dictionaries"
+  },
+  "long jump": {
+    "uz": "uzoqqa sakrash",
+    "ru": "прыжок в длину",
+    "source": "local bilingual dictionaries"
+  },
+  "loving": {
+    "uz": "sevimli, nozik",
+    "ru": "любвеобильный / любить",
+    "source": "local bilingual dictionaries"
+  },
+  "low": {
+    "uz": "past",
+    "ru": "басистый / низкочастотный",
+    "source": "local bilingual dictionaries"
+  },
+  "lower": {
+    "uz": "quyi, pastki",
+    "ru": "понизить / понижать",
+    "source": "local bilingual dictionaries"
+  },
+  "luck": {
+    "uz": "omad, baxt",
+    "ru": "удача / везение",
+    "source": "local bilingual dictionaries"
+  },
+  "lump": {
+    "uz": "parcha, burda",
+    "ru": "ком / бугор",
+    "source": "local bilingual dictionaries"
+  },
+  "lung": {
+    "uz": "o'pka",
+    "ru": "лёгкое",
+    "source": "local bilingual dictionaries"
+  },
+  "luxurious": {
+    "uz": "dabdabalik, qulaylik, sharoit",
+    "ru": "роскошный",
+    "source": "local bilingual dictionaries"
+  },
+  "mail": {
+    "uz": "pochta, korrespondensiya",
+    "ru": "почта",
+    "source": "local bilingual dictionaries"
+  },
+  "maintain": {
+    "uz": "mavjud, bo'lmoq",
+    "ru": "поддерживать / поддержать",
+    "source": "local bilingual dictionaries"
+  },
+  "major": {
+    "uz": "asosiy, yirik",
+    "ru": "мажорный",
+    "source": "local bilingual dictionaries"
+  },
+  "majority": {
+    "uz": "ko'pchilik",
+    "ru": "перевес / большинство",
+    "source": "local bilingual dictionaries"
+  },
+  "mane": {
+    "uz": "yol",
+    "ru": "грива",
+    "source": "local bilingual dictionaries"
+  },
+  "manufacture": {
+    "uz": "ishlab chiqarmoq",
+    "ru": "изготавливать / изготовить",
+    "source": "local bilingual dictionaries"
+  },
+  "marathon": {
+    "uz": "marafon metrga yugurish musobaqasi)",
+    "ru": "марафон",
+    "source": "local bilingual dictionaries"
+  },
+  "mash": {
+    "uz": "pyure tayyorlamoq",
+    "ru": "превращать в пюре / пюрировать",
+    "source": "local bilingual dictionaries"
+  },
+  "mask": {
+    "uz": "niqob",
+    "ru": "маска / личина",
+    "source": "local bilingual dictionaries"
+  },
+  "mass media": {
+    "uz": "ommaviy axborot vositalari",
+    "ru": "СМИ / масс-медиа",
+    "source": "local bilingual dictionaries"
+  },
+  "material": {
+    "uz": "moddiy, ashyoviy",
+    "ru": "важный / материальный",
+    "source": "local bilingual dictionaries"
+  },
+  "matter": {
+    "uz": "mavzu",
+    "ru": "материя / дело",
+    "source": "local bilingual dictionaries"
+  },
+  "means": {
+    "uz": "vosita, uslub",
+    "ru": "богатство / состояние",
+    "source": "local bilingual dictionaries"
+  },
+  "meanwhile": {
+    "uz": "shu orada",
+    "ru": "в то же время / в это время",
+    "source": "local bilingual dictionaries"
+  },
+  "medical": {
+    "uz": "tibbiy",
+    "ru": "врачебный / медицинский",
+    "source": "local bilingual dictionaries"
+  },
+  "meet": {
+    "uz": "uchratmoq",
+    "ru": "встречать / встретить",
+    "source": "local bilingual dictionaries"
+  },
+  "melt": {
+    "uz": "erimoq",
+    "ru": "таять / плавиться",
+    "source": "local bilingual dictionaries"
+  },
+  "membership": {
+    "uz": "a'zolik",
+    "ru": "принадлежность / членство",
+    "source": "local bilingual dictionaries"
+  },
+  "memorable": {
+    "uz": "unutilmas, esdan chiqmaydigan",
+    "ru": "запоминающийся / памятный",
+    "source": "local bilingual dictionaries"
+  },
+  "memory": {
+    "uz": "yod, xotira",
+    "ru": "память",
+    "source": "local bilingual dictionaries"
+  },
+  "mental": {
+    "uz": "aqliy",
+    "ru": "умственный",
+    "source": "local bilingual dictionaries"
+  },
+  "meter": {
+    "uz": "hisoblagich",
+    "ru": "счётчик / измеритель",
+    "source": "local bilingual dictionaries"
+  },
+  "migrant": {
+    "uz": "ko'chib kelgan kishi",
+    "ru": "мигрант / мигрантка",
+    "source": "local bilingual dictionaries"
+  },
+  "minor": {
+    "uz": "1 kichikroq, uncha muhim emas",
+    "ru": "второстепенный / незначительный",
+    "source": "local bilingual dictionaries"
+  },
+  "mislead": {
+    "uz": "adashtirmoq, yo'ldan urmoq",
+    "ru": "ввести в заблуждение / вводить в заблуждение",
+    "source": "local bilingual dictionaries"
+  },
+  "misplace": {
+    "uz": "noto'g'ri joyga qo'ymoq",
+    "ru": "заложить / засунуть",
+    "source": "local bilingual dictionaries"
+  },
+  "mistake": {
+    "uz": "xato",
+    "ru": "ошибка / заблуждение",
+    "source": "local bilingual dictionaries"
+  },
+  "misty": {
+    "uz": "tumanli",
+    "ru": "мглистый / туманный",
+    "source": "local bilingual dictionaries"
+  },
+  "moan": {
+    "uz": "ingrash",
+    "ru": "стон",
+    "source": "local bilingual dictionaries"
+  },
+  "moderate": {
+    "uz": "mo'tadil, o'rtamiyona, o'rtacha",
+    "ru": "умеренный",
+    "source": "local bilingual dictionaries"
+  },
+  "module": {
+    "uz": "o'lcham, standart qismi",
+    "ru": "модуль",
+    "source": "local bilingual dictionaries"
+  },
+  "molecule": {
+    "uz": "molekula",
+    "ru": "молекула",
+    "source": "local bilingual dictionaries"
+  },
+  "momentary": {
+    "uz": "bir lahzada sodir bo'ladigan, bir lahzaliy",
+    "ru": "мгновенный / минутный",
+    "source": "local bilingual dictionaries"
+  },
+  "monarchy": {
+    "uz": "monarxiya",
+    "ru": "монархия",
+    "source": "local bilingual dictionaries"
+  },
+  "monitor": {
+    "uz": "ustoz, murabbiy, rahbar",
+    "ru": "наставник / монитор",
+    "source": "local bilingual dictionaries"
+  },
+  "moo": {
+    "uz": "bo'kirish, mo'rash",
+    "ru": "мычание",
+    "source": "local bilingual dictionaries"
+  },
+  "moral": {
+    "uz": "axloqiy, ma'naviy",
+    "ru": "добродетельный / моральный",
+    "source": "local bilingual dictionaries"
+  },
+  "moreover": {
+    "uz": "bundan tashqari, yana",
+    "ru": "более того / кроме того",
+    "source": "local bilingual dictionaries"
+  },
+  "mortgage": {
+    "uz": "garov",
+    "ru": "ипотека",
+    "source": "local bilingual dictionaries"
+  },
+  "motive": {
+    "uz": "sabab, vaj",
+    "ru": "мотив / повод",
+    "source": "local bilingual dictionaries"
+  },
+  "mountaineer": {
+    "uz": "alpinist, tog'chi",
+    "ru": "альпинист / альпинистка",
+    "source": "local bilingual dictionaries"
+  },
+  "muddle": {
+    "uz": "tartibsizlik",
+    "ru": "путаница",
+    "source": "local bilingual dictionaries"
+  },
+  "mumble": {
+    "uz": "ming'irlamoq, tushunib bo'lmaydigsn tarzda so'zlamoq",
+    "ru": "бормотать / мямлить",
+    "source": "local bilingual dictionaries"
+  },
+  "murmur": {
+    "uz": "shivirlash, shitirlash",
+    "ru": "бормотание / ропот",
+    "source": "local bilingual dictionaries"
+  },
+  "muscle": {
+    "uz": "mushak, muskul",
+    "ru": "мышца / мускул",
+    "source": "local bilingual dictionaries"
+  },
+  "muscular": {
+    "uz": "mushaklarga oid",
+    "ru": "мускулистый",
+    "source": "local bilingual dictionaries"
+  },
+  "musty": {
+    "uz": "achigan",
+    "ru": "затхлый",
+    "source": "local bilingual dictionaries"
+  },
+  "mutter": {
+    "uz": "g'o'ldiramoq, ming'illamoq",
+    "ru": "бормотать / бубнить",
+    "source": "local bilingual dictionaries"
+  },
+  "nappy": {
+    "uz": "yo'rgak",
+    "ru": "косматый / курчавый",
+    "source": "local bilingual dictionaries"
+  },
+  "narrow-minded": {
+    "uz": "kaltafahm, tor fikrli",
+    "ru": "недалёкий / ограниченный",
+    "source": "local bilingual dictionaries"
+  },
+  "natural": {
+    "uz": "tabiiy",
+    "ru": "естественный / натуральный",
+    "source": "local bilingual dictionaries"
+  },
+  "necessity": {
+    "uz": "zarurat, ehtiyoj",
+    "ru": "надобность / необходимость",
+    "source": "local bilingual dictionaries"
+  },
+  "nest": {
+    "uz": "in, uya",
+    "ru": "гнездо",
+    "source": "local bilingual dictionaries"
+  },
+  "network": {
+    "uz": "tarmoq, shoxobcha",
+    "ru": "сеть",
+    "source": "local bilingual dictionaries"
+  },
+  "nevertheless": {
+    "uz": "ga qaramay, ...ga qaramasdan, ...bo'lmasa ham, biroq, ammo",
+    "ru": "всё-таки / вместе с тем",
+    "source": "local bilingual dictionaries"
+  },
+  "next": {
+    "uz": "keyingi",
+    "ru": "ближайший / соседний",
+    "source": "local bilingual dictionaries"
+  },
+  "nick": {
+    "uz": "kertik, kertma belgi",
+    "ru": "зазубрина / щербина",
+    "source": "local bilingual dictionaries"
+  },
+  "noise": {
+    "uz": "shovqin",
+    "ru": "шум",
+    "source": "local bilingual dictionaries"
+  },
+  "noisy": {
+    "uz": "shovillaydigan, shovqinli",
+    "ru": "шумный / шумливый",
+    "source": "local bilingual dictionaries"
+  },
+  "nominate": {
+    "uz": "nomzod ko'rsatmoq",
+    "ru": "назначить / назначать",
+    "source": "local bilingual dictionaries"
+  },
+  "nosy": {
+    "uz": "o'ziga tegishli bo'lmagan narsalarga aralashadigan, qiziquvchan",
+    "ru": "любопытный",
+    "source": "local bilingual dictionaries"
+  },
+  "novelist": {
+    "uz": "yozuvchi",
+    "ru": "беллетрист / беллетристка",
+    "source": "local bilingual dictionaries"
+  },
+  "numb": {
+    "uz": "qotib qolgan",
+    "ru": "онемелый",
+    "source": "local bilingual dictionaries"
+  },
+  "number": {
+    "uz": "raqam, son",
+    "ru": "число / количество",
+    "source": "local bilingual dictionaries"
+  },
+  "oar": {
+    "uz": "eshkak, chovxoda",
+    "ru": "весло",
+    "source": "local bilingual dictionaries"
+  },
+  "obese": {
+    "uz": "semiz, to'la",
+    "ru": "жирный / полный",
+    "source": "local bilingual dictionaries"
+  },
+  "obesity": {
+    "uz": "semizlik, tolalik",
+    "ru": "ожирение / тучность",
+    "source": "local bilingual dictionaries"
+  },
+  "object": {
+    "uz": "jism, narsa",
+    "ru": "объект / вещь",
+    "source": "local bilingual dictionaries"
+  },
+  "obligation": {
+    "uz": "majburiyat, burch",
+    "ru": "обязательство / долг",
+    "source": "local bilingual dictionaries"
+  },
+  "obligatory": {
+    "uz": "majburiy, shart bo'lgan",
+    "ru": "непременный / обязательный",
+    "source": "local bilingual dictionaries"
+  },
+  "oblige": {
+    "uz": "majbur qilmoq",
+    "ru": "делать одолжение / сделать одолжение",
+    "source": "local bilingual dictionaries"
+  },
+  "observe": {
+    "uz": "kuzatmoq",
+    "ru": "блюсти / наблюдать",
+    "source": "local bilingual dictionaries"
+  },
+  "obstinate": {
+    "uz": "o'jar, qaysar",
+    "ru": "строптивый / твердолобый",
+    "source": "local bilingual dictionaries"
+  },
+  "octagon": {
+    "uz": "sakkizburchak",
+    "ru": "восьмиугольник",
+    "source": "local bilingual dictionaries"
+  },
+  "odd": {
+    "uz": "tasodifiy",
+    "ru": "странный",
+    "source": "local bilingual dictionaries"
+  },
+  "offender": {
+    "uz": "jinoyatchi, aybdor",
+    "ru": "правонарушитель / правонарушительница",
+    "source": "local bilingual dictionaries"
+  },
+  "offspring": {
+    "uz": "bola, avlod, nasl, zot, zurriyot",
+    "ru": "отпрыск / потомок",
+    "source": "local bilingual dictionaries"
+  },
+  "opaque": {
+    "uz": "qorong'i",
+    "ru": "матовый / непрозрачный",
+    "source": "local bilingual dictionaries"
+  },
+  "open": {
+    "uz": "ochiq",
+    "ru": "открытый",
+    "source": "local bilingual dictionaries"
+  },
+  "operator": {
+    "uz": "telefon operatori",
+    "ru": "оператор / телефонист",
+    "source": "local bilingual dictionaries"
+  },
+  "oppress": {
+    "uz": "ezmoq, jabr-zulm qilmoq",
+    "ru": "притеснять",
+    "source": "local bilingual dictionaries"
+  },
+  "oppression": {
+    "uz": "azob, jabr-zulm, siquv",
+    "ru": "гнёт / иго",
+    "source": "local bilingual dictionaries"
+  },
+  "optimistic": {
+    "uz": "optimizm ruhidagi, optimistik",
+    "ru": "оптимистический / оптимистичный",
+    "source": "local bilingual dictionaries"
+  },
+  "optional": {
+    "uz": "ixtiyoriy",
+    "ru": "необязательный / опциональный",
+    "source": "local bilingual dictionaries"
+  },
+  "ordeal": {
+    "uz": "qattiq sinov",
+    "ru": "суровое испытание",
+    "source": "local bilingual dictionaries"
+  },
+  "organ": {
+    "uz": "a'zo, organ, mucha",
+    "ru": "орган / учреждение",
+    "source": "local bilingual dictionaries"
+  },
+  "organic": {
+    "uz": "organik, jonli, tirik",
+    "ru": "натуральный / органический",
+    "source": "local bilingual dictionaries"
+  },
+  "original": {
+    "uz": "asl",
+    "ru": "первоначальный / исходный",
+    "source": "local bilingual dictionaries"
+  },
+  "our": {
+    "uz": "poss. bizning",
+    "ru": "наш",
+    "source": "local bilingual dictionaries"
+  },
+  "oust": {
+    "uz": "haydamoq, birovning o'rnini egallab olmoq",
+    "ru": "выгнать / выгонять",
+    "source": "local bilingual dictionaries"
+  },
+  "outbreak": {
+    "uz": "to'satdan boshlanish",
+    "ru": "взрыв / вспышка",
+    "source": "local bilingual dictionaries"
+  },
+  "outcome": {
+    "uz": "natija, oqibat",
+    "ru": "исход / результат",
+    "source": "local bilingual dictionaries"
+  },
+  "outlet": {
+    "uz": "chiqish yo'li",
+    "ru": "выход / отдушина",
+    "source": "local bilingual dictionaries"
+  },
+  "outlook": {
+    "uz": "nuqtai nazar, qarash",
+    "ru": "наблюдательный пункт",
+    "source": "local bilingual dictionaries"
+  },
+  "output": {
+    "uz": "mahsulot",
+    "ru": "выработка / продукция",
+    "source": "local bilingual dictionaries"
+  },
+  "outrageous": {
+    "uz": "g'azablantiradigan, ablahona",
+    "ru": "возмутительный / вопиющий",
+    "source": "local bilingual dictionaries"
+  },
+  "outskirts": {
+    "uz": "shahar tashqarisi",
+    "ru": "окраина (города) / предместье",
+    "source": "local bilingual dictionaries"
+  },
+  "oval": {
+    "uz": "cho'ziq",
+    "ru": "овальная / овальное",
+    "source": "local bilingual dictionaries"
+  },
+  "overcast": {
+    "uz": "xafa, qayg'uli, bulutli",
+    "ru": "облачный / пасмурный",
+    "source": "local bilingual dictionaries"
+  },
+  "overdo": {
+    "uz": "haddan ko'p urinmoq, ortiqcha tirishmoq, kuchanmoq",
+    "ru": "переборщить / перестараться",
+    "source": "local bilingual dictionaries"
+  },
+  "owl": {
+    "uz": "boyo'g'li",
+    "ru": "сыч / сова",
+    "source": "local bilingual dictionaries"
+  },
+  "pace": {
+    "uz": "tezlik, tezlik surati",
+    "ru": "аллюр / иноходь",
+    "source": "local bilingual dictionaries"
+  },
+  "packet": {
+    "uz": "paket, bog', bog'lam",
+    "ru": "пакет / пачка",
+    "source": "local bilingual dictionaries"
+  },
+  "paddle": {
+    "uz": "baydarka eshkagi",
+    "ru": "весло / затвор",
+    "source": "local bilingual dictionaries"
+  },
+  "page": {
+    "uz": "bet, sahifa",
+    "ru": "страница / лист",
+    "source": "local bilingual dictionaries"
+  },
+  "pair": {
+    "uz": "juft, juftlik",
+    "ru": "пара",
+    "source": "local bilingual dictionaries"
+  },
+  "pale": {
+    "uz": "so'lg'in",
+    "ru": "бледный",
+    "source": "local bilingual dictionaries"
+  },
+  "palm": {
+    "uz": "palma daraxti",
+    "ru": "длань / ладонь",
+    "source": "local bilingual dictionaries"
+  },
+  "pan": {
+    "uz": "tova",
+    "ru": "лоток",
+    "source": "local bilingual dictionaries"
+  },
+  "pane": {
+    "uz": "deraza oynasi",
+    "ru": "панель",
+    "source": "local bilingual dictionaries"
+  },
+  "pants": {
+    "uz": "ertaklar ichki ishton",
+    "ru": "брюки / портки",
+    "source": "local bilingual dictionaries"
+  },
+  "pare": {
+    "uz": "artmoq, tozalamoq",
+    "ru": "очищать",
+    "source": "local bilingual dictionaries"
+  },
+  "park": {
+    "uz": "park, bog'",
+    "ru": "парк",
+    "source": "local bilingual dictionaries"
+  },
+  "parking lot": {
+    "uz": "avtopark",
+    "ru": "автостоянка / паркинг",
+    "source": "local bilingual dictionaries"
+  },
+  "partnership": {
+    "uz": "o'rtoqlik, sheriklik",
+    "ru": "партнёрство / товарищество",
+    "source": "local bilingual dictionaries"
+  },
+  "party": {
+    "uz": "kecha, mehmonlarni qabul qilish",
+    "ru": "участник / участница",
+    "source": "local bilingual dictionaries"
+  },
+  "passage": {
+    "uz": "o'tish",
+    "ru": "пассаж",
+    "source": "local bilingual dictionaries"
+  },
+  "passionate": {
+    "uz": "zavqli, ehtirosli",
+    "ru": "пылкий / страстный",
+    "source": "local bilingual dictionaries"
+  },
+  "passive": {
+    "uz": "passiv, sust",
+    "ru": "пассивный",
+    "source": "local bilingual dictionaries"
+  },
+  "pat": {
+    "uz": "yengil chapak chalmoq",
+    "ru": "похлопать / похлопывать",
+    "source": "local bilingual dictionaries"
+  },
+  "patter": {
+    "uz": "dukillatmoq",
+    "ru": "барабанить / постукивать",
+    "source": "local bilingual dictionaries"
+  },
+  "paw": {
+    "uz": "panja",
+    "ru": "лапа",
+    "source": "local bilingual dictionaries"
+  },
+  "payee": {
+    "uz": "pul oluvchi",
+    "ru": "получатель платежа / получательница платежа",
+    "source": "local bilingual dictionaries"
+  },
+  "payment": {
+    "uz": "to'lov",
+    "ru": "вознаграждение / плата",
+    "source": "local bilingual dictionaries"
+  },
+  "peacock": {
+    "uz": "tovus",
+    "ru": "павлин / пава",
+    "source": "local bilingual dictionaries"
+  },
+  "peak": {
+    "uz": "tog' cho'qqisi, cho'qqi",
+    "ru": "пик / вершина",
+    "source": "local bilingual dictionaries"
+  },
+  "peal": {
+    "uz": "qo'ng'iroqlar ovozi",
+    "ru": "грохот / звон",
+    "source": "local bilingual dictionaries"
+  },
+  "peculiar": {
+    "uz": "g'aroyib, ajoyib",
+    "ru": "необычный / особенный",
+    "source": "local bilingual dictionaries"
+  },
+  "peer": {
+    "uz": "teng",
+    "ru": "пэр / ровня",
+    "source": "local bilingual dictionaries"
+  },
+  "penalty": {
+    "uz": "jazo",
+    "ru": "штраф / взыскание",
+    "source": "local bilingual dictionaries"
+  },
+  "peninsula": {
+    "uz": "yarim orol",
+    "ru": "полуостров",
+    "source": "local bilingual dictionaries"
+  },
+  "people": {
+    "uz": "odamlar",
+    "ru": "народ / нация",
+    "source": "local bilingual dictionaries"
+  },
+  "percussion": {
+    "uz": "urilish, to'qnashuv",
+    "ru": "ударный инструмент",
+    "source": "local bilingual dictionaries"
+  },
+  "performance": {
+    "uz": "ijro, qatnashish, bajarish",
+    "ru": "выступление / перформанс",
+    "source": "local bilingual dictionaries"
+  },
+  "permit": {
+    "uz": "izn bermoq, ruxsat etmoq",
+    "ru": "позволить / позволять",
+    "source": "local bilingual dictionaries"
+  },
+  "personality": {
+    "uz": "shaxs xarakteri",
+    "ru": "личные качества / харизма",
+    "source": "local bilingual dictionaries"
+  },
+  "personnel": {
+    "uz": "idora xodimlari, xodimlar",
+    "ru": "личный состав / персонал",
+    "source": "local bilingual dictionaries"
+  },
+  "perspiration": {
+    "uz": "terlash",
+    "ru": "потение",
+    "source": "local bilingual dictionaries"
+  },
+  "pessimistic": {
+    "uz": "umidsiz",
+    "ru": "пессимистичный / пессимистический",
+    "source": "local bilingual dictionaries"
+  },
+  "petal": {
+    "uz": "gulbarg",
+    "ru": "лепесток",
+    "source": "local bilingual dictionaries"
+  },
+  "phase": {
+    "uz": "faza",
+    "ru": "период / стадия",
+    "source": "local bilingual dictionaries"
+  },
+  "philosophy": {
+    "uz": "falsafa",
+    "ru": "философия",
+    "source": "local bilingual dictionaries"
+  },
+  "photographer": {
+    "uz": "suratchi",
+    "ru": "фотограф",
+    "source": "local bilingual dictionaries"
+  },
+  "physical": {
+    "uz": "moddiy",
+    "ru": "материальный / телесный",
+    "source": "local bilingual dictionaries"
+  },
+  "physicist": {
+    "uz": "fizik, fizika fani bo'yicha mutaxassis",
+    "ru": "физик",
+    "source": "local bilingual dictionaries"
+  },
+  "picturesque": {
+    "uz": "chiroyli, maftunkor",
+    "ru": "живописный",
+    "source": "local bilingual dictionaries"
+  },
+  "pigeon": {
+    "uz": "kabutar",
+    "ru": "голубь / голубка",
+    "source": "local bilingual dictionaries"
+  },
+  "pile": {
+    "uz": "to'plamoq, yig'moq",
+    "ru": "свая",
+    "source": "local bilingual dictionaries"
+  },
+  "plaice": {
+    "uz": "kambala, qalqonbaliq",
+    "ru": "камбала четырёхбугорчатая",
+    "source": "local bilingual dictionaries"
+  },
+  "plain": {
+    "uz": "aniq, ravshan, tushunarli",
+    "ru": "обычный / обыкновенный",
+    "source": "local bilingual dictionaries"
+  },
+  "plaster": {
+    "uz": "gips",
+    "ru": "штукатурка / гипс",
+    "source": "local bilingual dictionaries"
+  },
+  "plea": {
+    "uz": "iltimos",
+    "ru": "жалоба / иск",
+    "source": "local bilingual dictionaries"
+  },
+  "plead": {
+    "uz": "yolvormoq, iltimos qilmoq",
+    "ru": "выступать с заявлением (в суде) / представлять интересы",
+    "source": "local bilingual dictionaries"
+  },
+  "pledge": {
+    "uz": "ahd, va'da",
+    "ru": "зарок / обет",
+    "source": "local bilingual dictionaries"
+  },
+  "pliers": {
+    "uz": "qisqich",
+    "ru": "щипцы / клещи",
+    "source": "local bilingual dictionaries"
+  },
+  "plod": {
+    "uz": "zo'rg'a yurmoq, oyog'ini sudrab bosmoq",
+    "ru": "брести / волочиться",
+    "source": "local bilingual dictionaries"
+  },
+  "plot": {
+    "uz": "film yoki roman mazmuni",
+    "ru": "сюжет / фабула",
+    "source": "local bilingual dictionaries"
+  },
+  "plump": {
+    "uz": "to'lacha, semiz, do'ndiq",
+    "ru": "округлый / полненький",
+    "source": "local bilingual dictionaries"
+  },
+  "pneumatic": {
+    "uz": "pnevmatik",
+    "ru": "пневматический",
+    "source": "local bilingual dictionaries"
+  },
+  "poison": {
+    "uz": "zahar",
+    "ru": "яд / отрава",
+    "source": "local bilingual dictionaries"
+  },
+  "poke": {
+    "uz": "itarmoq, turtmoq",
+    "ru": "совать / сунуть",
+    "source": "local bilingual dictionaries"
+  },
+  "politeness": {
+    "uz": "nazokat, xushmuomalalik",
+    "ru": "вежливость / учтивость",
+    "source": "local bilingual dictionaries"
+  },
+  "poll": {
+    "uz": "anketa, jamoatchilik fikrini o'rganish",
+    "ru": "опрос",
+    "source": "local bilingual dictionaries"
+  },
+  "pollen": {
+    "uz": "gul changi, gulchang",
+    "ru": "пыльца / цветень",
+    "source": "local bilingual dictionaries"
+  },
+  "pool": {
+    "uz": "hovuz",
+    "ru": "лужа / пул",
+    "source": "local bilingual dictionaries"
+  },
+  "porch": {
+    "uz": "eshik oldi, ayvon",
+    "ru": "крытая галерея / веранда",
+    "source": "local bilingual dictionaries"
+  },
+  "portrait": {
+    "uz": "portret, kishimoq, surati, haykali",
+    "ru": "портрет / парсуна",
+    "source": "local bilingual dictionaries"
+  },
+  "position": {
+    "uz": "joy",
+    "ru": "позиция / положение",
+    "source": "local bilingual dictionaries"
+  },
+  "possession": {
+    "uz": "egalik",
+    "ru": "владение / обладание",
+    "source": "local bilingual dictionaries"
+  },
+  "possibility": {
+    "uz": "imkoniyat",
+    "ru": "возможность",
+    "source": "local bilingual dictionaries"
+  },
+  "pot": {
+    "uz": "qozoncha",
+    "ru": "марихуана / травка",
+    "source": "local bilingual dictionaries"
+  },
+  "potential": {
+    "uz": "imkoniyati, kuch-qudrati",
+    "ru": "возможный / потенциальный",
+    "source": "local bilingual dictionaries"
+  },
+  "potter": {
+    "uz": "kulol",
+    "ru": "гончар / гончарка",
+    "source": "local bilingual dictionaries"
+  },
+  "pottery": {
+    "uz": "kulolchilik buyumlari, sopol buyumlar",
+    "ru": "гончарное дело",
+    "source": "local bilingual dictionaries"
+  },
+  "poverty": {
+    "uz": "faqirlik, muhtojlik",
+    "ru": "бедность / беднота",
+    "source": "local bilingual dictionaries"
+  },
+  "practice": {
+    "uz": "tajriba",
+    "ru": "практика / тренировка",
+    "source": "local bilingual dictionaries"
+  },
+  "praise": {
+    "uz": "maqtov",
+    "ru": "похвала / восхваление",
+    "source": "local bilingual dictionaries"
+  },
+  "pray": {
+    "uz": "duo qilmoq",
+    "ru": "молиться / помолиться",
+    "source": "local bilingual dictionaries"
+  },
+  "precise": {
+    "uz": "aniq",
+    "ru": "точный",
+    "source": "local bilingual dictionaries"
+  },
+  "present": {
+    "uz": "sovg'a",
+    "ru": "настоящее / настоящее время",
+    "source": "local bilingual dictionaries"
+  },
+  "press": {
+    "uz": "bosmoq, qismoq, siqmoq",
+    "ru": "давить / нажимать",
+    "source": "local bilingual dictionaries"
+  },
+  "prey": {
+    "uz": "ov, o'lja",
+    "ru": "добыча / еда",
+    "source": "local bilingual dictionaries"
+  },
+  "prickly": {
+    "uz": "tikonli",
+    "ru": "колючий",
+    "source": "local bilingual dictionaries"
+  },
+  "principle": {
+    "uz": "asos, qonun",
+    "ru": "принцип",
+    "source": "local bilingual dictionaries"
+  },
+  "priority": {
+    "uz": "ustunlik",
+    "ru": "приоритет",
+    "source": "local bilingual dictionaries"
+  },
+  "probable": {
+    "uz": "ehtimol bo'lgan, yuz berishi mumkin bo'lgan",
+    "ru": "правдоподобный / вероятный",
+    "source": "local bilingual dictionaries"
+  },
+  "probe": {
+    "uz": "zond",
+    "ru": "зондирование / исследование",
+    "source": "local bilingual dictionaries"
+  },
+  "problem": {
+    "uz": "muammo",
+    "ru": "проблема",
+    "source": "local bilingual dictionaries"
+  },
+  "proceeds": {
+    "uz": "foyda",
+    "ru": "доход",
+    "source": "local bilingual dictionaries"
+  },
+  "process": {
+    "uz": "taraqqiyot, jarayon",
+    "ru": "процесс",
+    "source": "local bilingual dictionaries"
+  },
+  "productive": {
+    "uz": "unumli, mahsuldor",
+    "ru": "продуктивный / производительный",
+    "source": "local bilingual dictionaries"
+  },
+  "productivity": {
+    "uz": "unumdorlik, mahsuldorlik",
+    "ru": "продуктивность / производительность",
+    "source": "local bilingual dictionaries"
+  },
+  "profession": {
+    "uz": "kasb, hunar",
+    "ru": "вероисповедание",
+    "source": "local bilingual dictionaries"
+  },
+  "profile": {
+    "uz": "yon tarafdan ko'rinish, profil",
+    "ru": "профиль",
+    "source": "local bilingual dictionaries"
+  },
+  "progress": {
+    "uz": "muvaffaqiyat, yutuq",
+    "ru": "прогресс",
+    "source": "local bilingual dictionaries"
+  },
+  "project": {
+    "uz": "reja, loyiha",
+    "ru": "план / проект",
+    "source": "local bilingual dictionaries"
+  },
+  "projector": {
+    "uz": "proyektor, loyihalovchi, loyiha tuzuvchi mutaxassis",
+    "ru": "проектор",
+    "source": "local bilingual dictionaries"
+  },
+  "prompt": {
+    "uz": "tez chiqqan, shaxdam",
+    "ru": "быстрый / проворный",
+    "source": "local bilingual dictionaries"
+  },
+  "proof": {
+    "uz": "o'tmaydigan, o'tkazmaydigan",
+    "ru": "-прочный / -стойкий",
+    "source": "local bilingual dictionaries"
+  },
+  "property": {
+    "uz": "mol, boylik",
+    "ru": "недвижимость / собственность",
+    "source": "local bilingual dictionaries"
+  },
+  "proprietor": {
+    "uz": "xususiy mulk egasi, mulkdor",
+    "ru": "владелец / владелица",
+    "source": "local bilingual dictionaries"
+  },
+  "prosecute": {
+    "uz": "sud orqali jazoga tortirmoq",
+    "ru": "преследовать",
+    "source": "local bilingual dictionaries"
+  },
+  "protest": {
+    "uz": "e'tiroz, qarshilik, norozilik",
+    "ru": "протест",
+    "source": "local bilingual dictionaries"
+  },
+  "proud": {
+    "uz": "mag'rur",
+    "ru": "гордый",
+    "source": "local bilingual dictionaries"
+  },
+  "proverb": {
+    "uz": "maqol",
+    "ru": "пословица / поговорка",
+    "source": "local bilingual dictionaries"
+  },
+  "provided": {
+    "uz": "cj agar, modomiki",
+    "ru": "только если",
+    "source": "local bilingual dictionaries"
+  },
+  "provoke": {
+    "uz": "ig'vo qo'zg'ashga, undamoq, g'ashini keltirmoq, jahlini chiqarmoq",
+    "ru": "провоцировать / рассердить",
+    "source": "local bilingual dictionaries"
+  },
+  "pseudonym": {
+    "uz": "taxallus, laqab",
+    "ru": "вымышленное имя / псевдоним",
+    "source": "local bilingual dictionaries"
+  },
+  "psychiatry": {
+    "uz": "psixiatriya",
+    "ru": "психиатрия",
+    "source": "local bilingual dictionaries"
+  },
+  "psychic": {
+    "uz": "ruhiy, psixik",
+    "ru": "телепатический / экстрасенсорный",
+    "source": "local bilingual dictionaries"
+  },
+  "public": {
+    "uz": "ommaviy",
+    "ru": "общественный / публичный",
+    "source": "local bilingual dictionaries"
+  },
+  "publication": {
+    "uz": "nashr qilish",
+    "ru": "обнародование / опубликование",
+    "source": "local bilingual dictionaries"
+  },
+  "pudding": {
+    "uz": "puding",
+    "ru": "пудинг",
+    "source": "local bilingual dictionaries"
+  },
+  "puff": {
+    "uz": "tez-tez nafas olmoq",
+    "ru": "анаша / травка",
+    "source": "local bilingual dictionaries"
+  },
+  "pull": {
+    "uz": "tortmoq, sudramoq",
+    "ru": "потащить / потянуть",
+    "source": "local bilingual dictionaries"
+  },
+  "pungent": {
+    "uz": "ta'mi o'tkir, nordon",
+    "ru": "едкий / острый",
+    "source": "local bilingual dictionaries"
+  },
+  "punishment": {
+    "uz": "jazo, jazolash",
+    "ru": "наказание",
+    "source": "local bilingual dictionaries"
+  },
+  "purchase": {
+    "uz": "sotib olmoq",
+    "ru": "покупать / приобретать",
+    "source": "local bilingual dictionaries"
+  },
+  "purify": {
+    "uz": "tozalamoq",
+    "ru": "очистить / очищать",
+    "source": "local bilingual dictionaries"
+  },
+  "purr": {
+    "uz": "miyovlash",
+    "ru": "мурлыканье",
+    "source": "local bilingual dictionaries"
+  },
+  "putrid": {
+    "uz": "chirigan",
+    "ru": "гнилой / гнить",
+    "source": "local bilingual dictionaries"
+  },
+  "pyramid": {
+    "uz": "piramida",
+    "ru": "пирамида",
+    "source": "local bilingual dictionaries"
+  },
+  "quack": {
+    "uz": "o'rdak ovozi",
+    "ru": "знахарь",
+    "source": "local bilingual dictionaries"
+  },
+  "quantity": {
+    "uz": "kattalik",
+    "ru": "количество",
+    "source": "local bilingual dictionaries"
+  },
+  "quarrelsome": {
+    "uz": "janjalkash, urishqoq",
+    "ru": "сварливый / склочный",
+    "source": "local bilingual dictionaries"
+  },
+  "question": {
+    "uz": "savol",
+    "ru": "вопрос",
+    "source": "local bilingual dictionaries"
+  },
+  "quit": {
+    "uz": "tark etmoq",
+    "ru": "бросить / бросать",
+    "source": "local bilingual dictionaries"
+  },
+  "rabies": {
+    "uz": "quturish",
+    "ru": "бешенство",
+    "source": "local bilingual dictionaries"
+  },
+  "racket": {
+    "uz": "tennis raketkasi",
+    "ru": "ракетка",
+    "source": "local bilingual dictionaries"
+  },
+  "radar": {
+    "uz": "radiolokator",
+    "ru": "РЛС / радар",
+    "source": "local bilingual dictionaries"
+  },
+  "radical": {
+    "uz": "radikal, qat'iy, keskin, asosiy, to'liq",
+    "ru": "коренной / радикальный",
+    "source": "local bilingual dictionaries"
+  },
+  "radius": {
+    "uz": "radius",
+    "ru": "лучевая кость",
+    "source": "local bilingual dictionaries"
+  },
+  "rage": {
+    "uz": "qattiq g'azab, jahl",
+    "ru": "гнев / бешенство",
+    "source": "local bilingual dictionaries"
+  },
+  "range": {
+    "uz": "o'zgarib turmoq",
+    "ru": "горный хребет / горная цепь",
+    "source": "local bilingual dictionaries"
+  },
+  "rap": {
+    "uz": "yengil zarba",
+    "ru": "удар",
+    "source": "local bilingual dictionaries"
+  },
+  "rapid": {
+    "uz": "tez, jadal",
+    "ru": "скорый / быстрый",
+    "source": "local bilingual dictionaries"
+  },
+  "rash": {
+    "uz": "toshma",
+    "ru": "всплеск / вспышка",
+    "source": "local bilingual dictionaries"
+  },
+  "rate": {
+    "uz": "hisoblamoq",
+    "ru": "скорость / темп",
+    "source": "local bilingual dictionaries"
+  },
+  "rave": {
+    "uz": "alahsiramoq, bosinqiramoq",
+    "ru": "быть в восторге от / расхваливать",
+    "source": "local bilingual dictionaries"
+  },
+  "reach": {
+    "uz": "yetmoq",
+    "ru": "достать / доставать",
+    "source": "local bilingual dictionaries"
+  },
+  "react": {
+    "uz": "ta'sir ko'rsatmoq, munosabat bildirmoq",
+    "ru": "отреагировать / прореагировать",
+    "source": "local bilingual dictionaries"
+  },
+  "reaction": {
+    "uz": "ta'sirlanish",
+    "ru": "реакция",
+    "source": "local bilingual dictionaries"
+  },
+  "realize": {
+    "uz": "tushunmoq, anglamoq",
+    "ru": "осознать / осознавать",
+    "source": "local bilingual dictionaries"
+  },
+  "reason": {
+    "uz": "fikr yuritmoq, mulohaza qilmoq",
+    "ru": "рассуждать",
+    "source": "local bilingual dictionaries"
+  },
+  "receive": {
+    "uz": "olmoq",
+    "ru": "принимать / принять",
+    "source": "local bilingual dictionaries"
+  },
+  "receptionist": {
+    "uz": "qabulxona ma'muri",
+    "ru": "администратор / портье",
+    "source": "local bilingual dictionaries"
+  },
+  "reckon": {
+    "uz": "sanamoq, hisoblamoq",
+    "ru": "подсчитывать / считать",
+    "source": "local bilingual dictionaries"
+  },
+  "recover": {
+    "uz": "qaytarib olmoq, qayta ega bo'lmoq",
+    "ru": "вернуть / возвратить",
+    "source": "local bilingual dictionaries"
+  },
+  "rectangle": {
+    "uz": "to'g'ri to'rtburchak",
+    "ru": "прямоугольник",
+    "source": "local bilingual dictionaries"
+  },
+  "rectangular": {
+    "uz": "to'g'ri to'rtburchakli",
+    "ru": "прямоугольный",
+    "source": "local bilingual dictionaries"
+  },
+  "referee": {
+    "uz": "hakam",
+    "ru": "ампайр / арбитр",
+    "source": "local bilingual dictionaries"
+  },
+  "refrain": {
+    "uz": "saqlanmoq, tiyilmoq, xolis turmoq",
+    "ru": "воздерживаться / воздержаться",
+    "source": "local bilingual dictionaries"
+  },
+  "refugee": {
+    "uz": "qochoq",
+    "ru": "беженец / беженка",
+    "source": "local bilingual dictionaries"
+  },
+  "refusal": {
+    "uz": "rad etish, bosh tortish",
+    "ru": "отказ",
+    "source": "local bilingual dictionaries"
+  },
+  "register": {
+    "uz": "qayd daftari",
+    "ru": "запись",
+    "source": "local bilingual dictionaries"
+  },
+  "regret": {
+    "uz": "afsuslanmoq, pushaymon bo'lmoq",
+    "ru": "сожалеть / жалеть",
+    "source": "local bilingual dictionaries"
+  },
+  "reign": {
+    "uz": "hukm surmoq, podshohlik qilmoq",
+    "ru": "правление / царствование",
+    "source": "local bilingual dictionaries"
+  },
+  "rein": {
+    "uz": "jilov, tizgin",
+    "ru": "повод / бразды",
+    "source": "local bilingual dictionaries"
+  },
+  "reinforce": {
+    "uz": "kuchaytirmoq, mustahkamlamoq",
+    "ru": "подкрепить / подкреплять",
+    "source": "local bilingual dictionaries"
+  },
+  "relationship": {
+    "uz": "aloqa",
+    "ru": "связь / отношение",
+    "source": "local bilingual dictionaries"
+  },
+  "release": {
+    "uz": "bo'shatish, ozod qilish",
+    "ru": "выпустить / выпускать",
+    "source": "local bilingual dictionaries"
+  },
+  "religious": {
+    "uz": "diniy",
+    "ru": "верующий / религиозный",
+    "source": "local bilingual dictionaries"
+  },
+  "remote": {
+    "uz": "uzoq, olis, yiroq",
+    "ru": "отдалённый / удалённый",
+    "source": "local bilingual dictionaries"
+  },
+  "renew": {
+    "uz": "takrorlamoq",
+    "ru": "возобновить / возобновлять",
+    "source": "local bilingual dictionaries"
+  },
+  "repel": {
+    "uz": "haydab nari olib bormoq",
+    "ru": "отталкивать / вызывать неприязнь",
+    "source": "local bilingual dictionaries"
+  },
+  "replacement": {
+    "uz": "almashtirish, o'zgartirish",
+    "ru": "замена / замещение",
+    "source": "local bilingual dictionaries"
+  },
+  "representative": {
+    "uz": "ifodalaydigan",
+    "ru": "показательный / типичный",
+    "source": "local bilingual dictionaries"
+  },
+  "reproduction": {
+    "uz": "qayta ishlash jarayoni",
+    "ru": "копия / копирование",
+    "source": "local bilingual dictionaries"
+  },
+  "republic": {
+    "uz": "respublika",
+    "ru": "республика",
+    "source": "local bilingual dictionaries"
+  },
+  "requirement": {
+    "uz": "ehtiyoj, talab",
+    "ru": "необходимость / нужда",
+    "source": "local bilingual dictionaries"
+  },
+  "research": {
+    "uz": "izlanish, tadqiqot, o'rganish",
+    "ru": "исследование",
+    "source": "local bilingual dictionaries"
+  },
+  "resemble": {
+    "uz": "o'xshamoq, mos qilmoq",
+    "ru": "иметь сходство / быть похожим",
+    "source": "local bilingual dictionaries"
+  },
+  "residence": {
+    "uz": "turar joy, maskan",
+    "ru": "местожительство / резиденция",
+    "source": "local bilingual dictionaries"
+  },
+  "resolution": {
+    "uz": "qaror",
+    "ru": "резолюция",
+    "source": "local bilingual dictionaries"
+  },
+  "respect": {
+    "uz": "hurmat",
+    "ru": "уважение / почтение",
+    "source": "local bilingual dictionaries"
+  },
+  "response": {
+    "uz": "javob",
+    "ru": "отзвук / отклик",
+    "source": "local bilingual dictionaries"
+  },
+  "riddle": {
+    "uz": "I topishmoq",
+    "ru": "загадка",
+    "source": "local bilingual dictionaries"
+  },
+  "ridge": {
+    "uz": "tizma, silsila",
+    "ru": "горная цепь / горный хребет",
+    "source": "local bilingual dictionaries"
+  },
+  "risk": {
+    "uz": "jur'at, xavf, tavakkal qilish",
+    "ru": "риск / опасность",
+    "source": "local bilingual dictionaries"
+  },
+  "rite": {
+    "uz": "diniy marosim, udum",
+    "ru": "обряд / ритуал",
+    "source": "local bilingual dictionaries"
+  },
+  "roar": {
+    "uz": "bo'kirish, o'kirish, na'ra",
+    "ru": "рык / рычание",
+    "source": "local bilingual dictionaries"
+  },
+  "rod": {
+    "uz": "xivchin",
+    "ru": "прут / розга",
+    "source": "local bilingual dictionaries"
+  },
+  "roe": {
+    "uz": "bug'ining bir turi",
+    "ru": "икра",
+    "source": "local bilingual dictionaries"
+  },
+  "root": {
+    "uz": "ildiz",
+    "ru": "корень / корни",
+    "source": "local bilingual dictionaries"
+  },
+  "rotate": {
+    "uz": "aylanmoq",
+    "ru": "вертеться / вращаться",
+    "source": "local bilingual dictionaries"
+  },
+  "row": {
+    "uz": "qator",
+    "ru": "тяга к поясу",
+    "source": "local bilingual dictionaries"
+  },
+  "rude": {
+    "uz": "adabsiz, beadab",
+    "ru": "грубый / дерзкий",
+    "source": "local bilingual dictionaries"
+  },
+  "ruin": {
+    "uz": "buzish, barbod qilish",
+    "ru": "руина / развалина",
+    "source": "local bilingual dictionaries"
+  },
+  "rule": {
+    "uz": "qonun-qoida",
+    "ru": "господство / правление",
+    "source": "local bilingual dictionaries"
+  },
+  "rumble": {
+    "uz": "gulduramoq, gursillamoq",
+    "ru": "громыхать / грохотать",
+    "source": "local bilingual dictionaries"
+  },
+  "rural": {
+    "uz": "qishloqqa oid",
+    "ru": "сельский / деревенский",
+    "source": "local bilingual dictionaries"
+  },
+  "rush": {
+    "uz": "yeldek uchib bormoq",
+    "ru": "поспешить / поторопиться",
+    "source": "local bilingual dictionaries"
+  },
+  "rustle": {
+    "uz": "shitirlamoq",
+    "ru": "шелестеть / шуршать",
+    "source": "local bilingual dictionaries"
+  },
+  "salty": {
+    "uz": "tuzli",
+    "ru": "солёный / соляной",
+    "source": "local bilingual dictionaries"
+  },
+  "satellite": {
+    "uz": "yo'ldosh",
+    "ru": "спутниковое ТВ / спутниковое телевидение",
+    "source": "local bilingual dictionaries"
+  },
+  "saw": {
+    "uz": "see ga qarang",
+    "ru": "пила",
+    "source": "local bilingual dictionaries"
+  },
+  "scandal": {
+    "uz": "sharmandalik",
+    "ru": "скандал",
+    "source": "local bilingual dictionaries"
+  },
+  "scarcity": {
+    "uz": "yetishmovchilik, yetishmaslik, taqchillik",
+    "ru": "недостаток / нехватка",
+    "source": "local bilingual dictionaries"
+  },
+  "scene": {
+    "uz": "sahna",
+    "ru": "сцена",
+    "source": "local bilingual dictionaries"
+  },
+  "scholarship": {
+    "uz": "stipendiya",
+    "ru": "стипендия",
+    "source": "local bilingual dictionaries"
+  },
+  "scissors": {
+    "uz": "qaychi",
+    "ru": "ножницы",
+    "source": "local bilingual dictionaries"
+  },
+  "scream": {
+    "uz": "qichqirmoq, baqirmoq",
+    "ru": "кричать",
+    "source": "local bilingual dictionaries"
+  },
+  "screech": {
+    "uz": "xirillab yoki chinqirib qichqirmoq",
+    "ru": "верещать / визжать",
+    "source": "local bilingual dictionaries"
+  },
+  "script": {
+    "uz": "qo'lyozma",
+    "ru": "письменность / письмо",
+    "source": "local bilingual dictionaries"
+  },
+  "sculptor": {
+    "uz": "haykaltarosh",
+    "ru": "ваятель / ваятельница",
+    "source": "local bilingual dictionaries"
+  },
+  "sculpture": {
+    "uz": "haykaltaroshlik",
+    "ru": "скульптура / изваяние",
+    "source": "local bilingual dictionaries"
+  },
+  "seal": {
+    "uz": "muhr, tamg'a",
+    "ru": "печать / пломба",
+    "source": "local bilingual dictionaries"
+  },
+  "seasick": {
+    "uz": "dengiz kasaliga chalingan",
+    "ru": "страдающий морской болезнью",
+    "source": "local bilingual dictionaries"
+  },
+  "seat": {
+    "uz": "o'rindiq, joy",
+    "ru": "седалище",
+    "source": "local bilingual dictionaries"
+  },
+  "secure": {
+    "uz": "mustahkamlamoq, himoya qilmoq",
+    "ru": "надёжный",
+    "source": "local bilingual dictionaries"
+  },
+  "security": {
+    "uz": "xavfsizlik",
+    "ru": "безопасность / надёжность",
+    "source": "local bilingual dictionaries"
+  },
+  "seek": {
+    "uz": "qidirmoq, izlamoq",
+    "ru": "искать / пытаться найти",
+    "source": "local bilingual dictionaries"
+  },
+  "select": {
+    "uz": "tanlangan, sara, sarxil, saylangan",
+    "ru": "отбирать",
+    "source": "local bilingual dictionaries"
+  },
+  "sell": {
+    "uz": "sotmoq",
+    "ru": "продавать / продать",
+    "source": "local bilingual dictionaries"
+  },
+  "seminar": {
+    "uz": "seminar",
+    "ru": "семинар",
+    "source": "local bilingual dictionaries"
+  },
+  "send": {
+    "uz": "yubormoq, jo'natmoq",
+    "ru": "посылать / слать",
+    "source": "local bilingual dictionaries"
+  },
+  "sender": {
+    "uz": "jo'natuvchi",
+    "ru": "адресант / адресантка",
+    "source": "local bilingual dictionaries"
+  },
+  "sensation": {
+    "uz": "tuyg'u, his",
+    "ru": "сенсация",
+    "source": "local bilingual dictionaries"
+  },
+  "sense": {
+    "uz": "sezmoq, his qilmoq",
+    "ru": "чувствовать / ощутить",
+    "source": "local bilingual dictionaries"
+  },
+  "sensitive": {
+    "uz": "sezgir, sezuvchan, ta'sirchan",
+    "ru": "ранимый / чувствительный",
+    "source": "local bilingual dictionaries"
+  },
+  "sensitivity": {
+    "uz": "sezgirlik, ta'sirchanlik",
+    "ru": "чувствительность",
+    "source": "local bilingual dictionaries"
+  },
+  "sentence": {
+    "uz": "jumla, gap",
+    "ru": "наказание",
+    "source": "local bilingual dictionaries"
+  },
+  "set": {
+    "uz": "qo'ymoq, joylamoq",
+    "ru": "расставить / расставлять",
+    "source": "local bilingual dictionaries"
+  },
+  "setting": {
+    "uz": "muhit, ko'rinish, atrof",
+    "ru": "настройка / установка",
+    "source": "local bilingual dictionaries"
+  },
+  "severe": {
+    "uz": "qat'iy",
+    "ru": "тяжёлый / суровый",
+    "source": "local bilingual dictionaries"
+  },
+  "sew": {
+    "uz": "tikmoq",
+    "ru": "шить",
+    "source": "local bilingual dictionaries"
+  },
+  "shady": {
+    "uz": "sersoya, soyali",
+    "ru": "тенистый",
+    "source": "local bilingual dictionaries"
+  },
+  "shake": {
+    "uz": "qoqmoq, silkitmoq",
+    "ru": "пожать / пожимать",
+    "source": "local bilingual dictionaries"
+  },
+  "shallow": {
+    "uz": "sayoz",
+    "ru": "мелкий / неглубокий",
+    "source": "local bilingual dictionaries"
+  },
+  "sharp": {
+    "uz": "o'tkir",
+    "ru": "остроумный / сметливый",
+    "source": "local bilingual dictionaries"
+  },
+  "shears": {
+    "uz": "katta qaychi",
+    "ru": "ножницы",
+    "source": "local bilingual dictionaries"
+  },
+  "shed": {
+    "uz": "bostirma, ayvon, shiypon, saroy, omborxona",
+    "ru": "навес / сарай",
+    "source": "local bilingual dictionaries"
+  },
+  "shiny": {
+    "uz": "quyoshli, porloq",
+    "ru": "блестящий",
+    "source": "local bilingual dictionaries"
+  },
+  "shiver": {
+    "uz": "qaltiramoq, titramoq",
+    "ru": "дрожать / трястись",
+    "source": "local bilingual dictionaries"
+  },
+  "shoal": {
+    "uz": "baliqlar to'dasi",
+    "ru": "мель / банка",
+    "source": "local bilingual dictionaries"
+  },
+  "shoot": {
+    "uz": "nish, kurtak",
+    "ru": "побег",
+    "source": "local bilingual dictionaries"
+  },
+  "short-term": {
+    "uz": "qisqa muddatli",
+    "ru": "кратковременный / краткосрочный",
+    "source": "local bilingual dictionaries"
+  },
+  "shortage": {
+    "uz": "kamchilik, yetishmovchilik",
+    "ru": "дефицит / недостаток",
+    "source": "local bilingual dictionaries"
+  },
+  "shorten": {
+    "uz": "qisqarmoq",
+    "ru": "сократить / сокращать",
+    "source": "local bilingual dictionaries"
+  },
+  "shout": {
+    "uz": "qichqirmoq, baqirmoq, xitob qilmoq",
+    "ru": "кричать / крикнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "show": {
+    "uz": "ko'rsatmoq",
+    "ru": "показывать / показать",
+    "source": "local bilingual dictionaries"
+  },
+  "shrewd": {
+    "uz": "zehni o'tkir, aqlli",
+    "ru": "знать",
+    "source": "local bilingual dictionaries"
+  },
+  "shriek": {
+    "uz": "chinqirib yubormoq",
+    "ru": "визжать",
+    "source": "local bilingual dictionaries"
+  },
+  "shrink": {
+    "uz": "burushmoq, kichraymoq",
+    "ru": "садиться / сесть",
+    "source": "local bilingual dictionaries"
+  },
+  "sickness": {
+    "uz": "xastalik",
+    "ru": "рвота / тошнота",
+    "source": "local bilingual dictionaries"
+  },
+  "sidewalk": {
+    "uz": "yo'lka, yo'lak",
+    "ru": "мостовая / тротуар",
+    "source": "local bilingual dictionaries"
+  },
+  "sigh": {
+    "uz": "uf tortmoq",
+    "ru": "вздыхать / вздохнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "significant": {
+    "uz": "ma'noli",
+    "ru": "значительный",
+    "source": "local bilingual dictionaries"
+  },
+  "silent": {
+    "uz": "ovozsiz, jimgina",
+    "ru": "молчать / тихий",
+    "source": "local bilingual dictionaries"
+  },
+  "silky": {
+    "uz": "ipakdek",
+    "ru": "шёлковый",
+    "source": "local bilingual dictionaries"
+  },
+  "simultaneously": {
+    "uz": "bir paytda, muddatda",
+    "ru": "одновременно",
+    "source": "local bilingual dictionaries"
+  },
+  "sincere": {
+    "uz": "chin, samimiy",
+    "ru": "искренний",
+    "source": "local bilingual dictionaries"
+  },
+  "skinny": {
+    "uz": "ozg'in",
+    "ru": "тощий / худой",
+    "source": "local bilingual dictionaries"
+  },
+  "skip": {
+    "uz": "sakrash, irg'itish, sapchish qo'yish",
+    "ru": "пропускать / пропустить",
+    "source": "local bilingual dictionaries"
+  },
+  "sleek": {
+    "uz": "silliq, pardozlangan",
+    "ru": "гладкий / глянцевый",
+    "source": "local bilingual dictionaries"
+  },
+  "slippery": {
+    "uz": "sirpanchiq",
+    "ru": "скользкий",
+    "source": "local bilingual dictionaries"
+  },
+  "slum": {
+    "uz": "xaroba joylar",
+    "ru": "трущоба / трущобы",
+    "source": "local bilingual dictionaries"
+  },
+  "sly": {
+    "uz": "yashirincha",
+    "ru": "коварный / лукавый",
+    "source": "local bilingual dictionaries"
+  },
+  "smash": {
+    "uz": "gumburlash",
+    "ru": "смэш",
+    "source": "local bilingual dictionaries"
+  },
+  "smelt": {
+    "uz": "smell ga qarang",
+    "ru": "корюшка",
+    "source": "local bilingual dictionaries"
+  },
+  "smog": {
+    "uz": "tutun aralash tuman, smog",
+    "ru": "смог",
+    "source": "local bilingual dictionaries"
+  },
+  "smuggle": {
+    "uz": "noqonuniy ravishda mahsulotni chegaradan olib o'tmoq",
+    "ru": "провозить контрабандой",
+    "source": "local bilingual dictionaries"
+  },
+  "snail": {
+    "uz": "shilliqqurt, chig'anoq",
+    "ru": "улитка",
+    "source": "local bilingual dictionaries"
+  },
+  "snatch": {
+    "uz": "tutib olmoq",
+    "ru": "выхватить / выхватывать",
+    "source": "local bilingual dictionaries"
+  },
+  "snore": {
+    "uz": "xurrak otmoq, xurillamoq",
+    "ru": "храпеть",
+    "source": "local bilingual dictionaries"
+  },
+  "so-called": {
+    "uz": "deb ataladigan, ...deb ataluvchi",
+    "ru": "т.н. / так называемый",
+    "source": "local bilingual dictionaries"
+  },
+  "socialist": {
+    "uz": "sotsialist",
+    "ru": "социалист / социалистка",
+    "source": "local bilingual dictionaries"
+  },
+  "soften": {
+    "uz": "yumshamoq",
+    "ru": "размягчать / размягчить",
+    "source": "local bilingual dictionaries"
+  },
+  "soil": {
+    "uz": "tuproq",
+    "ru": "почва",
+    "source": "local bilingual dictionaries"
+  },
+  "sole": {
+    "uz": "oyoq tagi",
+    "ru": "подмётка / подошва",
+    "source": "local bilingual dictionaries"
+  },
+  "solid": {
+    "uz": "qattiq",
+    "ru": "монолитный / цельный",
+    "source": "local bilingual dictionaries"
+  },
+  "solidify": {
+    "uz": "qotmoq",
+    "ru": "делать твёрдым / сделать твёрдым",
+    "source": "local bilingual dictionaries"
+  },
+  "solution": {
+    "uz": "ijozat, ruxsat, qaror",
+    "ru": "раствор",
+    "source": "local bilingual dictionaries"
+  },
+  "sombre": {
+    "uz": "xo'mraygan",
+    "ru": "непростой / трудный",
+    "source": "local bilingual dictionaries"
+  },
+  "sonar": {
+    "uz": "sonar, dengiz rodari",
+    "ru": "гидролокатор / сонар",
+    "source": "local bilingual dictionaries"
+  },
+  "sophisticated": {
+    "uz": "tajribali, hayotni ko'rgan, madaniyatli",
+    "ru": "замысловатый / мудрёный",
+    "source": "local bilingual dictionaries"
+  },
+  "soul": {
+    "uz": "ruh, jon",
+    "ru": "душа",
+    "source": "local bilingual dictionaries"
+  },
+  "source": {
+    "uz": "manba",
+    "ru": "исток / источник",
+    "source": "local bilingual dictionaries"
+  },
+  "sow": {
+    "uz": "yetilgan cho'chqa",
+    "ru": "свинья / свиноматка",
+    "source": "local bilingual dictionaries"
+  },
+  "spacious": {
+    "uz": "bo'sh, bemalol",
+    "ru": "просторный",
+    "source": "local bilingual dictionaries"
+  },
+  "sparkle": {
+    "uz": "porlamoq, ko'rinmoq",
+    "ru": "искриться",
+    "source": "local bilingual dictionaries"
+  },
+  "sparse": {
+    "uz": "siyrak",
+    "ru": "редкий",
+    "source": "local bilingual dictionaries"
+  },
+  "special": {
+    "uz": "maxsus, ixtisoslashtirilgan, alohida",
+    "ru": "особый / особенный",
+    "source": "local bilingual dictionaries"
+  },
+  "species": {
+    "uz": "tur, xil, nav",
+    "ru": "вид",
+    "source": "local bilingual dictionaries"
+  },
+  "spectacles": {
+    "uz": "ko'zoynak",
+    "ru": "очки",
+    "source": "local bilingual dictionaries"
+  },
+  "spectator": {
+    "uz": "tomoshabin",
+    "ru": "зевака / зритель",
+    "source": "local bilingual dictionaries"
+  },
+  "speed": {
+    "uz": "tezlik",
+    "ru": "скорость",
+    "source": "local bilingual dictionaries"
+  },
+  "sphere": {
+    "uz": "sfera, shar, gumbaz",
+    "ru": "шар / сфера",
+    "source": "local bilingual dictionaries"
+  },
+  "spill": {
+    "uz": "to'kmoq, to'kilmoq",
+    "ru": "пролиться / проливаться",
+    "source": "local bilingual dictionaries"
+  },
+  "spiral": {
+    "uz": "spiralsimon, spiral shaklida",
+    "ru": "спиральный",
+    "source": "local bilingual dictionaries"
+  },
+  "splash": {
+    "uz": "sachratmoq",
+    "ru": "брызгаться / плескаться",
+    "source": "local bilingual dictionaries"
+  },
+  "sponsor": {
+    "uz": "kafil, homiy",
+    "ru": "покровитель / покровительница",
+    "source": "local bilingual dictionaries"
+  },
+  "spot": {
+    "uz": "dog' tushirmoq",
+    "ru": "место",
+    "source": "local bilingual dictionaries"
+  },
+  "sprain": {
+    "uz": "cho'zmoq, cho'zib kengaytirmoq",
+    "ru": "растягивать / растянуть",
+    "source": "local bilingual dictionaries"
+  },
+  "spray": {
+    "uz": "tomchi, qatra",
+    "ru": "брызги / водяная пыль",
+    "source": "local bilingual dictionaries"
+  },
+  "spread": {
+    "uz": "yoyilmoq, cho'zilib yotmoq",
+    "ru": "раскидывать / раскидать",
+    "source": "local bilingual dictionaries"
+  },
+  "sprinkle": {
+    "uz": "sachratmoq",
+    "ru": "брызгать / побрызгать",
+    "source": "local bilingual dictionaries"
+  },
+  "sprinter": {
+    "uz": "qisqa masofaga yuguruvchi, sprinter",
+    "ru": "спринтер",
+    "source": "local bilingual dictionaries"
+  },
+  "spud": {
+    "uz": "kartoshka",
+    "ru": "картофелина",
+    "source": "local bilingual dictionaries"
+  },
+  "spurt": {
+    "uz": "pishqirib oqmoq",
+    "ru": "выбросить струёй / выбрасывать струёй",
+    "source": "local bilingual dictionaries"
+  },
+  "stack": {
+    "uz": "to'plamoq, uymoq, dastalamoq",
+    "ru": "кипа / стопка",
+    "source": "local bilingual dictionaries"
+  },
+  "staff": {
+    "uz": "xodimlar",
+    "ru": "нотный стан",
+    "source": "local bilingual dictionaries"
+  },
+  "stage": {
+    "uz": "sahna",
+    "ru": "сцена / подмостки",
+    "source": "local bilingual dictionaries"
+  },
+  "stain": {
+    "uz": "bulg'amoq",
+    "ru": "пятнать / пачкать",
+    "source": "local bilingual dictionaries"
+  },
+  "stake": {
+    "uz": "tiramoq, tirab qo'ymoq",
+    "ru": "кол / столб",
+    "source": "local bilingual dictionaries"
+  },
+  "stammer": {
+    "uz": "duduqlanmoq, tutilib gapirmoq",
+    "ru": "заикаться / запинаться",
+    "source": "local bilingual dictionaries"
+  },
+  "stand": {
+    "uz": "turmoq",
+    "ru": "вставать / встать",
+    "source": "local bilingual dictionaries"
+  },
+  "standstill": {
+    "uz": "qotib turish, harakatsiz bo'lish, turg'unlik",
+    "ru": "бездействие / застой",
+    "source": "local bilingual dictionaries"
+  },
+  "stare": {
+    "uz": "tikilib uzoq qarash",
+    "ru": "Старое",
+    "source": "local bilingual dictionaries"
+  },
+  "start": {
+    "uz": "boshlanish, boshlang'ich",
+    "ru": "начало / старт",
+    "source": "local bilingual dictionaries"
+  },
+  "starve": {
+    "uz": "ochlikdan o'lmoq",
+    "ru": "умирать от голода / умирать с голода",
+    "source": "local bilingual dictionaries"
+  },
+  "state": {
+    "uz": "ifoda etmoq, bayon qilmoq",
+    "ru": "заявить / заявлять",
+    "source": "local bilingual dictionaries"
+  },
+  "stationary": {
+    "uz": "harakatsiz, sobit",
+    "ru": "неподвижный",
+    "source": "local bilingual dictionaries"
+  },
+  "status": {
+    "uz": "huquqiy holat",
+    "ru": "положение / состояние",
+    "source": "local bilingual dictionaries"
+  },
+  "steady": {
+    "uz": "mustahkam, mahkam, baquvvat",
+    "ru": "устойчивый",
+    "source": "local bilingual dictionaries"
+  },
+  "steering wheel": {
+    "uz": "boshqaruv chambaragi, shturval",
+    "ru": "руль / баранка",
+    "source": "local bilingual dictionaries"
+  },
+  "stem": {
+    "uz": "tana, poya",
+    "ru": "стебель / основа",
+    "source": "local bilingual dictionaries"
+  },
+  "stiff": {
+    "uz": "qattiq, bukilmas, egilmas, qotib qolgan",
+    "ru": "жёсткий / негибкий",
+    "source": "local bilingual dictionaries"
+  },
+  "stingy": {
+    "uz": "xasis, baxil, ziqna",
+    "ru": "скупой / алчный",
+    "source": "local bilingual dictionaries"
+  },
+  "stinking": {
+    "uz": "sassiq",
+    "ru": "вонючий / зловонный",
+    "source": "local bilingual dictionaries"
+  },
+  "stocky": {
+    "uz": "kaltabaqay, miqti, baqaloq",
+    "ru": "коренастый",
+    "source": "local bilingual dictionaries"
+  },
+  "stone": {
+    "uz": "tosh",
+    "ru": "камень",
+    "source": "local bilingual dictionaries"
+  },
+  "stop": {
+    "uz": "to'xtatish",
+    "ru": "остановка",
+    "source": "local bilingual dictionaries"
+  },
+  "stout": {
+    "uz": "semiz, baqaloq",
+    "ru": "крупный / толстый",
+    "source": "local bilingual dictionaries"
+  },
+  "stream": {
+    "uz": "soy, ariq",
+    "ru": "поток / струя",
+    "source": "local bilingual dictionaries"
+  },
+  "strength": {
+    "uz": "kuch, quvvat",
+    "ru": "мощь / сила",
+    "source": "local bilingual dictionaries"
+  },
+  "stretch": {
+    "uz": "cho'zmoq, uzaymoq",
+    "ru": "вытянуть / вытягивать",
+    "source": "local bilingual dictionaries"
+  },
+  "strife": {
+    "uz": "kurash",
+    "ru": "распря / раздор",
+    "source": "local bilingual dictionaries"
+  },
+  "string": {
+    "uz": "ip",
+    "ru": "струна",
+    "source": "local bilingual dictionaries"
+  },
+  "striped": {
+    "uz": "yo'1-yo'l chiziqli",
+    "ru": "полосатый / полоска",
+    "source": "local bilingual dictionaries"
+  },
+  "stroke": {
+    "uz": "zarba, zarb",
+    "ru": "поглаживание",
+    "source": "local bilingual dictionaries"
+  },
+  "strong": {
+    "uz": "kuchli, baquvvat",
+    "ru": "неправильный / сильный",
+    "source": "local bilingual dictionaries"
+  },
+  "structure": {
+    "uz": "qurilish, tuzilish",
+    "ru": "структура",
+    "source": "local bilingual dictionaries"
+  },
+  "stubborn": {
+    "uz": "qaysar, o'jar",
+    "ru": "упорный / упёртый",
+    "source": "local bilingual dictionaries"
+  },
+  "stuck": {
+    "uz": "stick ga qarang",
+    "ru": "застрявший",
+    "source": "local bilingual dictionaries"
+  },
+  "studio": {
+    "uz": "studiya",
+    "ru": "студия",
+    "source": "local bilingual dictionaries"
+  },
+  "stunning": {
+    "uz": "maftunkor",
+    "ru": "ошеломляющий / сногсшибающий",
+    "source": "local bilingual dictionaries"
+  },
+  "sturdy": {
+    "uz": "sog'lom, baquvvat",
+    "ru": "дюжий / здоровый",
+    "source": "local bilingual dictionaries"
+  },
+  "stutter": {
+    "uz": "duduqlanmoq",
+    "ru": "заикание",
+    "source": "local bilingual dictionaries"
+  },
+  "subdivision": {
+    "uz": "qism, bo'lim",
+    "ru": "подразделение",
+    "source": "local bilingual dictionaries"
+  },
+  "submarine": {
+    "uz": "suvosti kemasi",
+    "ru": "подводная лодка / подлодка",
+    "source": "local bilingual dictionaries"
+  },
+  "submit": {
+    "uz": "bo'ysinmoq, tobe qilmoq",
+    "ru": "подчиниться / подчиняться",
+    "source": "local bilingual dictionaries"
+  },
+  "subscribe": {
+    "uz": "sadaqa qilmoq",
+    "ru": "выписать / выписывать",
+    "source": "local bilingual dictionaries"
+  },
+  "subsequently": {
+    "uz": "keyinchalik, oqibatda",
+    "ru": "затем / потом",
+    "source": "local bilingual dictionaries"
+  },
+  "substance": {
+    "uz": "modda",
+    "ru": "вещество / материя",
+    "source": "local bilingual dictionaries"
+  },
+  "substantial": {
+    "uz": "muhim, ahamiyatli",
+    "ru": "значительный / существенный",
+    "source": "local bilingual dictionaries"
+  },
+  "subtle": {
+    "uz": "nozik",
+    "ru": "неуловимый / тонкий",
+    "source": "local bilingual dictionaries"
+  },
+  "subway": {
+    "uz": "tunnel",
+    "ru": "подземный переход / метро",
+    "source": "local bilingual dictionaries"
+  },
+  "suck": {
+    "uz": "emmoq, so'rmoq, shimmoq",
+    "ru": "всасывать / сосать",
+    "source": "local bilingual dictionaries"
+  },
+  "suede": {
+    "uz": "zamsh",
+    "ru": "замша",
+    "source": "local bilingual dictionaries"
+  },
+  "sugary": {
+    "uz": "shakarliga boy, sershakar, sershirin",
+    "ru": "сладкий",
+    "source": "local bilingual dictionaries"
+  },
+  "suggestion": {
+    "uz": "shama, ishora",
+    "ru": "предложение",
+    "source": "local bilingual dictionaries"
+  },
+  "sum": {
+    "uz": "jamlamoq",
+    "ru": "сум",
+    "source": "local bilingual dictionaries"
+  },
+  "summit": {
+    "uz": "cho'qqi",
+    "ru": "вершина / пик",
+    "source": "local bilingual dictionaries"
+  },
+  "superstitious": {
+    "uz": "xurofotga berilgan, xurofiy",
+    "ru": "суеверный",
+    "source": "local bilingual dictionaries"
+  },
+  "supervisor": {
+    "uz": "nazoratchi",
+    "ru": "мастер / надзиратель",
+    "source": "local bilingual dictionaries"
+  },
+  "supply": {
+    "uz": "ta'minlash, yetkazib berish",
+    "ru": "поставить / поставлять",
+    "source": "local bilingual dictionaries"
+  },
+  "surface": {
+    "uz": "yuza, ust",
+    "ru": "поверхность",
+    "source": "local bilingual dictionaries"
+  },
+  "survivor": {
+    "uz": "tirik qolgan odam, qutqarib qolingan odam",
+    "ru": "знакомый / умерший",
+    "source": "local bilingual dictionaries"
+  },
+  "suspect": {
+    "uz": "shubha qilmoq, shubhalanmoq",
+    "ru": "подозревать / заподозрить",
+    "source": "local bilingual dictionaries"
+  },
+  "swallow": {
+    "uz": "yutmoq",
+    "ru": "глотать / глотнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "swarm": {
+    "uz": "ari galasi, g'uj",
+    "ru": "стая / толпа",
+    "source": "local bilingual dictionaries"
+  },
+  "sway": {
+    "uz": "tebranmoq",
+    "ru": "качаться",
+    "source": "local bilingual dictionaries"
+  },
+  "sweat": {
+    "uz": "ter",
+    "ru": "пот / испарина",
+    "source": "local bilingual dictionaries"
+  },
+  "sweep": {
+    "uz": "tozalamoq, supurmoq",
+    "ru": "подмести / подметать",
+    "source": "local bilingual dictionaries"
+  },
+  "sword": {
+    "uz": "qilich",
+    "ru": "меч / меченосец",
+    "source": "local bilingual dictionaries"
+  },
+  "tabloid": {
+    "uz": "tuturuqsiz gazeta",
+    "ru": "бульварная газета / газетёнка",
+    "source": "local bilingual dictionaries"
+  },
+  "tag": {
+    "uz": "etiketka, yorliq",
+    "ru": "пятнашки / салки",
+    "source": "local bilingual dictionaries"
+  },
+  "tail": {
+    "uz": "dum",
+    "ru": "решка",
+    "source": "local bilingual dictionaries"
+  },
+  "take over": {
+    "uz": "qo'lga olish, egallash",
+    "ru": "брать на себя / взять на себя",
+    "source": "local bilingual dictionaries"
+  },
+  "target": {
+    "uz": "nishon",
+    "ru": "цель / намерение",
+    "source": "local bilingual dictionaries"
+  },
+  "tart": {
+    "uz": "mevali pirog",
+    "ru": "пирог / тарт",
+    "source": "local bilingual dictionaries"
+  },
+  "tasteless": {
+    "uz": "bemaza",
+    "ru": "безвкусный / невкусный",
+    "source": "local bilingual dictionaries"
+  },
+  "telepathy": {
+    "uz": "telepatiya",
+    "ru": "телепатия",
+    "source": "local bilingual dictionaries"
+  },
+  "televise": {
+    "uz": "televizion dasturni ko'rsatmoq",
+    "ru": "передавать по телевидению / показывать по телевидению",
+    "source": "local bilingual dictionaries"
+  },
+  "temptation": {
+    "uz": "aldash, aldanish",
+    "ru": "искушение / соблазн",
+    "source": "local bilingual dictionaries"
+  },
+  "tenant": {
+    "uz": "ijarachi",
+    "ru": "жилец / квартиросъёмщик",
+    "source": "local bilingual dictionaries"
+  },
+  "tense": {
+    "uz": "hayajonli, hayajonlangan",
+    "ru": "напряжённый",
+    "source": "local bilingual dictionaries"
+  },
+  "tension": {
+    "uz": "hayajonlanish",
+    "ru": "напряжение / напряжённость",
+    "source": "local bilingual dictionaries"
+  },
+  "terminal": {
+    "uz": "o'ldiradigan, o'limga olib keladigan",
+    "ru": "конечный",
+    "source": "local bilingual dictionaries"
+  },
+  "terrace": {
+    "uz": "ko'cha bo'ylab qurilgan uylar qatori",
+    "ru": "терраса",
+    "source": "local bilingual dictionaries"
+  },
+  "terrify": {
+    "uz": "qo'rqitmoq, dahshatga solmoq",
+    "ru": "ужасать / ужаснуть",
+    "source": "local bilingual dictionaries"
+  },
+  "thankful": {
+    "uz": "yaxshilikni biladigan, minnatdor",
+    "ru": "благодарный / признательный",
+    "source": "local bilingual dictionaries"
+  },
+  "thaw": {
+    "uz": "erimoq",
+    "ru": "растапливать / растопить",
+    "source": "local bilingual dictionaries"
+  },
+  "their": {
+    "uz": "poss ularning",
+    "ru": "их / ихний",
+    "source": "local bilingual dictionaries"
+  },
+  "theory": {
+    "uz": "nazariya",
+    "ru": "теория",
+    "source": "local bilingual dictionaries"
+  },
+  "thereafter": {
+    "uz": "shundan so'ng, so'ngra",
+    "ru": "впоследствии / после этого",
+    "source": "local bilingual dictionaries"
+  },
+  "thermal": {
+    "uz": "issiqlikka oid",
+    "ru": "тепловой / термический",
+    "source": "local bilingual dictionaries"
+  },
+  "thermometer": {
+    "uz": "termometr",
+    "ru": "градусник / термометр",
+    "source": "local bilingual dictionaries"
+  },
+  "thesaurus": {
+    "uz": "tematik lug'at, tezaurus",
+    "ru": "словарь синонимов / тезаурус",
+    "source": "local bilingual dictionaries"
+  },
+  "thesis": {
+    "uz": "dissertatsiya",
+    "ru": "дипломная работа / диссертация",
+    "source": "local bilingual dictionaries"
+  },
+  "think": {
+    "uz": "o'ylamoq",
+    "ru": "думать / обдумывать",
+    "source": "local bilingual dictionaries"
+  },
+  "thorn": {
+    "uz": "tikan",
+    "ru": "шип / колючка",
+    "source": "local bilingual dictionaries"
+  },
+  "thought": {
+    "uz": "think ga qarang",
+    "ru": "мысль / дума",
+    "source": "local bilingual dictionaries"
+  },
+  "threat": {
+    "uz": "do'q, po'pisa",
+    "ru": "опасность / угроза",
+    "source": "local bilingual dictionaries"
+  },
+  "threaten": {
+    "uz": "tahdid solmoq, qo'rqitmoq",
+    "ru": "грозить / угрожать",
+    "source": "local bilingual dictionaries"
+  },
+  "thrifty": {
+    "uz": "tejamkor",
+    "ru": "процветающий",
+    "source": "local bilingual dictionaries"
+  },
+  "thud": {
+    "uz": "taqillash, dukullash, tarqalish",
+    "ru": "глухой звук",
+    "source": "local bilingual dictionaries"
+  },
+  "tide": {
+    "uz": "oqim, yo'nalish",
+    "ru": "прилив / отлив",
+    "source": "local bilingual dictionaries"
+  },
+  "time": {
+    "uz": "vaqt",
+    "ru": "раз",
+    "source": "local bilingual dictionaries"
+  },
+  "tire": {
+    "uz": "bosh kiyim",
+    "ru": "устать / уставать",
+    "source": "local bilingual dictionaries"
+  },
+  "tomb": {
+    "uz": "qabr, mozor",
+    "ru": "гробница / склеп",
+    "source": "local bilingual dictionaries"
+  },
+  "tongs": {
+    "uz": "qisqich, pinset",
+    "ru": "щипцы / схваты",
+    "source": "local bilingual dictionaries"
+  },
+  "tool": {
+    "uz": "asbob",
+    "ru": "инструмент / средство",
+    "source": "local bilingual dictionaries"
+  },
+  "tornado": {
+    "uz": "tornado",
+    "ru": "смерч / торнадо",
+    "source": "local bilingual dictionaries"
+  },
+  "total": {
+    "uz": "butun, barcha, hamma",
+    "ru": "весь / целый",
+    "source": "local bilingual dictionaries"
+  },
+  "tough": {
+    "uz": "kuchli, baquvvat",
+    "ru": "жёсткий",
+    "source": "local bilingual dictionaries"
+  },
+  "tow": {
+    "uz": "arqon bilan tortmoq",
+    "ru": "буксировать / тащить",
+    "source": "local bilingual dictionaries"
+  },
+  "town": {
+    "uz": "tuman ma'muriy markazi",
+    "ru": "град / город",
+    "source": "local bilingual dictionaries"
+  },
+  "trade": {
+    "uz": "tijorat, savdo",
+    "ru": "обмен",
+    "source": "local bilingual dictionaries"
+  },
+  "transfer": {
+    "uz": "o'tkazish ko'chirish",
+    "ru": "перевод / передача",
+    "source": "local bilingual dictionaries"
+  },
+  "transparent": {
+    "uz": "tiniq, aniq, shaffof",
+    "ru": "прозрачный",
+    "source": "local bilingual dictionaries"
+  },
+  "transport": {
+    "uz": "ko'chirich, tashish",
+    "ru": "перевозка / транспортировка",
+    "source": "local bilingual dictionaries"
+  },
+  "trash": {
+    "uz": "hech narsaga arzimaydigan narsa",
+    "ru": "мусор",
+    "source": "local bilingual dictionaries"
+  },
+  "tremble": {
+    "uz": "titramoq, qaltiramoq",
+    "ru": "дрожать / трепетать",
+    "source": "local bilingual dictionaries"
+  },
+  "trial": {
+    "uz": "sud jarayoni, sud",
+    "ru": "суд / испытание",
+    "source": "local bilingual dictionaries"
+  },
+  "triangle": {
+    "uz": "uchburchak",
+    "ru": "треугольник",
+    "source": "local bilingual dictionaries"
+  },
+  "triangular": {
+    "uz": "uchburchaksimon",
+    "ru": "треугольный",
+    "source": "local bilingual dictionaries"
+  },
+  "tributary": {
+    "uz": "irmoq, jilg'a",
+    "ru": "приток",
+    "source": "local bilingual dictionaries"
+  },
+  "trivial": {
+    "uz": "muhim bo'lmagan, ahamiyatsiz",
+    "ru": "незначительный / мелкий",
+    "source": "local bilingual dictionaries"
+  },
+  "trophy": {
+    "uz": "sovrin, sovg'a",
+    "ru": "трофей",
+    "source": "local bilingual dictionaries"
+  },
+  "tropical": {
+    "uz": "tropik",
+    "ru": "тропический",
+    "source": "local bilingual dictionaries"
+  },
+  "trustworthy": {
+    "uz": "ishonish mumkin bo'lgan, ishonchli",
+    "ru": "надёжный / благонадёжный",
+    "source": "local bilingual dictionaries"
+  },
+  "try": {
+    "uz": "harakat qilmoq, urinib ko'rmoq",
+    "ru": "испытывать / испытать",
+    "source": "local bilingual dictionaries"
+  },
+  "tub": {
+    "uz": "kir tog'ora, jomashov, katta tog'ora",
+    "ru": "бадья / кадка",
+    "source": "local bilingual dictionaries"
+  },
+  "tube": {
+    "uz": "quvur",
+    "ru": "тюбик",
+    "source": "local bilingual dictionaries"
+  },
+  "turbulence": {
+    "uz": "bezovta bo'lish",
+    "ru": "турбулентность / турбуленция",
+    "source": "local bilingual dictionaries"
+  },
+  "turnover": {
+    "uz": "oborot",
+    "ru": "оборот / товарооборот",
+    "source": "local bilingual dictionaries"
+  },
+  "tutor": {
+    "uz": "shaxsiy o'qituvchi",
+    "ru": "репетитор",
+    "source": "local bilingual dictionaries"
+  },
+  "tweet": {
+    "uz": "chug'urlamoq",
+    "ru": "твитать / твитить",
+    "source": "local bilingual dictionaries"
+  },
+  "tweezers": {
+    "uz": "pinset, qisqich, iskak",
+    "ru": "пинцет / щипчики",
+    "source": "local bilingual dictionaries"
+  },
+  "twig": {
+    "uz": "shoxcha, chiviq, novda",
+    "ru": "ветка / веточка",
+    "source": "local bilingual dictionaries"
+  },
+  "twinkle": {
+    "uz": "miltillamoq, milt-milt etib porlamoq",
+    "ru": "мерцать",
+    "source": "local bilingual dictionaries"
+  },
+  "twist": {
+    "uz": "buramoq, qayirmoq",
+    "ru": "изгибать / изогнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "two-faced": {
+    "uz": "ikki yuzlamachi, laganbardor",
+    "ru": "двуликий / двуличный",
+    "source": "local bilingual dictionaries"
+  },
+  "typhoon": {
+    "uz": "tayfun, to'fon",
+    "ru": "тайфун",
+    "source": "local bilingual dictionaries"
+  },
+  "typist": {
+    "uz": "sekretar",
+    "ru": "машинистка",
+    "source": "local bilingual dictionaries"
+  },
+  "tyre": {
+    "uz": "shina",
+    "ru": "автомобильная шина / автошина",
+    "source": "local bilingual dictionaries"
+  },
+  "underpants": {
+    "uz": "erkaklar ishtoni",
+    "ru": "трусы / кальсоны",
+    "source": "local bilingual dictionaries"
+  },
+  "undertake": {
+    "uz": "boshlamoq, kirishmoq, qilmoq, amalga oshirmoq",
+    "ru": "предпринимать / предпринять",
+    "source": "local bilingual dictionaries"
+  },
+  "undress": {
+    "uz": "yechinmoq",
+    "ru": "раздеться / раздеваться",
+    "source": "local bilingual dictionaries"
+  },
+  "unfold": {
+    "uz": "yozmoq, yoymoq",
+    "ru": "развернуть / разворачивать",
+    "source": "local bilingual dictionaries"
+  },
+  "unique": {
+    "uz": "noyob, yagona",
+    "ru": "единственный / исключительный",
+    "source": "local bilingual dictionaries"
+  },
+  "unload": {
+    "uz": "yuk tushirmoq, bo'shatmoq",
+    "ru": "разгружать / разгрузить",
+    "source": "local bilingual dictionaries"
+  },
+  "unnatural": {
+    "uz": "g'ayritabiiy, g'ayrioddiy",
+    "ru": "неестественный / противоестественный",
+    "source": "local bilingual dictionaries"
+  },
+  "untie": {
+    "uz": "yechmoq, bo'shatmoq",
+    "ru": "развязывать / развязать",
+    "source": "local bilingual dictionaries"
+  },
+  "unveil": {
+    "uz": "yozmoq, ochmoq",
+    "ru": "разоблачать / разоблачить",
+    "source": "local bilingual dictionaries"
+  },
+  "update": {
+    "uz": "zamonaviylashtirmoq",
+    "ru": "актуализировать / обновлять",
+    "source": "local bilingual dictionaries"
+  },
+  "upgrade": {
+    "uz": "yuksaltirmoq, rivojlantirmoq",
+    "ru": "апгрейдить / модернизировать",
+    "source": "local bilingual dictionaries"
+  },
+  "urban": {
+    "uz": "shaharga oid",
+    "ru": "городской",
+    "source": "local bilingual dictionaries"
+  },
+  "urge": {
+    "uz": "ishontirmoq",
+    "ru": "побуждать / подгонять",
+    "source": "local bilingual dictionaries"
+  },
+  "utter": {
+    "uz": "so'z bilan ifoda etmoq",
+    "ru": "выговорить / выговаривать",
+    "source": "local bilingual dictionaries"
+  },
+  "vacation": {
+    "uz": "ta'til",
+    "ru": "каникулы",
+    "source": "local bilingual dictionaries"
+  },
+  "valley": {
+    "uz": "vodiy",
+    "ru": "долина / дол",
+    "source": "local bilingual dictionaries"
+  },
+  "vase": {
+    "uz": "guldon, vaza",
+    "ru": "ваза",
+    "source": "local bilingual dictionaries"
+  },
+  "vast": {
+    "uz": "keng, bepoyon, ulkan, g'oyat katta",
+    "ru": "обширный / огромный",
+    "source": "local bilingual dictionaries"
+  },
+  "velocity": {
+    "uz": "tezlik, jadallik, ildamlik",
+    "ru": "скорость",
+    "source": "local bilingual dictionaries"
+  },
+  "venue": {
+    "uz": "to'planish joyi, yig'ilish joyi",
+    "ru": "место встречи / место сбора",
+    "source": "local bilingual dictionaries"
+  },
+  "verdict": {
+    "uz": "hakam qarori",
+    "ru": "вердикт / приговор",
+    "source": "local bilingual dictionaries"
+  },
+  "vest": {
+    "uz": "ichidan kiyiladigan, nimcha",
+    "ru": "безрукавка / жилет",
+    "source": "local bilingual dictionaries"
+  },
+  "viaduct": {
+    "uz": "viaduk, teshik ko'prik",
+    "ru": "виадук",
+    "source": "local bilingual dictionaries"
+  },
+  "victim": {
+    "uz": "1 qurbon",
+    "ru": "жертва / потерпевшая",
+    "source": "local bilingual dictionaries"
+  },
+  "view": {
+    "uz": "ko'rinish, qiyofa, tus",
+    "ru": "взгляд",
+    "source": "local bilingual dictionaries"
+  },
+  "viewer": {
+    "uz": "tomoshabin, kuzatuvchi",
+    "ru": "зритель / зрительница",
+    "source": "local bilingual dictionaries"
+  },
+  "villa": {
+    "uz": "villa, dala hovli",
+    "ru": "вилла / загородный дом",
+    "source": "local bilingual dictionaries"
+  },
+  "vision": {
+    "uz": "ko'rish qobiliyati",
+    "ru": "зрение",
+    "source": "local bilingual dictionaries"
+  },
+  "vitamin": {
+    "uz": "vitamin",
+    "ru": "витамин",
+    "source": "local bilingual dictionaries"
+  },
+  "vivid": {
+    "uz": "yorqin, charaqlagan",
+    "ru": "живой / ясный",
+    "source": "local bilingual dictionaries"
+  },
+  "volcano": {
+    "uz": "vulqon",
+    "ru": "вулкан",
+    "source": "local bilingual dictionaries"
+  },
+  "vote": {
+    "uz": "ovoz, ovoz berish",
+    "ru": "водь",
+    "source": "local bilingual dictionaries"
+  },
+  "vow": {
+    "uz": "qasam ichmoq, ont ichmoq",
+    "ru": "давать обет / клясться",
+    "source": "local bilingual dictionaries"
+  },
+  "voyage": {
+    "uz": "dengiz sayohati",
+    "ru": "вояж / плавание",
+    "source": "local bilingual dictionaries"
+  },
+  "wander": {
+    "uz": "sayohat qilmoq, aylanib yurmoq",
+    "ru": "странствие",
+    "source": "local bilingual dictionaries"
+  },
+  "warmth": {
+    "uz": "iliqlik, issiqlik",
+    "ru": "тепло / теплота",
+    "source": "local bilingual dictionaries"
+  },
+  "wash": {
+    "uz": "yuvmoq",
+    "ru": "мыть / помыть",
+    "source": "local bilingual dictionaries"
+  },
+  "waterfall": {
+    "uz": "sharshara",
+    "ru": "водопад / каскад",
+    "source": "local bilingual dictionaries"
+  },
+  "wealth": {
+    "uz": "boylik, davlat",
+    "ru": "благосостояние / богатство",
+    "source": "local bilingual dictionaries"
+  },
+  "wed": {
+    "uz": "turmush qurmoq",
+    "ru": "жениться / пожениться",
+    "source": "local bilingual dictionaries"
+  },
+  "weird": {
+    "uz": "g'alati, g'ayritabiiy, sirli",
+    "ru": "причудливый / странный",
+    "source": "local bilingual dictionaries"
+  },
+  "wheel": {
+    "uz": "g'ildirak",
+    "ru": "колесо",
+    "source": "local bilingual dictionaries"
+  },
+  "wheeze": {
+    "uz": "chiyillab nafas olmoq",
+    "ru": "хрипеть",
+    "source": "local bilingual dictionaries"
+  },
+  "whereabouts": {
+    "uz": "qayerdadir? qayergadir?",
+    "ru": "местонахождение",
+    "source": "local bilingual dictionaries"
+  },
+  "wherever": {
+    "uz": "cj qayerda bo'lmasin, qayerda bo'lsa ham",
+    "ru": "где / куда",
+    "source": "local bilingual dictionaries"
+  },
+  "whine": {
+    "uz": "uvillamoq",
+    "ru": "выть / завыть",
+    "source": "local bilingual dictionaries"
+  },
+  "whisper": {
+    "uz": "pichirlamoq, shivirlamoq",
+    "ru": "прошептать / шепнуть",
+    "source": "local bilingual dictionaries"
+  },
+  "whistle": {
+    "uz": "hushtak",
+    "ru": "свисток",
+    "source": "local bilingual dictionaries"
+  },
+  "white": {
+    "uz": "oq",
+    "ru": "белый / белокожий",
+    "source": "local bilingual dictionaries"
+  },
+  "whoever": {
+    "uz": "indef, pron kim bo'lsa ham, kim bo'lmasin",
+    "ru": "кто бы (то) ни было / кто бы ни",
+    "source": "local bilingual dictionaries"
+  },
+  "widen": {
+    "uz": "kengaymoq",
+    "ru": "расшириться / расширяться",
+    "source": "local bilingual dictionaries"
+  },
+  "winding": {
+    "uz": "burama, aylanma",
+    "ru": "виться / извилистый",
+    "source": "local bilingual dictionaries"
+  },
+  "wing": {
+    "uz": "qanot",
+    "ru": "крыло",
+    "source": "local bilingual dictionaries"
+  },
+  "wink": {
+    "uz": "ko'z qisish",
+    "ru": "подмаргивание / подмигивание",
+    "source": "local bilingual dictionaries"
+  },
+  "wireless": {
+    "uz": "radio",
+    "ru": "радио",
+    "source": "local bilingual dictionaries"
+  },
+  "wisdom": {
+    "uz": "donolik, aqllilik, zakovat",
+    "ru": "мудрость",
+    "source": "local bilingual dictionaries"
+  },
+  "witness": {
+    "uz": "guvoh, shohid",
+    "ru": "свидетельство",
+    "source": "local bilingual dictionaries"
+  },
+  "womanhood": {
+    "uz": "ayollik",
+    "ru": "женский пол / женственность",
+    "source": "local bilingual dictionaries"
+  },
+  "womb": {
+    "uz": "bachadon",
+    "ru": "матка / утроба",
+    "source": "local bilingual dictionaries"
+  },
+  "workout": {
+    "uz": "shug'ullanish, mashq qilish",
+    "ru": "воркаут / тренировка",
+    "source": "local bilingual dictionaries"
+  },
+  "workshop": {
+    "uz": "ustaxona",
+    "ru": "семинар",
+    "source": "local bilingual dictionaries"
+  },
+  "world": {
+    "uz": "dunyo, olam",
+    "ru": "мир / свет",
+    "source": "local bilingual dictionaries"
+  },
+  "worm": {
+    "uz": "chuvalchang, qurt",
+    "ru": "негодяй / негодяйка",
+    "source": "local bilingual dictionaries"
+  },
+  "worn-out": {
+    "uz": "eskirib ketgan, uvadasi chiqqan",
+    "ru": "изношенный / обветшалый",
+    "source": "local bilingual dictionaries"
+  },
+  "wound": {
+    "uz": "wind ga qarang",
+    "ru": "рана / ранение",
+    "source": "local bilingual dictionaries"
+  },
+  "wounded": {
+    "uz": "jarohatlangan, yarador",
+    "ru": "раненый",
+    "source": "local bilingual dictionaries"
+  },
+  "yacht": {
+    "uz": "yaxta",
+    "ru": "яхта",
+    "source": "local bilingual dictionaries"
+  },
+  "zebra crossing": {
+    "uz": "o'tish joy, ko'cha kesib o'tiladigan joy",
+    "ru": "пешеходный переход / зебра",
+    "source": "local bilingual dictionaries"
+  }
+}

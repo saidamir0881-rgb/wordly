@@ -4,7 +4,7 @@ function boot(hash='#books',storage=new Map()){
   const el=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',attributes:{},setAttribute(k,v){this.attributes[k]=v},classList:{add(){},remove(){},toggle(){}},focus(){}});return elements.get(s)};
   const context=vm.createContext({console,Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash},window:{matchMedia:()=>({matches:true}),scrollTo(){},addEventListener:(k,v)=>listeners[k]=v},document:{querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
   const run=s=>vm.runInContext(s,context);
-  for(const file of ['vocabulary','elementary-vocabulary','library','i18n','cloze-data','elementary-cloze','cloze','persistence','voice','answer-feedback','memory'])run(fs.readFileSync(`dist/${file}.js`,'utf8'));
+  for(const file of ['vocabulary','elementary-vocabulary','upper-vocabulary','upper-lessons','library','i18n','cloze-data','elementary-cloze','upper-cloze','cloze','persistence','voice','answer-feedback','memory'])run(fs.readFileSync(`dist/${file}.js`,'utf8'));
   return{run,el,storage};
 }
 let app=boot();
@@ -12,8 +12,8 @@ assert.equal(app.run('selectedBook'),null);
 assert.ok(app.el('#app').innerHTML.indexOf('href="#book-elementary"')<app.el('#app').innerHTML.indexOf('href="#book-intermediate"'),'Elementary is first');
 assert.equal(app.run('libraryBooks[0].units.length'),60);
 assert.equal(app.run('libraryBooks[1].units.length'),100);
-assert.equal(app.run('libraryWords.length'),4229);
-assert.equal(app.run('new Set(libraryWords.map(w=>w.id)).size'),4229,'Word IDs are unique across books');
+assert.equal(app.run('libraryWords.length'),4229+app.run('upperVocabulary.flatMap(u=>u.words).length'));
+assert.equal(app.run('new Set(libraryWords.map(w=>w.id)).size'),app.run('libraryWords.length'),'Word IDs are unique across books');
 assert.equal(app.run('libraryWords.every(w=>w.en&&w.uz&&w.ru&&w.pronunciation&&/[a-z]/i.test(w.pronunciation))'),true);
 for(const name of ['elementary','intermediate'])assert.ok(fs.statSync(`dist/covers/${name}.png`).size>1000);
 assert.match(boot('#units').el('#app').innerHTML,/class="book-grid"/,'Old Telegram entry opens the library');
@@ -59,4 +59,21 @@ const legacy=new Map([['wordly-memory-v1',JSON.stringify({'evu-001-routine':{sta
 app=boot('#books',legacy);assert.equal(app.run('bookProgress(libraryBooks[1]).known'),1);assert.equal(app.run('bookProgress(libraryBooks[1]).attempts'),5);
 assert.equal(app.run('bookProgress(libraryBooks[0]).known'),0,'Existing intermediate progress is preserved, not reassigned');
 assert.equal(app.run("validCheckpoint({mode:'flash',direction:'uz',wordIds:['evu-001-routine'],index:0,ratings:{},checked:false,answer:''},'elementary:1')"),false,'Cross-book checkpoints are rejected');
-console.log('Passed: two-book ordering/covers, 160 unit routes, all translations/readings, 180 Elementary cloze exercises, per-book statistics, RU mode, isolated checkpoints, navigation and legacy progress preservation.');
+const coverage=JSON.parse(fs.readFileSync('dist/upper-coverage.json','utf8'));
+assert.equal(coverage.unitCount,101);
+assert.equal(coverage.indexEntryCount,3282);
+assert.equal(coverage.coveredIndexReferences,3756);
+assert.deepEqual(coverage.missingIndexReferences,[]);
+assert.equal(app.run('upperVocabulary.flatMap(u=>u.words).length'),4390);
+assert.equal(app.run('libraryBooks[2].id'),'upper-intermediate');
+for(let n=1;n<=101;n++){
+  app.run(`location.hash='#upper-intermediate-unit-${n}';route()`);
+  assert.equal(app.run('unit.number'),n);
+  assert.equal(app.run('selectedBook.id'),'upper-intermediate');
+  assert.match(app.el('#app').innerHTML,/source-lesson/);
+  for(const kind of ['lesson','exercises'])assert.ok(fs.statSync(`dist/pages/upper-${String(n).padStart(3,'0')}-${kind}.webp`).size>1000);
+}
+app.run("changeLanguage('uz');location.hash='#upper-intermediate-unit-101';route();startSession();rate('known');action('exit')");
+assert.ok(JSON.parse(app.storage.get('wordly-sessions-v1'))['upper-intermediate:101']);
+assert.equal(app.run('upperClozeQuestions.every(q=>upperVocabulary[q.unit-1].words.some(w=>w.id===q.wordId)&&q.text.split("___").length===2)'),true);
+console.log('Passed: three books, 261 unit routes, 8,619 cards, complete Upper index coverage, 202 source images, translations/readings, isolated checkpoints, statistics and legacy progress.');

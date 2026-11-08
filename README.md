@@ -1,5 +1,13 @@
 # WORDLY
 
+Upper-intermediate endi uchinchi kitob: **101 unit, 4 390 kartochka**. Kutubxonada jami **261 unit, 8 619 kartochka** mavjud. Har bir yangi kartochkada inglizcha so‘z, o‘zbek harflaridagi taxminiy talaffuz, o‘zbekcha va ruscha ma’no bor.
+
+`python build-upper.py` mahalliy manbalardan yangi kitobni qayta yaratadi. `upper-source.json` PDFdan ajratilgan darslar va to‘liq indeksni, `upper-extra-terms.txt` qo‘shimcha iboralarni, `upper-manual.txt` tahrirlangan tarjimalarni saqlaydi. Tekshiruv **3 282 indeks yozuvi / 3 756 unit havolasi** qamrab olinganini tasdiqlaydi; tafsilotlar `dist/upper-coverage.json`da. Barcha 101 unitning dars va mashq sahifalari — jami **202 asl sahifa** — unit ichida ochiladi. Bu rasmlar jadval, rasm ichidagi yozuvlar va mashqlarning asl ko‘rinishini ham saqlaydi. Indeks qamrovi kartochkalar uchun tekshirilgan; matndagi har bir oddiy yordamchi so‘z alohida kartochka degani emas.
+
+Upper-intermediate uchun 190 kontekstli gap mashqi qo‘shildi (har bir unitda mavjud emas); barcha kitoblarda jami 870 ta. Yo‘llar: `#book-upper-intermediate`, `#upper-intermediate-unit-1` … `#upper-intermediate-unit-101`. Eski ikki kitobning IDlari va natijalari saqlanadi. `npm.cmd test` barcha 261 unit, indeks qamrovi, 202 sahifa, tarjimalar, talaffuz va alohida saqlangan natijalarni tekshiradi.
+
+Mahalliy lug‘at manbalari va litsenziyalar: [dictionary-notices.txt](dist/dictionary-notices.txt), [FreeDict CC-BY-SA 3.0](dist/freedict-LICENSE.txt). Tarjimalar saytda mahalliy saqlanadi.
+
 ## Hozirgi versiya: kitoblar kutubxonasi
 
 Asosiy sahifada muqovali ikki kitob tartib bilan turadi: **Elementary** (A1–A2, 60 unit, 1 433 kartochka), keyin **Pre-intermediate & Intermediate** (100 unit, 2 796 kartochka). Jami 160 unit va 4 229 kartochka. Muqovalar foydalanuvchi bergan PDFlarning birinchi sahifasidan olingan. Telefon ekranida ham ixcham va aniq ko‘rinadi.

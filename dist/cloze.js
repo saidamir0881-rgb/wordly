@@ -1,4 +1,4 @@
-const clozeByWord=new Map([...clozeQuestions,...elementaryClozeQuestions].map(q=>[q.wordId,q]));
+const clozeByWord=new Map([...clozeQuestions,...elementaryClozeQuestions,...upperClozeQuestions].map(q=>[q.wordId,q]));
 const clozeFor=w=>clozeByWord.get(w.id);
 const clozeAvailable=words=>words.filter(w=>clozeFor(w));
 function startCloze(){

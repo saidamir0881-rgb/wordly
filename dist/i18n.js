@@ -5,6 +5,10 @@ const meaning=w=>w[appLanguage];
 const translationLocale=()=>appLanguage==='ru'?'ru-RU':'uz-UZ';
 const checkpointStorageKey=()=>appLanguage==='ru'?'wordly-sessions-ru-v1':'wordly-sessions-v1';
 const russianUI={
+  'Lesson':'Урок', 'Exercises':'Упражнения', 'Text':'Текст',
+  'Keyingi bosqichga o‘ting. Keng lug‘at, aniq ifodalar va murakkab iboralar.':'Переходите на следующий уровень. Богатая лексика, точные выражения и сложные обороты.',
+  'Kitob matni va mashqlar':'Текст урока и упражнения', 'Dars matni':'Текст урока', 'Mashqlar matni':'Текст упражнений',
+  'Asl inglizcha matn':'Оригинальный английский текст', 'PDF sahifasi':'Страница PDF',
   'Asosiy menyu':'Главное меню', 'Kutubxona':'Библиотека', 'Statistika':'Статистика',
   'HAR KUNI BIR QADAM':'ШАГ ВПЕРЁД КАЖДЫЙ ДЕНЬ', 'Yangi so‘zlar.':'Новые слова.', 'Yangi imkoniyatlar.':'Новые возможности.',
   'Darajangizga mos kitobni tanlang.':'Выберите книгу своего уровня.', 'So‘zlarni o‘rganing va o‘sishingizni kuzating.':'Учите слова и следите за своим прогрессом.',

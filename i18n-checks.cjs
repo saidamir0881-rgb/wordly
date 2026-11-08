@@ -5,7 +5,7 @@ function boot(storage=new Map()){
   const document={querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v};
   const context=vm.createContext({console,Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash:'#units'},window:{matchMedia:()=>({matches:true}),addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document});
   const run=s=>vm.runInContext(s,context);
-  for(const name of ['vocabulary','elementary-vocabulary','library','i18n','cloze-data','elementary-cloze','cloze','persistence','voice','answer-feedback','memory'])run(fs.readFileSync(`dist/${name}.js`,'utf8'));
+  for(const name of ['vocabulary','elementary-vocabulary','upper-vocabulary','upper-lessons','library','i18n','cloze-data','elementary-cloze','upper-cloze','cloze','persistence','voice','answer-feedback','memory'])run(fs.readFileSync(`dist/${name}.js`,'utf8'));
   return{run,el,storage,document};
 }
 let app=boot();
