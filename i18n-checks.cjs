@@ -5,7 +5,7 @@ function boot(storage=new Map()){
   const document={querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v};
   const context=vm.createContext({console,Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash:'#units'},window:{matchMedia:()=>({matches:true}),addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document});
   const run=s=>vm.runInContext(s,context);
-  for(const name of ['vocabulary','i18n','cloze-data','cloze','persistence','voice','answer-feedback','memory'])run(fs.readFileSync(`dist/${name}.js`,'utf8'));
+  for(const name of ['vocabulary','elementary-vocabulary','library','i18n','cloze-data','elementary-cloze','cloze','persistence','voice','answer-feedback','memory'])run(fs.readFileSync(`dist/${name}.js`,'utf8'));
   return{run,el,storage,document};
 }
 let app=boot();
@@ -43,7 +43,7 @@ assert.equal(app.run('session.answer'),'русский черновик','Russia
 const reloaded=boot(app.storage);
 assert.equal(reloaded.run('appLanguage'),'ru','Language preference survives reload');
 assert.equal(reloaded.document.documentElement.lang,'ru');
-reloaded.run("query='вдова';render()");assert.match(reloaded.el('#app').innerHTML,/#unit-13/);
+reloaded.run("location.hash='#book-intermediate';route();query='вдова';render()");assert.match(reloaded.el('#app').innerHTML,/#unit-13/);
 reloaded.run("query='widow';render()");assert.match(reloaded.el('#app').innerHTML,/#unit-13/);
 assert.equal(reloaded.run("normalise('ЗЕЛЁНЫЙ')"),'зеленый');
 assert.equal(reloaded.run("acceptedAnswers({ru:'свекровь или тёща'},'uz').includes(normalise('теща'))"),true);

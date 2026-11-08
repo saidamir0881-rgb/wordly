@@ -4,7 +4,7 @@ function boot(storage=new Map(),hash='#unit-1'){
   const el=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',attributes:{},setAttribute(k,v){this.attributes[k]=v},classList:{add(){},remove(){},toggle(){}},focus(){this.focused=true}});return elements.get(s)};
   const context=vm.createContext({console,Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash},window:{matchMedia:()=>({matches:true}),addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document:{querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v}});
   const run=s=>vm.runInContext(s,context);
-  for(const file of ['vocabulary.js','i18n.js','cloze-data.js','cloze.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
+  for(const file of ['vocabulary.js','elementary-vocabulary.js','library.js','i18n.js','cloze-data.js','elementary-cloze.js','cloze.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
   return{run,el,storage,listeners};
 }
 let app=boot();

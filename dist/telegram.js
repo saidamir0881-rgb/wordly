@@ -6,7 +6,7 @@
     app.setHeaderColor('#0c1020');app.setBackgroundColor('#0c1020');
   }
   if(app.BackButton){
-    const updateBack=()=>{if(location.hash&&location.hash!=='#units')app.BackButton.show();else app.BackButton.hide()};
+    const updateBack=()=>{if(location.hash&&!['#units','#books'].includes(location.hash))app.BackButton.show();else app.BackButton.hide()};
     app.BackButton.onClick(()=>{if(session)action('exit');else go(null)});
     window.addEventListener('hashchange',updateBack);updateBack();
   }

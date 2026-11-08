@@ -1,8 +1,16 @@
 # WORDLY
 
-## Hozirgi versiya: oddiy so‘z yodlash
+## Hozirgi versiya: kitoblar kutubxonasi
 
-Sayt yuqoridagi **O‘zbekcha / Русский** tugmalari orqali ikki tilda ishlaydi. Ruscha rejimda barcha 2 796 ta so‘zning tarjimasi, interfeys, yozma mashq va gapni to‘ldirishdagi yordam ruscha bo‘ladi. Inglizcha so‘z va o‘zbek harflaridagi o‘qilish saqlanadi. Qidiruv inglizcha va tanlangan tildagi tarjimadan izlaydi. Qurilmada ruscha TTS ovozi bo‘lsa, ovozli mashq ma’noni ruscha o‘qiydi; javob har doim inglizcha aytiladi.
+Asosiy sahifada muqovali ikki kitob tartib bilan turadi: **Elementary** (A1–A2, 60 unit, 1 433 kartochka), keyin **Pre-intermediate & Intermediate** (100 unit, 2 796 kartochka). Jami 160 unit va 4 229 kartochka. Muqovalar foydalanuvchi bergan PDFlarning birinchi sahifasidan olingan. Telefon ekranida ham ixcham va aniq ko‘rinadi.
+
+**Statistika** sahifasi yodlangan, takrorlash kerak va yangi so‘zlar, tugallangan unitlar, jami javoblar, har bir kitobning o‘sish foizi va oxirgi o‘rganilgan so‘zlarni haqiqiy saqlangan natijalardan hisoblaydi. Tugallangan unit barcha so‘zlari ko‘rib chiqilganini bildiradi. Eski Intermediate IDlari, reytinglar va raqamli checkpoint kalitlari saqlangan; Elementary so‘zlari `eve-` prefiksi, checkpointlari `elementary:N` kalitidan foydalanadi. Til bo‘yicha ajratish avvalgidek ishlaydi.
+
+Manzillar: `#books` — kutubxona, `#book-elementary` / `#book-intermediate` — kitob unitlari, `#statistics` — statistika. Eski `#units` Telegram havolasi kutubxonani, `#unit-N` va `#unit/EVU-N` esa avvalgi Intermediate unitini ochadi. Elementary unitlari `#elementary-unit-N`da.
+
+Elementary uchun `elementary-terms.txt`, `elementary-glossary.txt` va `elementary-overrides.txt` mahalliy tahrir manbalari. `python build-elementary.py` barcha tarjimalar, kontekstga mos ma’nolar va CMUdict asosidagi taxminiy o‘qilishlarni tekshirib, `dist/elementary-vocabulary.js`ni yaratadi. `elementary-cloze.txt`dan har bir unitga 3 tadan, jami 180 ta original gap tuziladi. Intermediate’dagi 500 ta gap bilan jami 680 ta gap to‘ldirish mashqi mavjud. `npm.cmd test` eski oqimlar bilan birga ikki kitob, statistika, IDlar, til, checkpoint ajratilishi va eski natijalar saqlanishini tekshiradi.
+
+Sayt yuqoridagi **O‘zbekcha / Русский** tugmalari orqali ikki tilda ishlaydi. Ruscha rejimda ikkala kitobdagi barcha 4 229 ta so‘zning tarjimasi, interfeys, yozma mashq va gapni to‘ldirishdagi yordam ruscha bo‘ladi. Inglizcha so‘z va o‘zbek harflaridagi o‘qilish saqlanadi. Qidiruv inglizcha va tanlangan tildagi tarjimadan izlaydi. Qurilmada ruscha TTS ovozi bo‘lsa, ovozli mashq ma’noni ruscha o‘qiydi; javob har doim inglizcha aytiladi.
 
 Til `wordly-language-v1`da saqlanadi. Tilni mashq ichida almashtirish joriy mashqni saqlab, unitga qaytaradi. Yarim qolgan o‘zbekcha mashqlar avvalgi `wordly-sessions-v1`, ruscha mashqlar `wordly-sessions-ru-v1` kalitida saqlanadi. Bilaman/bilmayman holatlari ikkala til uchun umumiy. Ruscha yozma tekshirish `е` va `ё`ni teng qabul qiladi. `vocabulary-ru.json` qo‘lda tayyorlangan ruscha tarjimalar manbasi: har bir yozuv barqaror so‘z IDsi va inglizchasiga bog‘langan. Uni tahrirlagach `python build-vocabulary.py`ni bajaring. Sayt tarjima xizmatlariga so‘rov yubormaydi.
 

@@ -1,0 +1,879 @@
+American|amerikalik|американец
+American football|amerika futboli|американский футбол
+Antarctica|Antarktida|Антарктида
+April|aprel|апрель
+Arabic|arab tili|арабский язык
+Argentina|Argentina|Аргентина
+August|avgust|август
+Australia|Avstraliya|Австралия
+Australian|avstraliyalik|австралиец
+Bonfire Night|gulxan kechasi|Ночь костров
+Brazil|Braziliya|Бразилия
+Brazilian|braziliyalik|бразилец
+British|britaniyalik|британец
+Canada|Kanada|Канада
+Canadian|kanadalik|канадец
+Chile|Chili|Чили
+China|Xitoy|Китай
+Chinese|xitoy tili|китайский язык
+Christmas|Rojdestvo|Рождество
+Christmas tree|Rojdestvo archasi|рождественская ёлка
+Colombia|Kolumbiya|Колумбия
+Colombian|kolumbiyalik|колумбиец
+December|dekabr|декабрь
+Easter|Pasxa bayrami|Пасха
+Easter egg|Pasxa tuxumi|пасхальное яйцо
+Egypt|Misr|Египет
+Egyptian|misrlik|египтянин
+English|ingliz tili|английский язык
+February|fevral|февраль
+Finnish|fin tili|финский язык
+Friday|juma|пятница
+German|nemis tili|немецкий язык
+Germany|Germaniya|Германия
+Halloween|Xellouin|Хэллоуин
+Happy Birthday|tug‘ilgan kuningiz bilan|с днём рождения
+Happy New Year|yangi yilingiz bilan|с Новым годом
+Hogmanay|Shotlandiyada yangi yil bayrami|шотландский Новый год
+Houses of Parliament|parlament binolari|здание парламента
+How about|qanday bo‘larkin|как насчёт
+How long does it take?|qancha vaqt ketadi?|Сколько времени это занимает?
+How much do you weigh?|vazningiz qancha?|Сколько вы весите?
+How much does it cost?|bu qancha turadi?|Сколько это стоит?
+How much is it?|narxi qancha?|Сколько это стоит?
+How often|qanchalik tez-tez|как часто
+How old is he?|uning yoshi nechada?|Сколько ему лет?
+How tall are you?|bo‘yingiz qancha?|Какого вы роста?
+I don't agree|men qo‘shilmayman|я не согласен
+I don't mind|men qarshi emasman|я не против
+ICT|axborot-kommunikatsiya texnologiyalari|информационно-коммуникационные технологии
+India|Hindiston|Индия
+Indian|hindistonlik|индиец
+Irish|irland tili|ирландский язык
+It's raining|yomg‘ir yog‘yapti|идёт дождь
+It's snowing|qor yog‘yapti|идёт снег
+It's up to you|o‘zingiz hal qiling|решать вам
+Italian|italyan tili|итальянский язык
+Italy|Italiya|Италия
+January|yanvar|январь
+Japan|Yaponiya|Япония
+Japanese|yapon tili|японский язык
+July|iyul|июль
+June|iyun|июнь
+March|mart|март
+May|may|май
+Merry Christmas|Rojdestvo muborak|с Рождеством
+Monday|dushanba|понедельник
+Moroccan|marokashlik|марокканец
+Morocco|Marokash|Марокко
+New Year's Day|yangi yilning birinchi kuni|первый день Нового года
+New Year's Eve|yangi yil arafasi|канун Нового года
+New Zealand|Yangi Zelandiya|Новая Зеландия
+North America|Shimoliy Amerika|Северная Америка
+November|noyabr|ноябрь
+October|oktabr|октябрь
+Oh dear|voy attang|вот беда
+Pakistan|Pokiston|Пакистан
+Pakistani|pokistonlik|пакистанец
+Peru|Peru|Перу
+Peruvian|perulik|перуанец
+Poland|Polsha|Польша
+Polish|polyak tili|польский язык
+Portuguese|portugal tili|португальский язык
+SIM card|SIM karta|сим-карта
+Saturday|shanba|суббота
+Scottish|shotlandiyalik|шотландец
+September|sentabr|сентябрь
+South Africa|Janubiy Afrika|Южная Африка
+South African|janubiy afrikalik|южноафриканец
+Spain|Ispaniya|Испания
+Spanish|ispan tili|испанский язык
+Sunday|yakshanba|воскресенье
+Thai|tay tili|тайский язык
+Thailand|Tailand|Таиланд
+Thursday|payshanba|четверг
+Tuesday|seshanba|вторник
+Tunisia|Tunis|Тунис
+Tunisian|tunislik|тунисец
+Valentine's Day|sevishganlar kuni|День святого Валентина
+Wednesday|chorshanba|среда
+What a pity|afsus|как жаль
+What about|nima deysiz|как насчёт
+What are you doing?|nima qilyapsiz?|Что вы делаете?
+What do you do?|kim bo‘lib ishlaysiz?|Кем вы работаете?
+What time|soat nechada|в котором часу
+What's on TV?|televizorda nima bor?|Что идёт по телевизору?
+What's on?|nima namoyish etilyapti?|Что идёт?
+What's the weather like?|havo qanday?|Какая погода?
+Why don't we|keling, birga|почему бы нам не
+Yorkshire pudding|Yorkshir pudingi|йоркширский пудинг
+a pair of|bir juft|пара
+account|hisob|учётная запись
+action film|jangari film|боевик
+actress|aktrisa|актриса
+address|manzil|адрес
+aeroplane|samolyot|самолёт
+afternoon|tushdan keyingi vaqt|вторая половина дня
+ago|oldin|назад
+air|havo|воздух
+air pollution|havo ifloslanishi|загрязнение воздуха
+alarm clock|budilnik|будильник
+alcohol|spirtli ichimlik|алкоголь
+always|har doim|всегда
+angry|jahli chiqqan|сердитый
+animal|hayvon|животное
+answer|javob bermoq|отвечать
+app|ilova|приложение
+apple|olma|яблоко
+arm|qo‘l|рука
+around|taxminan|около
+arrest|hibsga olmoq|арестовать
+arrive at|yetib kelmoq|прибывать
+arrive in|shahar yoki mamlakatga kelmoq|прибывать в город или страну
+art|tasviriy san’at|изобразительное искусство
+ask a question|savol bermoq|задавать вопрос
+ask somebody to do something|kimdandir biror ishni qilishni so‘ramoq|просить кого-либо сделать что-либо
+aspirin|aspirin|аспирин
+asthma|astma|астма
+at home|uyda|дома
+at the end of|oxirida|в конце
+aunt|amma yoki xola|тётя
+autumn|kuz|осень
+average-looking|oddiy ko‘rinishli|обычной внешности
+back|orqa|спина
+bacon|bekon|бекон
+bad|yomon|плохой
+badly|yomon tarzda|плохо
+badminton|badminton|бадминтон
+baker|novvoy|пекарь
+banana|banan|банан
+bank clerk|bank xodimi|банковский служащий
+bank holiday|rasmiy dam olish kuni|официальный выходной
+bar|bar|бар
+baseball|beysbol|бейсбол
+basement|yerto‘la|подвал
+basin|yuvinish rakovinasi|умывальник
+basketball|basketbol|баскетбол
+bathroom|hammom|ванная комната
+battery|batareya|батарея
+be born|tug‘ilmoq|родиться
+be careful|ehtiyot bo‘lmoq|быть осторожным
+be going to|qilmoqchi bo‘lmoq|собираться сделать
+beard|soqol|борода
+beautiful|go‘zal|красивый
+beauty salon|go‘zallik saloni|салон красоты
+bed|karavot|кровать
+bedside lamp|karavot yonidagi chiroq|прикроватная лампа
+bedside table|karavot yonidagi tumba|прикроватная тумбочка
+beer|pivo|пиво
+beginning|boshlanish|начало
+belt|kamar|ремень
+big family|katta oila|большая семья
+bill|hisob|счёт
+biology|biologiya|биология
+bird|qush|птица
+birthday|tug‘ilgan kun|день рождения
+blood|qon|кровь
+blue|ko‘k|синий
+board pen|doska markeri|маркер для доски
+board rubber|doska o‘chirg‘ichi|губка для доски
+boat|qayiq|лодка
+bonfire|gulxan|костёр
+book|kitob|книга
+bookshelf|kitob tokchasi|книжная полка
+bookshelves|kitob tokchalari|книжные полки
+bookshop|kitob do‘koni|книжный магазин
+bowl|kosa|миска
+brain|miya|мозг
+bread|non|хлеб
+bring|olib kelmoq|приносить
+bring back|qaytarib olib kelmoq|приносить обратно
+bring somebody something|kimgadir biror narsa olib kelmoq|приносить кому-либо что-либо
+broken|buzilgan|сломанный
+brother|aka yoki uka|брат
+but|lekin|но
+butcher|qassob|мясник
+butter|sariyog‘|сливочное масло
+by car|mashinada|на машине
+by coach|shaharlararo avtobusda|на междугороднем автобусе
+by ferry|paromda|на пароме
+by plane|samolyotda|на самолёте
+by train|poyezdda|на поезде
+café|kafe|кафе
+camera|fotoapparat|фотоаппарат
+cancer|saraton|рак
+car|mashina|машина
+car crash|avtohalokat|автомобильная авария
+car theft|mashina o‘g‘irlash|угон автомобиля
+car thief|mashina o‘g‘risi|угонщик
+carrier bag|xarid sumkasi|пакет для покупок
+carry|ko‘tarib yurmoq|нести
+cartoon|multfilm|мультфильм
+cash machine|bankomat|банкомат
+cat|mushuk|кошка
+chair|stul|стул
+change|qaytim|сдача
+change money|pul almashtirmoq|обменивать деньги
+change the channel|kanalni almashtirmoq|переключить канал
+change trains|boshqa poyezdga o‘tmoq|пересаживаться на другой поезд
+charger|quvvatlagich|зарядное устройство
+chat online|internetda suhbatlashmoq|общаться в интернете
+check in|ro‘yxatdan o‘tmoq|регистрироваться
+check your bill|hisobni tekshirmoq|проверить счёт
+chemist|dorixona|аптека
+chemistry|kimyo|химия
+chick|jo‘ja|цыплёнок
+chicken tikka masala|tikka masala tovuq taomi|курица тикка масала
+children|bolalar|дети
+chips|qovurilgan kartoshka|картофель фри
+chocolate ice cream|shokoladli muzqaymoq|шоколадное мороженое
+cholera|vabo|холера
+chopsticks|ovqat cho‘plari|палочки для еды
+clarinet|klarnet|кларнет
+clean the house|uyni tozalamoq|убирать дом
+climb|tirmashib chiqmoq|взбираться
+close the curtains|pardalarni yopmoq|закрыть шторы
+cloth|latta|тряпка
+cloud|bulut|облако
+coach tour|avtobus sayohati|автобусный тур
+coat|palto|пальто
+code|kod|код
+coffee|qahva|кофе
+coffee maker|qahva tayyorlagich|кофеварка
+coffee table|jurnal stoli|журнальный столик
+cold|sovuq|холодный
+colour|rang|цвет
+comb|taroq|расчёска
+come|kelmoq|приходить
+come along|birga bormoq|пойти вместе
+come and see|kelib ko‘rmoq|прийти навестить
+come back|qaytib kelmoq|возвращаться
+come back from|dan qaytib kelmoq|возвращаться из
+come home|uyga kelmoq|приходить домой
+come in|kirmoq|входить
+come into|ichiga kirmoq|входить в
+come on|qani, tezroq|давай
+come out of|ichidan chiqmoq|выходить из
+come to|ga kelmoq|приходить в
+come to stay|mehmonga kelib turmoq|приехать погостить
+comic|komiks|комикс
+computer|kompyuter|компьютер
+computer crash|kompyuterning ishdan chiqishi|сбой компьютера
+computer magazine|kompyuter jurnali|компьютерный журнал
+concert|konsert|концерт
+conservation area|muhofaza etiladigan hudud|охраняемая природная территория
+control|boshqarmoq|управлять
+cooking|ovqat pishirish|приготовление еды
+country|mamlakat|страна
+country road|qishloq yo‘li|просёлочная дорога
+cow|sigir|корова
+curry|karri taomi|карри
+customs|bojxona|таможня
+dance|raqsga tushmoq|танцевать
+dark hair|to‘q rangli soch|тёмные волосы
+dark skin|qorachadan kelgan teri|смуглая кожа
+daughter|qiz farzand|дочь
+day|kun|день
+death|o‘lim|смерть
+debit card|debet kartasi|дебетовая карта
+delivery|yetkazib berish|доставка
+delivery address|yetkazish manzili|адрес доставки
+depart|jo‘nab ketmoq|отправляться
+department store|univermag|универмаг
+desk|yozuv stoli|письменный стол
+die of|dan vafot etmoq|умереть от
+dislike|yoqtirmaslik|не любить
+divorced|ajrashgan|разведённый
+do|qilmoq|делать
+do business with|bilan savdo qilmoq|вести дела с
+do exercises|mashqlar bajarmoq|делать упражнения
+do nothing|hech narsa qilmaslik|ничего не делать
+do the gardening|bog‘da ishlamoq|заниматься садоводством
+do the washing-up|idishlarni yuvmoq|мыть посуду
+doctor|shifokor|врач
+dog|it|собака
+double room|ikki kishilik xona|двухместный номер
+download an app|ilova yuklab olmoq|скачать приложение
+drawing pin|chizma knopkasi|канцелярская кнопка
+dressing table|pardoz stoli|туалетный столик
+drive|mashina haydamoq|водить машину
+drug dealer|giyohvand modda sotuvchisi|наркоторговец
+drug dealing|giyohvand modda savdosi|торговля наркотиками
+dry|quruq|сухой
+ear|quloq|ухо
+earthquake|zilzila|землетрясение
+egg|tuxum|яйцо
+else|yana boshqa|ещё
+email|elektron xat|электронное письмо
+email address|elektron pochta manzili|адрес электронной почты
+end|oxir|конец
+endless|cheksiz|бесконечный
+envelope|konvert|конверт
+evening|kechki payt|вечер
+evening paper|kechki gazeta|вечерняя газета
+everywhere|hamma joyda|везде
+ex-boyfriend|sobiq yigit|бывший парень
+ex-wife|sobiq xotin|бывшая жена
+example|misol|пример
+excellent|a’lo|отличный
+exchange money|pul almashtirmoq|обменивать деньги
+eye|ko‘z|глаз
+factory|zavod|завод
+fail an exam|imtihondan yiqilmoq|провалить экзамен
+fair hair|och rangli soch|светлые волосы
+fair skin|oqish teri|светлая кожа
+farm|ferma|ферма
+farmer|fermer|фермер
+fast|tez|быстро
+fast food restaurant|tez tayyor taomlar restorani|ресторан быстрого питания
+fat|semiz|толстый
+father|ota|отец
+favourite TV programme|sevimli teledastur|любимая телепередача
+feel ill|o‘zini kasal his qilmoq|плохо себя чувствовать
+fell|yiqildi|упал
+felt|his qildi|чувствовал
+field|dala|поле
+fill in a form|anketa to‘ldirmoq|заполнить анкету
+fill up with petrol|benzin bilan to‘ldirmoq|заправить бензином
+film star|kino yulduzi|кинозвезда
+finger|barmoq|палец руки
+fish|baliq|рыба
+fish and chips|baliq va qovurilgan kartoshka|рыба с картофелем фри
+flight attendant|bort kuzatuvchisi|бортпроводник
+foal|qulun|жеребёнок
+fog|tuman|туман
+foot|oyoq panjasi|ступня
+football|futbol|футбол
+football hooligan|futbol bezorisi|футбольный хулиган
+football hooliganism|futbol bezoriligi|футбольное хулиганство
+for two years|ikki yil davomida|в течение двух лет
+forest|o‘rmon|лес
+forest fire|o‘rmon yong‘ini|лесной пожар
+fork|sanchqi|вилка
+formal|rasmiy|официальный
+four times a month|oyiga to‘rt marta|четыре раза в месяц
+from|dan|из
+front|old tomon|передняя часть
+fruit|meva|фрукты
+fruit juice|meva sharbati|фруктовый сок
+fruit salad|mevali salat|фруктовый салат
+funeral|dafn marosimi|похороны
+gardening|bog‘dorchilik|садоводство
+geography|geografiya|география
+get a degree|diplom olmoq|получить диплом
+get a doctor|shifokor chaqirmoq|позвать врача
+get a newspaper|gazeta sotib olmoq|купить газету
+get a stamp|marka sotib olmoq|купить марку
+get a taxi|taksi topmoq|поймать такси
+get dark|qorong‘i tushmoq|темнеть
+get home|uyga yetib kelmoq|добраться домой
+get there|u yerga yetib bormoq|добраться туда
+get tired|charchamoq|уставать
+get to|ga yetib bormoq|добраться до
+get wet|ho‘l bo‘lmoq|промокнуть
+gift shop|sovg‘alar do‘koni|сувенирный магазин
+give a lift|mashinada eltib qo‘ymoq|подвезти
+glass|stakan|стакан
+glasses|ko‘zoynak|очки
+gloves|qo‘lqoplar|перчатки
+go|bormoq|идти
+go anywhere|istalgan joyga bormoq|идти куда угодно
+go dancing|raqsga bormoq|ходить на танцы
+go downstairs|pastga tushmoq|спускаться вниз
+go fishing|baliq ovlashga bormoq|ходить на рыбалку
+go home|uyga bormoq|идти домой
+go into|ichiga kirmoq|входить в
+go left|chapga yurmoq|идти налево
+go off|o‘chmoq|выключаться
+go on holiday|ta’tilga bormoq|поехать в отпуск
+go out of|ichidan chiqmoq|выходить из
+go skiing|chang‘i uchishga bormoq|кататься на лыжах
+go there|u yerga bormoq|идти туда
+go to court|sudga bormoq|идти в суд
+go to prison|qamoqqa tushmoq|попасть в тюрьму
+go to the bathroom|hammomga bormoq|идти в ванную
+go to the cinema|kinoga bormoq|ходить в кино
+go to work|ishga bormoq|идти на работу
+go upstairs|yuqoriga chiqmoq|подниматься наверх
+go walking|sayrga chiqmoq|ходить на прогулку
+good|yaxshi|хороший
+good afternoon|xayrli kun|добрый день
+good evening|xayrli kech|добрый вечер
+good morning|xayrli tong|доброе утро
+goodnight|xayrli tun|спокойной ночи
+granddaughter|qiz nabira|внучка
+grandfather|bobo|дедушка
+grandmother|buvi|бабушка
+grandparents|bobo va buvi|бабушка и дедушка
+grandson|o‘g‘il nabira|внук
+grapes|uzum|виноград
+grow flowers|gul o‘stirmoq|выращивать цветы
+hairbrush|soch cho‘tkasi|щётка для волос
+half-hour|yarim soat|полчаса
+half-price|yarim narxda|за полцены
+ham|vetchina|ветчина
+hamburger|gamburger|гамбургер
+hand|qo‘l panjasi|кисть руки
+handbag|ayollar sumkasi|дамская сумочка
+happily|baxtiyor holda|счастливо
+happy|xursand|счастливый
+happy about|dan xursand|радующийся чему-либо
+happy for|uchun xursand|рад за кого-либо
+hat|shlyapa|шляпа
+have|ega bo‘lmoq|иметь
+have a baby|farzand ko‘rmoq|родить ребёнка
+have a bad day|yomon kun o‘tkazmoq|провести неудачный день
+have a cold|shamollamoq|быть простуженным
+have a cup of tea|bir piyola choy ichmoq|выпить чашку чая
+have a drink|ichimlik ichmoq|выпить что-либо
+have a game|o‘yin o‘ynamoq|сыграть
+have a go|sinab ko‘rmoq|попробовать
+have a good journey|safaringiz bexatar bo‘lsin|счастливого пути
+have a good time|vaqtni yaxshi o‘tkazmoq|хорошо провести время
+have a headache|boshi og‘rimoq|испытывать головную боль
+have a lesson|darsda qatnashmoq|заниматься на уроке
+have a look|qarab ko‘rmoq|взглянуть
+have a meal|ovqatlanmoq|поесть
+have a meeting|yig‘ilish o‘tkazmoq|провести собрание
+have a moment|bir oz vaqti bo‘lmoq|иметь минутку
+have a party|ziyofat o‘tkazmoq|устроить вечеринку
+have a picnic|piknik qilmoq|устроить пикник
+have a row|janjallashmoq|поссориться
+have a swim|suzib olmoq|поплавать
+have an exam|imtihoni bo‘lmoq|сдавать экзамен
+have breakfast|nonushta qilmoq|завтракать
+have dinner|kechki ovqat yemoq|ужинать
+have friends round|do‘stlarni uyga taklif qilmoq|пригласить друзей в гости
+have friends to dinner|do‘stlarni kechki ovqatga taklif qilmoq|пригласить друзей на ужин
+have got|bor bo‘lmoq|иметь
+have lunch|tushlik qilmoq|обедать
+have time|vaqti bo‘lmoq|иметь время
+have to|qilishi kerak bo‘lmoq|быть должным
+have your hair cut|soch oldirmoq|постричься
+hay fever|gulchangga allergiya|сенная лихорадка
+head|bosh|голова
+headphones|quloqchin|наушники
+helicopter|vertolyot|вертолёт
+here|shu yerda|здесь
+hi-fi|musiqa markazi|музыкальный центр
+hill|tepalik|холм
+hire a car|mashina ijaraga olmoq|взять машину напрокат
+history|tarix|история
+holiday|ta’til|отпуск
+homeless|uysiz|бездомный
+hope to do|qilishga umid qilmoq|надеяться сделать
+horse|ot|лошадь
+horse racing|ot poygasi|скачки
+hospital|shifoxona|больница
+hot|issiq|горячий
+hot dog|xot-dog|хот-дог
+hour|soat|час
+how awful|naqadar yomon|какой ужас
+how nice|naqadar yaxshi|как хорошо
+how wonderful|naqadar ajoyib|как замечательно
+hungry|och qolgan|голодный
+hurricane|dovul|ураган
+husband|er|муж
+if|agar|если
+impossible|imkonsiz|невозможный
+in a bad mood|kayfiyati yomon|в плохом настроении
+in a friendly way|do‘stona tarzda|дружелюбно
+in an unfriendly way|sovuq muomalada|недружелюбно
+in the future|kelajakda|в будущем
+informal|norasmiy|неофициальный
+information|ma’lumot|информация
+instructor|yo‘riqchi|инструктор
+it doesn't matter|ahamiyati yo‘q|неважно
+jazz|jaz|джаз
+judo|dzyudo|дзюдо
+jump|sakramoq|прыгать
+karate|karate|карате
+kayaking|kayakda suzish|катание на каяке
+key|kalit|ключ
+kid|uloq|козлёнок
+kilo|kilogramm|килограмм
+king|qirol|король
+kitchen roll|oshxona qog‘oz sochig‘i|бумажные полотенца
+knife|pichoq|нож
+lake|ko‘l|озеро
+lamp|chiroq|лампа
+last week|o‘tgan hafta|на прошлой неделе
+last year|o‘tgan yil|в прошлом году
+late for|ga kech qolgan|опоздавший на
+leap year|kabisa yili|високосный год
+learn|o‘rganmoq|учиться
+leave a voicemail|ovozli xabar qoldirmoq|оставить голосовое сообщение
+leave from|dan jo‘nab ketmoq|отправляться из
+left|chap|левый
+leg|oyoq|нога
+let's|keling|давайте
+letter|xat|письмо
+letter box|pochta qutisi|почтовый ящик
+librarian|kutubxonachi|библиотекарь
+light switch|chiroq tugmasi|выключатель
+like|yoqtirmoq|нравиться
+lip|lab|губа
+listen to|ni tinglamoq|слушать
+listen to music|musiqa tinglamoq|слушать музыку
+listen to the radio|radio tinglamoq|слушать радио
+litre|litr|литр
+loaf|bir dona non|буханка
+long hair|uzun soch|длинные волосы
+look for|qidirmoq|искать
+look forward to|intiqlik bilan kutmoq|ждать с нетерпением
+look out|ehtiyot bo‘ling|осторожно
+lost|yo‘qolgan|потерянный
+loud|baland ovozli|громкий
+loudly|baland ovozda|громко
+lovely|yoqimli|прекрасный
+magazine|jurnal|журнал
+make a choice|tanlov qilmoq|сделать выбор
+make a film|film yaratmoq|снять фильм
+make a mess|tartibsizlik qilmoq|устроить беспорядок
+make a phone call|qo‘ng‘iroq qilmoq|позвонить
+make a photocopy|nusxa olmoq|сделать ксерокопию
+make a video|video olmoq|снять видео
+make breakfast|nonushta tayyorlamoq|готовить завтрак
+make coffee|qahva tayyorlamoq|готовить кофе
+make dinner|kechki ovqat tayyorlamoq|готовить ужин
+make lunch|tushlik tayyorlamoq|готовить обед
+make tea|choy damlamoq|заваривать чай
+malaria|bezgak|малярия
+manner|usul|способ
+map|xarita|карта
+marriage|nikoh|брак
+married|turmush qurgan|женатый или замужняя
+meal|ovqat|приём пищи
+meat|go‘sht|мясо
+menu|taomnoma|меню
+middle|o‘rta|середина
+milk|sut|молоко
+mineral water|mineral suv|минеральная вода
+mini-bar|minibar|мини-бар
+minute|daqiqa|минута
+mirror|oyna|зеркало
+mobile|mobil telefon|мобильный телефон
+mobile device|mobil qurilma|мобильное устройство
+modern languages|zamonaviy tillar|современные языки
+money|pul|деньги
+month|oy|месяц
+morning|ertalab|утро
+morning paper|ertalabki gazeta|утренняя газета
+mother|ona|мать
+motorcycle|mototsikl|мотоцикл
+mountain|tog‘|гора
+moustache|mo‘ylov|усы
+mouth|og‘iz|рот
+mug|krujka|кружка
+mugger|ko‘cha qaroqchisi|уличный грабитель
+mugging|ko‘chada talash|уличное ограбление
+museum|muzey|музей
+music|musiqa|музыка
+musician|musiqachi|музыкант
+nail|tirnoq|ноготь
+national park|milliy bog‘|национальный парк
+nature programme|tabiat haqidagi dastur|передача о природе
+news magazine|yangiliklar jurnali|новостной журнал
+newsagent|gazeta do‘koni|газетный киоск
+newspaper|gazeta|газета
+next day delivery|ertasi kuni yetkazish|доставка на следующий день
+next summer|kelasi yoz|следующим летом
+next week|kelasi hafta|на следующей неделе
+next year|kelasi yil|в следующем году
+night|tun|ночь
+non-smoking|chekish taqiqlangan|для некурящих
+nose|burun|нос
+not bad|yomon emas|неплохо
+notebook|daftar|тетрадь
+now|hozir|сейчас
+o'clock|soat roppa-rosa|ровно часов
+old|qari|старый
+older|yoshi kattaroq|старше
+on holiday|ta’tilda|в отпуске
+on the left|chap tomonda|слева
+on the other side|narigi tomonda|на другой стороне
+on the right|o‘ng tomonda|справа
+online|internetda|в интернете
+online check-in|onlayn ro‘yxatdan o‘tish|онлайн-регистрация
+online review|internetdagi sharh|отзыв в интернете
+only|faqat|только
+or|yoki|или
+orange|apelsin|апельсин
+order|buyurtma bermoq|заказывать
+outside line|tashqi telefon liniyasi|внешняя телефонная линия
+over there|ana u yerda|вон там
+overhead projector|slayd proyektori|кодоскоп
+parents|ota-ona|родители
+pass an exam|imtihondan o‘tmoq|сдать экзамен
+passport|pasport|паспорт
+pasta|makaron|макароны
+path|so‘qmoq|тропинка
+pay a fine|jarima to‘lamoq|заплатить штраф
+pay for|uchun pul to‘lamoq|платить за
+pedestrian area|piyodalar hududi|пешеходная зона
+pen|ruchka|ручка
+pencil|qalam|карандаш
+perfect|mukammal|идеальный
+pet|uy hayvoni|домашнее животное
+phone a friend|do‘stga qo‘ng‘iroq qilmoq|позвонить другу
+phone box|telefon budkasi|телефонная будка
+phone case|telefon g‘ilofi|чехол для телефона
+phone number|telefon raqami|номер телефона
+photograph|fotosurat|фотография
+physical education|jismoniy tarbiya|физкультура
+physics|fizika|физика
+picture|rasm|картина
+piece of paper|bir varaq qog‘oz|лист бумаги
+pig|cho‘chqa|свинья
+piglet|cho‘chqa bolasi|поросёнок
+pizza|pitsa|пицца
+plate|likopcha|тарелка
+play|o‘ynamoq|играть
+play a musical instrument|musiqa asbobini chalmoq|играть на музыкальном инструменте
+play a role|rol o‘ynamoq|играть роль
+play video games|videoo‘yin o‘ynamoq|играть в видеоигры
+please|iltimos|пожалуйста
+police|politsiya|полиция
+polluted|ifloslangan|загрязнённый
+poor|kambag‘al|бедный
+post code|pochta indeksi|почтовый индекс
+post office|pochta bo‘limi|почта
+potato|kartoshka|картофель
+power button|yoqish tugmasi|кнопка питания
+pre-heat|oldindan isitmoq|предварительно нагревать
+pre-school|maktabgacha|дошкольный
+private school|xususiy maktab|частная школа
+programme|dastur|передача
+pub|pab|паб
+put on a plaster|plastir yopishtirmoq|наклеить пластырь
+pyjamas|pijama|пижама
+queen|qirolicha|королева
+quickly|tezda|быстро
+quietly|jim holda|тихо
+radio|radio|радио
+railway station|temiryo‘l vokzali|железнодорожный вокзал
+rain|yomg‘ir|дождь
+rainy|yomg‘irli|дождливый
+razor|ustara|бритва
+read|o‘qimoq|читать
+read a book|kitob o‘qimoq|читать книгу
+read newspapers|gazeta o‘qimoq|читать газеты
+reality TV|realiti-shou|реалити-шоу
+receipt|chek|чек
+redo|qayta qilmoq|переделать
+relatives|qarindoshlar|родственники
+remote control|masofadan boshqarish pulti|пульт дистанционного управления
+reservation|band qilish|бронирование
+reserve a seat|o‘rindiq band qilmoq|забронировать место
+restaurant|restoran|ресторан
+restaurant car|vagon-restoran|вагон-ресторан
+rice|guruch|рис
+ride|minmoq|ездить верхом
+river|daryo|река
+road|yo‘l|дорога
+roast beef|pechda pishirilgan mol go‘shti|ростбиф
+roast potatoes|pechda pishirilgan kartoshka|запечённый картофель
+rock music|rok musiqasi|рок-музыка
+room service|xonaga xizmat|обслуживание в номере
+room with a view|manzarali xona|номер с видом
+royal family|qirollik oilasi|королевская семья
+rugby|regbi|регби
+running|yugurish|бег
+rush hour|tig‘iz payt|час пик
+sad|xafa|грустный
+sadness|g‘amginlik|грусть
+salt|tuz|соль
+say goodbye|xayrlashmoq|попрощаться
+say hello|salomlashmoq|поздороваться
+say please|iltimos demoq|сказать «пожалуйста»
+say thank you|rahmat aytmoq|поблагодарить
+school|maktab|школа
+science fiction film|ilmiy-fantastik film|научно-фантастический фильм
+secretary|kotib|секретарь
+see you soon|tez orada ko‘rishguncha|до скорой встречи
+selfie|selfi|селфи
+sell drugs|giyohvand modda sotmoq|продавать наркотики
+send a text message|matnli xabar yubormoq|отправить сообщение
+separated|alohida yashayotgan|живущий отдельно от супруга
+shampoo|shampun|шампунь
+sheep|qo‘y|овца
+shelf|tokcha|полка
+ship|kema|корабль
+shirt|ko‘ylak|рубашка
+shoes|tufli|туфли
+shop online|internetdan xarid qilmoq|делать покупки в интернете
+shoplifter|do‘kon o‘g‘risi|магазинный вор
+shoplifting|do‘kondan o‘g‘irlash|магазинная кража
+short|past bo‘yli|низкого роста
+short hair|kalta soch|короткие волосы
+shorts|shortik|шорты
+shower gel|dush geli|гель для душа
+sick|betob|больной
+side|yon tomon|бок
+sign your name|imzo qo‘ymoq|поставить подпись
+single room|bir kishilik xona|одноместный номер
+sister|opa yoki singil|сестра
+skiing|chang‘i uchish|катание на лыжах
+sleep well|yaxshi uxlang|спите спокойно
+slim|ozg‘in qomatli|стройный
+slow|sekin|медленный
+slowly|sekinlik bilan|медленно
+small town|kichik shahar|небольшой город
+sneeze|aksirmoq|чихать
+snow|qor|снег
+snowboarding|snoubord uchish|катание на сноуборде
+snowstorm|qor bo‘roni|снежная буря
+soap|sovun|мыло
+socks|paypoqlar|носки
+soft drink|spirtsiz ichimlik|безалкогольный напиток
+sometimes|ba’zan|иногда
+somewhere|biror joyda|где-нибудь
+son|o‘g‘il farzand|сын
+song|qo‘shiq|песня
+soon|tez orada|скоро
+soup|sho‘rva|суп
+spaghetti|spagetti|спагетти
+spoon|qoshiq|ложка
+sports magazine|sport jurnali|спортивный журнал
+sports programme|sport dasturi|спортивная передача
+spring|bahor|весна
+stamp|pochta markasi|почтовая марка
+state school|davlat maktabi|государственная школа
+steak|steyk|стейк
+stomach|qorin|живот
+student|talaba|студент
+sugar|shakar|сахар
+summer|yoz|лето
+supermarket|supermarket|супермаркет
+surprised|hayron qolgan|удивлённый
+swim|suzmoq|плавать
+swipe|ekranni surmoq|провести пальцем по экрану
+table|stol|стол
+table tennis|stol tennisi|настольный теннис
+take a course|kursda o‘qimoq|проходить курс
+take a selfie|selfiga tushmoq|сделать селфи
+take a taxi|taksiga chiqmoq|взять такси
+take an exam|imtihon topshirmoq|сдавать экзамен
+take drugs|giyohvand modda iste’mol qilmoq|употреблять наркотики
+take for a walk|sayrga olib chiqmoq|вывести на прогулку
+take lessons|dars olmoq|брать уроки
+take the bus|avtobusga chiqmoq|ехать на автобусе
+take the first right|birinchi burilishdan o‘ngga burilmoq|повернуть направо на первом повороте
+take the lift|liftdan foydalanmoq|ехать на лифте
+take the train|poyezdga chiqmoq|ехать на поезде
+take the underground|metroda yurmoq|ехать на метро
+take with you|o‘zi bilan olib ketmoq|взять с собой
+talk show|tok-shou|ток-шоу
+talk to|bilan gaplashmoq|разговаривать с
+taxi|taksi|такси
+tea|choy|чай
+tea towel|idish sochig‘i|кухонное полотенце
+teacher|o‘qituvchi|учитель
+teapot|choy damlagich|заварочный чайник
+teenage magazine|o‘smirlar jurnali|подростковый журнал
+teeth|tishlar|зубы
+telephone|telefon|телефон
+tell a story|hikoya aytib bermoq|рассказать историю
+tell the time|soatni aytmoq|сказать время
+tell your name|ismini aytmoq|назвать своё имя
+tennis|tennis|теннис
+terrible|dahshatli|ужасный
+terrorism|terrorizm|терроризм
+terrorist|terrorchi|террорист
+text message|matnli xabar|текстовое сообщение
+textbook|darslik|учебник
+than|ga qaraganda|чем
+thank for|uchun rahmat aytmoq|благодарить за
+thank you|rahmat|спасибо
+the Internet|internet|интернет
+the day after tomorrow|indinga|послезавтра
+the day before yesterday|o‘tgan kuni|позавчера
+the future|kelajak|будущее
+the past|o‘tmish|прошлое
+the present|hozirgi zamon|настоящее
+the right way|to‘g‘ri usul|правильный способ
+the sun is shining|quyosh charaqlayapti|солнце светит
+the wrong way|noto‘g‘ri usul|неправильный способ
+there|u yerda|там
+think about|haqida o‘ylamoq|думать о
+thirsty|chanqagan|испытывающий жажду
+three times a year|yiliga uch marta|три раза в год
+thundery|momaqaldiroqli|грозовой
+ticket|chipta|билет
+tidy|tartibli|аккуратный
+timetable|jadval|расписание
+tired|charchagan|уставший
+today|bugun|сегодня
+toilet|hojatxona|туалет
+tomorrow|ertaga|завтра
+too much work|juda ko‘p ish|слишком много работы
+tooth|tish|зуб
+toothache|tish og‘rig‘i|зубная боль
+tortoise|toshbaqa|черепаха
+tourist information office|sayyohlik ma’lumot markazi|туристический информационный центр
+towel|sochiq|полотенце
+town hall|shahar hokimiyati binosi|ратуша
+traffic|yo‘l harakati|дорожное движение
+traffic warden|avtoturargoh nazoratchisi|инспектор парковки
+train|poyezd|поезд
+train station|poyezd vokzali|железнодорожный вокзал
+travel|sayohat|путешествие
+try on|kiyib ko‘rmoq|примерять
+turn on the TV|televizorni yoqmoq|включить телевизор
+turn right|o‘ngga burilmoq|повернуть направо
+twice a day|kuniga ikki marta|два раза в день
+umbrella|soyabon|зонт
+underground|metro|метро
+unhappy|baxtsiz|несчастный
+university|universitet|университет
+unsafe|xavfli|небезопасный
+usually|odatda|обычно
+vandal|buzg‘unchi|вандал
+vandalism|buzg‘unchilik|вандализм
+vegetable curry|sabzavotli karri|овощное карри
+vegetables|sabzavotlar|овощи
+very bad|juda yomon|очень плохой
+very good|juda yaxshi|очень хороший
+very well|juda yaxshi holatda|очень хорошо
+visa|viza|виза
+voicemail|ovozli xabar|голосовая почта
+wait for|kutmoq|ждать
+waiter|ofitsiant|официант
+wake-up call|uyg‘otish qo‘ng‘irog‘i|звонок для пробуждения
+walk|piyoda yurmoq|ходить пешком
+walking holiday|piyoda sayohat ta’tili|пеший туристический отдых
+wash clothes|kiyim yuvmoq|стирать одежду
+washing-up liquid|idish yuvish suyuqligi|средство для мытья посуды
+watch TV|televizor ko‘rmoq|смотреть телевизор
+watch a DVD|DVD tomosha qilmoq|смотреть DVD
+watch television|televizor ko‘rmoq|смотреть телевизор
+water|suv|вода
+weather|ob-havo|погода
+week|hafta|неделя
+weekend|dam olish kunlari|выходные
+well|sog‘lom|здоровый
+well done|barakalla|молодец
+western|vestern filmi|вестерн
+whiteboard|oq doska|белая маркерная доска
+widowed|beva qolgan|овдовевший
+wife|xotin|жена
+wildlife|yovvoyi tabiat|дикая природа
+window|deraza|окно
+windy|shamolli|ветреный
+wine|vino|вино
+winter|qish|зима
+winter holiday|qishki ta’til|зимний отпуск
+women's magazine|ayollar jurnali|женский журнал
+wool|jun|шерсть
+word|so‘z|слово
+work|ish|работа
+worker|ishchi|рабочий
+worktop|oshxona ish yuzasi|кухонная столешница
+write|yozmoq|писать
+write emails|elektron xatlar yozmoq|писать электронные письма
+write letters|xatlar yozmoq|писать письма
+year|yil|год
+yesterday|kecha|вчера
+young|yosh|молодой
+younger|yoshroq|младше
+zip code|pochta indeksi|почтовый индекс

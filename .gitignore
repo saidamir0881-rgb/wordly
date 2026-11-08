@@ -1,5 +1,6 @@
 book-text.txt
 book-source.pdf
+elementary-extract.json
 __pycache__/
 .env
 .env.*

@@ -1,0 +1,60 @@
+1|mother=My ___ is my father's wife.;brother=My parents' son is my ___.;grandmother=My mother's mother is my ___.
+2|birthday=We celebrate my ___ every year.;wedding=The bride wore a white dress at the ___.;funeral=The family said goodbye at the ___.
+3|nose=I can smell flowers with my ___.;heart=My ___ beats faster when I run.;mouth=Open your ___ and say hello.
+4|umbrella=Take an ___ because it is raining.;shoes=Take off your ___ before you come inside.;shirt=He wore a white ___ with a tie.
+5|beard=He has hair on his chin called a ___.;tall=My brother is very ___ and can reach the top shelf.;young=She is only six, so she is still very ___.
+6|dentist=I visit the ___ when my teeth hurt.;hospital=The ambulance took him to ___.;headache=My head hurts because I have a ___.
+7|hungry=I need some food because I am ___.;thirsty=Please give me water because I am ___.;tired=I want to sleep because I am ___.
+8|thank you=When someone helps you, say ___.;good morning=At breakfast, we say ___ to each other.;goodnight=Before going to bed, I say ___ to my family.
+9|meaning=Look in a dictionary to find the ___ of a word.;hurry up=We are late, so please ___.;I agree=You are right, and ___ with you.
+10|bread=We buy a fresh loaf of ___ every morning.;milk=The baby drinks ___ from a bottle.;apple=I ate a red ___ after lunch.
+11|fork=I eat pasta with a ___.;fridge=Keep the milk cold in the ___.;spoon=Stir your tea with a ___.
+12|toothbrush=I clean my teeth with a ___.;mirror=I can see my face in the ___.;soap=Wash your hands with water and ___.
+13|sofa=Three people can sit together on the ___.;remote control=Change the channel with the ___.;bookshelf=Put the books back on the ___.
+14|teacher=A ___ helps children learn at school.;farmer=A ___ grows crops and keeps animals.;hairdresser=A ___ cuts people's hair.
+15|pencil=You can rub out something written with a ___.;history=We learn about the past in ___.;geography=We study countries and maps in ___.
+16|stamp=Put a ___ on the envelope before posting it.;keyboard=I type emails on a ___.;email address=Send your message to my ___.
+17|charger=My battery is low, so I need a ___.;camera=I take photos with my phone's ___.;delete=Please ___ this photo because it is blurry.
+18|passport=Show your ___ when you enter another country.;suitcase=I packed my clothes in a ___.;visa=You need a ___ to visit some countries.
+19|receipt=Keep the ___ as proof that you paid.;supermarket=We buy food at a large ___ near home.;bookshop=I bought a new novel at the ___.
+20|basket=Add the things you want to buy to your online ___.;delivery=We are waiting for the ___ of our new table.;password=Use a strong ___ to protect your account.
+21|key=Use this ___ to open your hotel room.;reception=Ask at ___ if you need help at the hotel.;double room=We need a ___ for two guests.
+22|menu=Read the ___ before choosing your food.;waiter=The ___ brought our food to the table.;dessert=We had ice cream for ___.
+23|football=Two teams kick a ball in ___.;swimming=You need a pool or the sea for ___.;tennis=You hit a ball over a net with a racket in ___.
+24|actor=An ___ performs in films.;director=The ___ tells the actors what to do.;cartoon=The children watched an animated ___.
+25|gardening=She grows flowers because she enjoys ___.;newspaper=I read today's news in a ___.;headphones=I wear ___ to listen without disturbing anyone.
+26|piano=She plays the black and white keys of a ___.;musician=A person who plays music is a ___.;concert=We bought tickets to hear the band at a ___.
+27|Japan=Tokyo is the capital of ___.;Germany=Berlin is the capital of ___.;Canada=Ottawa is the capital of ___.
+28|snow=In winter, white ___ covers the ground.;wind=The ___ blows the leaves off the trees.;rain=Take a coat because heavy ___ is expected.
+29|library=You can borrow books from the ___.;museum=We saw old paintings in the ___.;bank=I went to the ___ to open an account.
+30|river=The water in the ___ flows towards the sea.;forest=Many trees grow together in a ___.;village=My grandparents live in a small ___.
+31|cow=A ___ gives us milk.;sheep=We get wool from a ___.;foal=A baby horse is called a ___.
+32|train=We travelled along the railway by ___.;passport=Show your ___ at border control.;taxi=We paid the driver for our journey in a ___.
+33|Christmas=Many families decorate a tree at ___.;king=A male ruler of a kingdom is a ___.;queen=A female ruler of a kingdom is a ___.
+34|burglar=A ___ breaks into homes to steal things.;police=Call the ___ if you see a crime.;innocent=She did not commit the crime, so she is ___.
+35|journalist=A ___ writes news stories.;magazine=This monthly ___ has articles and photos.;documentary=We watched a ___ about wild animals.
+36|repair=Can you ___ my broken chair?;untidy=Put your clothes away because this room is ___.;apologise=You should ___ when you hurt someone's feelings.
+37|earthquake=The ground shook during the ___.;homeless=People without a place to live are ___.;pollution=Smoke from factories causes air ___.
+38|have breakfast=I ___ every morning before work.;have a look=Can I ___ at your photos?;have to=We ___ wear a uniform at school.
+39|go shopping=We ___ when we need new clothes.;go home=It is late, so I should ___.;go swimming=We ___ at the pool on Sundays.
+40|do homework=After school, I sit at my desk and ___.;do nothing=Sometimes I just want to relax and ___.;do your best=Even when it is difficult, always ___.
+41|make coffee=I use hot water and ground beans to ___.;make a mistake=Be careful not to ___ in this calculation.;make the bed=Every morning, I tidy my room and ___.
+42|come in=The door is open, so please ___.;come back=Please ___ tomorrow for your results.;come from=Which country do you ___?
+43|take a photo=Use your camera to ___.;take the bus=I do not have a car, so I ___ to work.;take an exam=Students ___ at the end of the course.
+44|bring=Please ___ your notebook to class tomorrow.;bring back=Please ___ the book you borrowed.;take with you=Choose a warm coat to ___ on the trip.
+45|get tired=I ___ after working all day.;get married=They want to ___ next summer.;get home=Call me when you ___ after work.
+46|turn off=Please ___ the lights before leaving.;get up=I ___ at seven every morning.;put on=It is cold, so ___ your coat.
+47|wake up=I ___ when my alarm rings.;go to work=After breakfast, I ___ by train.;wash clothes=We use a washing machine to ___.
+48|tell a story=Grandpa likes to ___ before bedtime.;ask a question=Raise your hand if you want to ___.;say hello=When you meet your neighbour, ___.
+49|walk=The shop is near, so we can ___.;swim=Fish can ___ in water.;jump=Can you ___ over this small wall?
+50|because=I stayed at home ___ I was ill.;but=The bag is beautiful, ___ it is too expensive.;or=Would you like tea ___ coffee?
+51|Monday=The day after Sunday is ___.;December=The last month of the year is ___.;summer=The season after spring is ___.
+52|always=I brush my teeth every day. I ___ do it.;never=At no time do I eat meat. I ___ eat it.;soon=Please wait here and I will return ___.
+53|here=Come and sit ___ next to me.;abroad=She went ___ to study in another country.;middle=The page between the first and last is in the ___.
+54|quietly=The baby is sleeping, so speak ___.;slowly=Please drive ___ on this narrow road.;loudly=The music was playing too ___ for us to talk.
+55|money=You need ___ to pay for things.;information=Ask at reception if you need more ___.;butter=Spread some ___ on your bread.
+56|excellent=Every answer is right. Your work is ___.;terrible=The weather was ___ and we stayed inside.;lovely=Thank you for the flowers. They are ___.
+57|wait for=Please ___ me at the bus stop.;look after=Can you ___ my cat while I am away?;listen to=I ___ music when I travel.
+58|impossible=It is ___ to be in two places at the same time.;unsafe=That broken bridge is ___ to cross.;rewrite=There are many errors, so please ___ your answer.
+59|swimmer=A person who swims is a ___.;useful=A dictionary is very ___ when learning words.;happiness=Winning the prize filled her with ___.
+60|quiet=Please be ___ because everyone is studying.;borrow=Can I ___ your pen and return it later?;cook=I use a saucepan when I ___ dinner.

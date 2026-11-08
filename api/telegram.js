@@ -20,7 +20,7 @@ module.exports=function telegram(req,res){
   if(!url)return res.status(503).json({ok:false,error:'Production site URL is not configured'});
   return res.status(200).json({
     method:'sendMessage',chat_id:message.chat.id,
-    text:'WORDLY’ga xush kelibsiz!\n\n100 ta unitdagi inglizcha so‘zlarni o‘zbekcha tarjima bilan yodlang.\n\nBoshlash uchun quyidagi tugmani bosing.',
+    text:'WORDLY’ga xush kelibsiz!\n\nElementary yoki Pre-intermediate & Intermediate kitobini tanlang. Jami 160 ta unitdagi so‘zlarni o‘zbekcha yoki ruscha tarjima bilan yodlang va statistikangizni kuzating.\n\nBoshlash uchun quyidagi tugmani bosing.',
     reply_markup:{inline_keyboard:[[{text:'WORDLY’ni ochish',web_app:{url:url+'/#units'}}]]}
   });
 };

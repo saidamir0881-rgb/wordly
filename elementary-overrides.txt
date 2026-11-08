@@ -1,0 +1,39 @@
+2|single|turmush qurmagan|неженатый или незамужняя
+4|watch|qo‘l soati|наручные часы
+4|dress|ayollar ko‘ylagi|платье
+5|thin|ozg‘in|худой
+10|lamb|qo‘zi go‘shti|баранина
+11|dry|quritmoq|сушить
+12|shower|dush|душ
+13|light|chiroq|светильник
+14|shop|do‘kon|магазин
+16|at|kuchukcha belgisi|знак «собака»
+16|post|pochta orqali yubormoq|отправлять почтой
+16|text|matnli xabar|текстовое сообщение
+17|save|saqlamoq|сохранять
+21|shower|dush|душ
+22|rare|chala pishgan|с кровью
+25|novel|roman|роман
+27|Argentinian|argentinalik|аргентинец
+29|bank|bank|банк
+30|wood|o‘rmonzor|лесок
+31|lamb|qo‘zi|ягнёнок
+31|chicken|tovuq|курица
+31|hen|tovuq|курица
+32|single|bir tomonga chipta|билет в одну сторону
+32|book|band qilmoq|бронировать
+32|direct|to‘g‘ridan-to‘g‘ri|прямой
+32|take off|havoga ko‘tarilmoq|взлетать
+34|mug|ko‘chada talamoq|грабить на улице
+36|water|sug‘ormoq|поливать
+36|cut|kesmoq|порезать
+46|take off|yechmoq|снимать
+46|turn down|ovozini pasaytirmoq|убавить громкость
+49|fly|uchmoq|летать
+49|run|yugurmoq|бегать
+50|like|kabi|как
+53|back|orqa tomon|задняя часть
+53|right|o‘ng|правый
+54|well|yaxshi tarzda|хорошо
+54|right|to‘g‘ri|правильный
+54|wrong|noto‘g‘ri|неправильный

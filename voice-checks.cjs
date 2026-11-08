@@ -39,7 +39,7 @@ function boot(options={}){
   if(options.recognition!==false)window[options.prefixed?'webkitSpeechRecognition':'SpeechRecognition']=Recognition;
   const context=vm.createContext({console,Date,Math,JSON,Map,Set,performance:{now:()=>clock},setTimeout:(fn,ms)=>schedule(fn,ms,0),clearTimeout:id=>timers.delete(id),setInterval:(fn,ms)=>schedule(fn,ms,ms),clearInterval:id=>timers.delete(id),localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash:options.hash||'#unit-1',href:'https://wordly.example/#unit-1'},window,document,SpeechSynthesisUtterance:Utterance,speechSynthesis:synthesis});
   const run=source=>vm.runInContext(source,context);
-  for(const file of ['vocabulary.js','i18n.js','cloze-data.js','cloze.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
+  for(const file of ['vocabulary.js','elementary-vocabulary.js','library.js','i18n.js','cloze-data.js','elementary-cloze.js','cloze.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
   const start=()=>run("startSession('voice');beginVoiceRound()");
   const endPrompt=()=>{const u=utterances.at(-1);assert.ok(u,'Expected an Uzbek prompt');u.onend?.()};
   const listen=()=>{if(run('session.voiceState')==='prompting')endPrompt();const r=recognizers.at(-1);assert.ok(r,'Expected a recognizer');r.begin();return r};

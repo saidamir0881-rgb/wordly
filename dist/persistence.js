@@ -1,7 +1,10 @@
 // Word ratings and per-unit session checkpoints stay on this browser between visits.
 let savedSessions={},checkpointReadError=false;
 function validCheckpoint(value,number){
-  const u=vocabulary.find(u=>u.number===+number);
+  const elementary=String(number).startsWith('elementary:');
+  const book=libraryBooks.find(b=>b.id===(elementary?'elementary':'intermediate'));
+  const unitNumber=elementary?Number(String(number).slice(11)):Number(number);
+  const u=book.units.find(u=>u.number===unitNumber);
   if(!u||!value||!['flash','write','voice','cloze'].includes(value.mode)||!['uz','en'].includes(value.direction))return false;
   if(value.mode==='cloze'&&value.direction!=='en')return false;
   const ids=value.wordIds;
@@ -23,12 +26,12 @@ function loadSavedSessions(){
   }catch{checkpointReadError=true}
 }
 loadSavedSessions();
-function checkpointFor(u){return savedSessions[u.number]||null}
+function checkpointFor(u){return savedSessions[checkpointKey(u)]||null}
 function completedUnit(u){return u.words.every(w=>status(w)!=='new')}
 function saveActiveSession(){
   if(!session||!unit)return;
-  if(session.index>=session.words.length)delete savedSessions[unit.number];
-  else savedSessions[unit.number]={
+  if(session.index>=session.words.length)delete savedSessions[checkpointKey(unit)];
+  else savedSessions[checkpointKey(unit)]={
     wordIds:session.words.map(w=>w.id),index:session.index,ratings:{...session.ratings},
     mode:session.mode,direction:session.direction,checked:session.checked,
     answer:session.answer,correct:session.correct,flipped:session.flipped,updated:Date.now(),
