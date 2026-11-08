@@ -2,6 +2,10 @@
 
 ## Hozirgi versiya: oddiy so‘z yodlash
 
+Sayt yuqoridagi **O‘zbekcha / Русский** tugmalari orqali ikki tilda ishlaydi. Ruscha rejimda barcha 2 796 ta so‘zning tarjimasi, interfeys, yozma mashq va gapni to‘ldirishdagi yordam ruscha bo‘ladi. Inglizcha so‘z va o‘zbek harflaridagi o‘qilish saqlanadi. Qidiruv inglizcha va tanlangan tildagi tarjimadan izlaydi. Qurilmada ruscha TTS ovozi bo‘lsa, ovozli mashq ma’noni ruscha o‘qiydi; javob har doim inglizcha aytiladi.
+
+Til `wordly-language-v1`da saqlanadi. Tilni mashq ichida almashtirish joriy mashqni saqlab, unitga qaytaradi. Yarim qolgan o‘zbekcha mashqlar avvalgi `wordly-sessions-v1`, ruscha mashqlar `wordly-sessions-ru-v1` kalitida saqlanadi. Bilaman/bilmayman holatlari ikkala til uchun umumiy. Ruscha yozma tekshirish `е` va `ё`ni teng qabul qiladi. `vocabulary-ru.json` qo‘lda tayyorlangan ruscha tarjimalar manbasi: har bir yozuv barqaror so‘z IDsi va inglizchasiga bog‘langan. Uni tahrirlagach `python build-vocabulary.py`ni bajaring. Sayt tarjima xizmatlariga so‘rov yubormaydi.
+
 Asosiy sahifa — kitobdagi 100 ta unit. Unit ichida inglizcha–o‘zbekcha so‘zlar, Bilaman / Bilmayman / Yangi filtrlari, kartochkalar va yozib mashq qilish mavjud. Dashboard, XP, reyting, PDF o‘qish va boshqa bo‘limlar yangi interfeysda chiqarilmaydi.
 
 `vocabulary-1.txt`, `vocabulary-2.txt`, `vocabulary-extra.txt` fayllaridan `python build-vocabulary.py` orqali 2 796 ta tarjimali kartochka yaratiladi. So‘z va iboralar PDFdagi qalin yozuvlardan mahalliy ajratilgan; sarlavha, ism va grammatik bo‘laklar tozalangan, ayrim so‘zlar lug‘atdagi asosiy shakliga keltirilgan. Grafikdagi yozuvlar va boshqa shriftdagi iboralar qo‘lda to‘ldirilgan. Tarjimalar tashqi tarjima API’siga yuborilmagan. Lug‘atni keyingi tahrirlashda shu matn fayllarini yangilang.

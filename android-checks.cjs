@@ -8,7 +8,7 @@ function boot(platform,userAgent='Android',options={}){
   function node(){return{handlers:{},children:{},setAttribute(){},addEventListener(type,fn){this.handlers[type]=fn},querySelector(key){return this.children[key]||(this.children[key]=node())},showModal(){this.visible=true},close(){this.visible=false},remove(){this.removed=true}}}
   const document={activeElement:{focus(){focused=true}},createElement:node,querySelector:selector=>selector==='#android-install-offer'?body.find(n=>n.id==='android-install-offer'&&!n.removed):null,body:{append:n=>body.push(n)}};
   const app={platform,initData:options.initData===undefined?'telegram-session':options.initData,openLink:(...args)=>opened.push(args)};
-  vm.runInNewContext(install,{window:{Telegram:{WebApp:app},WordlyAndroid:options.native},navigator:{userAgent},location:{origin:'https://wordly-one-nu.vercel.app'},document,URL,localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)}});
+  vm.runInNewContext(install,{window:{Telegram:{WebApp:app},WordlyAndroid:options.native},localizeMarkup:markup=>markup,t:text=>text,navigator:{userAgent},location:{origin:'https://wordly-one-nu.vercel.app'},document,URL,localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)}});
   return{body,opened,storage,dialog:()=>document.querySelector('#android-install-offer'),focused:()=>focused};
 }
 for(const platform of ['ios','tdesktop','macos','web','weba','webk'])assert.equal(boot(platform).body.length,0,platform+' must not show APK');

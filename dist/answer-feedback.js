@@ -6,7 +6,7 @@ function cancelAnswerFeedback(){
 }
 function showAnswerFeedback(rating){
   cancelAnswerFeedback();
-  const correct=rating==='known',message=correct?'Bilaman':'Qayta yodlang';
+  const correct=rating==='known',message=t(correct?'Bilaman':'Qayta yodlang');
   const status=$('#answer-status');if(status)status.textContent=message;
   const card=$('#flashcard');
   if(!card||window.matchMedia?.('(prefers-reduced-motion: reduce)').matches){render();return}
@@ -70,7 +70,7 @@ function toggleAnswerSound(){
   try{localStorage.setItem('wordly-sound-v1',answerAudio.enabled?'on':'off')}catch{}
   if(answerAudio.enabled)unlockAnswerAudio();
   const button=document.querySelector('[data-action="sound-toggle"]');
-  if(button){const holder=document.createElement('div');holder.innerHTML=answerSoundButton();button.replaceWith(holder.firstElementChild)}
+  if(button){const holder=document.createElement('div');holder.innerHTML=localizeMarkup(answerSoundButton());button.replaceWith(holder.firstElementChild)}
 }
 document.addEventListener('pointerdown',unlockAnswerAudio,{capture:true,passive:true});
 document.addEventListener('keydown',unlockAnswerAudio,{capture:true});

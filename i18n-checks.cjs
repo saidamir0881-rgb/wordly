@@ -1,0 +1,57 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+function boot(storage=new Map()){
+  const elements=new Map(),listeners={};
+  const el=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',attributes:{},setAttribute(k,v){this.attributes[k]=v},classList:{add(){},remove(){},toggle(){}},focus(){}});return elements.get(s)};
+  const document={querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(k,v)=>listeners[k]=v};
+  const context=vm.createContext({console,Date,Math,JSON,Map,Set,setTimeout:()=>0,clearTimeout(){},setInterval:()=>0,clearInterval(){},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash:'#units'},window:{matchMedia:()=>({matches:true}),addEventListener:(k,v)=>listeners[k]=v,scrollTo(){}},document});
+  const run=s=>vm.runInContext(s,context);
+  for(const name of ['vocabulary','i18n','cloze-data','cloze','persistence','voice','answer-feedback','memory'])run(fs.readFileSync(`dist/${name}.js`,'utf8'));
+  return{run,el,storage,document};
+}
+let app=boot();
+assert.equal(app.run('appLanguage'),'uz');
+assert.equal(app.run('allWords.every(w=>w.ru&&/[а-яё]/i.test(w.ru))'),true,'All 2,796 words have Russian translations');
+app.run("location.hash='#unit-1';route();startSession('write');session.answer='qoralama';saveActiveSession();changeLanguage('ru')");
+assert.equal(app.run('session'),null,'Language changes exit the active exercise safely');
+assert.equal(app.document.documentElement.lang,'ru');
+assert.match(app.el('#app').innerHTML,/Русский/);
+assert.match(app.el('#app').innerHTML,/Начать/);
+assert.match(app.el('#app').innerHTML,/распорядок/);
+assert.doesNotMatch(app.el('#app').innerHTML,/odatdagi tartib|Yozib mashq qilish|Bilmayman/);
+assert.ok(app.storage.has('wordly-sessions-v1'),'Existing Uzbek draft remains saved');
+app.run('startSession()');
+let front=app.el('#app').innerHTML.split('id="card-front"')[1].split('id="card-back"')[0];
+assert.ok(front.includes('routine')&&front.includes('rutin'));
+assert.ok(!front.includes('распорядок'),'Russian translation stays hidden on English face');
+assert.match(app.el('#app').innerHTML, /lang="ru">распорядок/);
+app.run('flip()');assert.match(app.el('#flashcard').attributes['aria-label'],/распорядок/);
+app.run("action('exit');startSession('write');checkAnswer('распорядок')");
+assert.equal(app.run('session.correct'),true,'Russian writing accepts the Russian translation');
+assert.match(app.el('#app').innerHTML,/Правильно!/);
+app.run("advance();checkAnswer(session.words[session.index].uz)");
+assert.equal(app.run('session.correct'),false,'Russian writing does not accept the Uzbek answer');
+app.run("action('exit');startSession('write');session.direction='en';checkAnswer(session.words[0].en)");
+assert.equal(app.run('session.correct'),true,'Reverse Russian practice accepts English');
+app.run("action('exit');startCloze()");
+assert.match(app.el('#app').innerHTML,/ЗНАЧЕНИЕ ПО-РУССКИ/);
+assert.ok(app.el('#app').innerHTML.includes(app.run('meaning(session.words[0])')));
+assert.ok(!app.el('#app').innerHTML.includes(app.run('session.words[0].en')),'Cloze hides the English answer');
+app.run("action('exit');startSession('write');session.answer='русский черновик';saveActiveSession();changeLanguage('uz');resumeSession()");
+assert.equal(app.run('session.answer'),'qoralama','Switching back restores the original Uzbek draft');
+app.run("changeLanguage('ru');resumeSession()");
+assert.equal(app.run('session.answer'),'русский черновик','Russian draft is isolated');
+const reloaded=boot(app.storage);
+assert.equal(reloaded.run('appLanguage'),'ru','Language preference survives reload');
+assert.equal(reloaded.document.documentElement.lang,'ru');
+reloaded.run("query='вдова';render()");assert.match(reloaded.el('#app').innerHTML,/#unit-13/);
+reloaded.run("query='widow';render()");assert.match(reloaded.el('#app').innerHTML,/#unit-13/);
+assert.equal(reloaded.run("normalise('ЗЕЛЁНЫЙ')"),'зеленый');
+assert.equal(reloaded.run("acceptedAnswers({ru:'свекровь или тёща'},'uz').includes(normalise('теща'))"),true);
+assert.equal(reloaded.run("localizeMarkup('<p lang=\"en\">Yangi</p><input value=\"Yangi\" placeholder=\"Unit yoki so‘z qidirish…\"><span>Yangi</span>')"),'<p lang="en">Yangi</p><input value="Yangi" placeholder="Поиск урока или слова…"><span>Новые</span>','UI translation preserves content and input values');
+reloaded.run("changeLanguage('invalid')");assert.equal(reloaded.run('appLanguage'),'ru');
+assert.equal(boot(new Map([['wordly-language-v1','invalid']])).run('appLanguage'),'uz');
+for(let n=1;n<=100;n++){
+  reloaded.run(`location.hash='#unit-${n}';route();startSession()`);
+  assert.ok(reloaded.el('#app').innerHTML.includes(reloaded.run('session.words[0].ru')));
+}
+console.log('Passed: complete RU vocabulary, language switch/reload, hidden translations, both written directions, cloze hints, Russian/English search, preserved content, ё/е matching, and independent UZ/RU drafts.');

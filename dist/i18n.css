@@ -1,0 +1,7 @@
+.language-control{display:flex;justify-content:flex-end;gap:4px;margin:0 0 18px;flex-wrap:wrap}
+.language-control button{padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:12px;color:var(--muted)}
+.language-control button[aria-pressed="true"]{background:#9584e820;color:var(--text);border-color:var(--accent)}
+html[lang="ru"] .start-actions{flex-wrap:wrap}
+html[lang="ru"] .filter-tabs button{white-space:normal}
+html[lang="ru"] .card-hint{max-width:calc(100% - 30px);text-align:center;line-height:1.5}
+@media(max-width:600px){html[lang="ru"] .flash-controls{gap:14px}html[lang="ru"] .word-status{max-width:65px;text-align:center}}

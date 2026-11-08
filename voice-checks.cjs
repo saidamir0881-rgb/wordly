@@ -33,13 +33,13 @@ function boot(options={}){
     end(){this.onend?.({})}
   }
   class Utterance{constructor(text){this.text=text}}
-  const synthesis={cancelCalls:0,getVoices:()=>options.uzbekVoice===false?[]:[{name:'Uzbek test voice',lang:'uz-UZ'}],speak(u){utterances.push(u)},cancel(){this.cancelCalls++}};
+  const synthesis={cancelCalls:0,getVoices:()=>options.voices||(options.uzbekVoice===false?[]:[{name:'Uzbek test voice',lang:'uz-UZ'}]),speak(u){utterances.push(u)},cancel(){this.cancelCalls++}};
   const document={hidden:false,querySelector:el,documentElement:{},activeElement:{tagName:'BODY'},addEventListener:(name,callback)=>listeners[name]=callback};
   const window={scrollTo(){},open(){},speechSynthesis:synthesis,addEventListener:(name,callback)=>listeners[name]=callback};
   if(options.recognition!==false)window[options.prefixed?'webkitSpeechRecognition':'SpeechRecognition']=Recognition;
   const context=vm.createContext({console,Date,Math,JSON,Map,Set,performance:{now:()=>clock},setTimeout:(fn,ms)=>schedule(fn,ms,0),clearTimeout:id=>timers.delete(id),setInterval:(fn,ms)=>schedule(fn,ms,ms),clearInterval:id=>timers.delete(id),localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash:options.hash||'#unit-1',href:'https://wordly.example/#unit-1'},window,document,SpeechSynthesisUtterance:Utterance,speechSynthesis:synthesis});
   const run=source=>vm.runInContext(source,context);
-  for(const file of ['vocabulary.js','cloze-data.js','cloze.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
+  for(const file of ['vocabulary.js','i18n.js','cloze-data.js','cloze.js','persistence.js','voice.js','answer-feedback.js','memory.js'])run(fs.readFileSync('dist/'+file,'utf8'));
   const start=()=>run("startSession('voice');beginVoiceRound()");
   const endPrompt=()=>{const u=utterances.at(-1);assert.ok(u,'Expected an Uzbek prompt');u.onend?.()};
   const listen=()=>{if(run('session.voiceState')==='prompting')endPrompt();const r=recognizers.at(-1);assert.ok(r,'Expected a recognizer');r.begin();return r};
@@ -155,3 +155,18 @@ assert.equal(app.run("voiceMatches({en:'right'},'light')"),false);
 app=boot({uzbekVoice:false});app.start();current=app.listen();
 current.result('wrong first alternative',true,[app.run('session.words[0].en')]);assert.equal(app.run('session.correct'),true,'An exact final alternative may match');
 console.log('Passed: voice prompt/permission timing, exact 10-second timeout, final-only recognition, retry window, errors without penalty, stale callbacks, background cancellation, unsupported fallback, voice checkpoints and spoken-answer matching.');
+app=boot({voices:[{name:'Russian test voice',lang:'ru-RU'}]});
+app.run("changeLanguage('ru')");app.start();
+assert.equal(app.utterances.at(-1).lang,'ru-RU');
+assert.equal(app.utterances.at(-1).text,app.run('session.words[0].ru'));
+assert.match(app.el('#app').innerHTML,/Читаем значение по-русски/);
+current=app.listen();assert.equal(current.lang,'en-US');
+const staleRussianResult=current.onresult;
+app.run("changeLanguage('uz')");
+assert.equal(current.abortCalls,1);assert.equal(app.timers.size,0);
+staleRussianResult(recognitionEvent('routine'));
+assert.equal(app.run('Object.keys(progress).length'),0,'Language switch cancels stale recognition without grading');
+app=boot({voices:[{name:'Uzbek test voice',lang:'uz-UZ'}]});app.run("changeLanguage('ru')");app.start();
+assert.equal(app.run('session.voiceAudioUnavailable'),true);
+assert.match(app.el('#app').innerHTML,/нет русского голоса/);
+console.log('Passed: Russian TTS prompt, English recognition, missing Russian voice fallback, and resource cleanup on language change.');

@@ -15,10 +15,14 @@ function validCheckpoint(value,number){
   if(value.checked&&(!['write','voice','cloze'].includes(value.mode)||!value.ratings[ids[value.index]]))return false;
   return true;
 }
-try{
-  const values=JSON.parse(localStorage.getItem('wordly-sessions-v1')||'{}');
-  if(values&&typeof values==='object')for(const[n,v]of Object.entries(values))if(validCheckpoint(v,n))savedSessions[n]=v;
-}catch{checkpointReadError=true}
+function loadSavedSessions(){
+  savedSessions={};checkpointReadError=false;
+  try{
+    const values=JSON.parse(localStorage.getItem(checkpointStorageKey())||'{}');
+    if(values&&typeof values==='object')for(const[n,v]of Object.entries(values))if(validCheckpoint(v,n))savedSessions[n]=v;
+  }catch{checkpointReadError=true}
+}
+loadSavedSessions();
 function checkpointFor(u){return savedSessions[u.number]||null}
 function completedUnit(u){return u.words.every(w=>status(w)!=='new')}
 function saveActiveSession(){
@@ -30,7 +34,7 @@ function saveActiveSession(){
     answer:session.answer,correct:session.correct,flipped:session.flipped,updated:Date.now(),
     voiceTimedOut:!!session.voiceTimedOut,voiceAudioUnavailable:!!session.voiceAudioUnavailable
   };
-  try{localStorage.setItem('wordly-sessions-v1',JSON.stringify(savedSessions))}
+  try{localStorage.setItem(checkpointStorageKey(),JSON.stringify(savedSessions))}
   catch{storageError=true;notify('Mashqni saqlab bo‘lmadi. Brauzer xotirasini tekshiring.')}
 }
 function resumeSession(){
